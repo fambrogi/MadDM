@@ -1,0 +1,37 @@
+! spectrum.cmnd 
+! to be read by Pythia8 run
+! Settings 
+!Main:numberOfEvents = 100000         ! number of events to generate 
+Main:timesAllowErrors = 10          ! allow a few failures before quitting
+
+! settings related to output in init(), next() and stat()
+Init:showChangedSettings = on       ! list changed settingspython
+Init:showChangedParticleData = on   ! print changed particle and decay data
+Next:numberCount = 1000               ! print message every n events
+Next:numberShowInfo = 1            ! print event information n times
+Next:numberShowProcess = 1         ! print process record n times
+Next:numberShowEvent = 1           ! print event record n times
+
+
+! Beam parameter settings. Incoming beams do not radiate.
+Beams:frameType           = 4
+Beams:LHEF                = unweighted_events.lhe
+PDF:lepton = off                   ! initial particles do not radiate
+PartonLevel:MPI = off              ! no multiparton interactions
+PartonLevel:ISR = off              ! no initial-state radiation
+PartonLevel:FSR = on               ! final-state radiation
+!TimeShower:weakShower = on
+!TimeShower:weakShowerMode = 0
+!WeakShower:enhancement = 2.5  !! this one is for neutrino final states
+!TimeShower:pTminWeak = 0.1
+!WeakShower:vetoWeakJets = on
+!WeakShower:singleEmission = on
+
+! The only stable particles in the final states  are e+, e-, gamma, neutrinos, p and pbar
+13:mayDecay = true                   ! mu+- 
+211:mayDecay = true                  ! pi+- 
+321:mayDecay = true                  ! K+- 
+130:maydecay = true                  ! K_LO 
+310:maydecay = true                  ! K_SO  (it should decay by default)
+2112:mayDecay = true                 ! n 
+

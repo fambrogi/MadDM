@@ -35,13 +35,11 @@ def Apply_Plot_Properties(x_label = True, y_label = True):
 # channels: ['mumu', 'qq', 'tautau', 'bb', 'gammagamma', 'tt', 'gg', 'WW','cc', 'hh', 'ZZ', 'ee']
 # a['x'] = values of the x variable , x = E_kin/m_DM
 
-
-
-
-
 def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = ''):
     
-    mg5_spec = 'Data_n1n1ZZ_10TeV'
+    n1n1  = 'Data_n1n1ZZ_10TeV'
+    xdxd  = 'Data_xdxdZZ_10TeV'
+    xdxdX = 'Data_xdxdZZX_10TeV'
     
     Style_Dic = {   'positrons': r'$e^+$' , 'gammas': r'$ \gamma$' , 'neutrinos_e':r'$\nu _e$' ,
         
@@ -66,7 +64,7 @@ def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = ''):
     mass = str(DM).replace('10000.0',r'10 TeV').replace('500.0',r'500 GeV') .replace('50000.0',r'50 TeV')
 
     plt.text(0.000015, 200, r'$ m_{\chi}=$ ' + mass , size=SIZE-5, ha="left", va="center")
-    plt.text(0.000015, 100 ,  r' $\chi\chi \rightarrow ZZ$' , size=SIZE-5, ha="left", va="center")
+    plt.text(0.000015, 100 ,  r' $\chi\chi \rightarrow ZZ \ , \ X=(\gamma,h,W^+,W^-,Z)$    ' , size=SIZE-5, ha="left", va="center")
     plt.text(0.000015, 50, label_CR , size=SIZE-5, ha="left", va="center",)
 
     width = 1.6
@@ -86,18 +84,27 @@ def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = ''):
     '''
     handles = []
     for C in chans:
-        x, y = np.loadtxt(mg5_spec + '/10TeV_n1n1'+ C + '_' + CR + '.dat' , unpack=True )
+        x, y = np.loadtxt(n1n1 + '/10TeV_' + CR + '.dat' , unpack=True )
         x = [ math.pow(10,num) for num in x]
         print  len(x) , len(y)
         a = plt.plot(dic_noEW['x'] , dic_noEW[CR][DM][C] , color = 'black' , linestyle= '-' , linewidth = width , label = 'PPPC4DMID'    )
         b = plt.plot(dic_EW['x']   , dic_EW[CR][DM][C]   , color = 'black' , linestyle= '--', linewidth = width , label = 'PPPC4DMID EW' )
-        #c = plt.plot(x , y , color = 'lime', linestyle= '-' , linewidth = width , label = r'MadDM $\chi_1 ^0 \chi_1 ^0 \rightarrow ZZ$' )
-        c = plt.plot(x,y , color = 'lime', linestyle = '-' , lw = width, label =  r'MadDM $\tilde \chi_1 ^0 \tilde \chi_1 ^0 \rightarrow ZZ$' )
+
         handles.append( a[0] )
         handles.append( b[0] )
+        
+        c = plt.plot(x,y , color = 'lime', linestyle = '-' , lw = width, label =  r'MadDM $\tilde \chi_1 ^0 \tilde \chi_1 ^0 \rightarrow ZZ$' )
         handles.append( c[0] )
 
-    second_legend = plt.legend(handles= handles, fontsize=SIZE-10, loc = 'upper right', fancybox=True , ncol = 1)
+        e, y = np.loadtxt(xdxd + '/10TeV_' + CR + '.dat' , unpack=True )
+        e = plt.plot(x,y , color = 'blue', linestyle = '-' , lw = width, label =  r'MadDM $x_d x_d \rightarrow ZZ$' )
+        handles.append( e[0] )
+
+        e, y = np.loadtxt(xdxdX + '/10TeV_'+ CR + '.dat' , unpack=True )
+        f = plt.plot(x,y , color = 'blue', linestyle = '--' , lw = width, label =  r'MadDM $x_d x_d  \rightarrow ZZ+X$' )
+        handles.append( f[0] )
+
+    second_legend = plt.legend(handles= handles, fontsize=SIZE-12, loc = 'upper right', fancybox=True , ncol = 1)
     frame = second_legend.get_frame()
     frame.set_edgecolor('gray')
     ax = plt.gca().add_artist(second_legend)
