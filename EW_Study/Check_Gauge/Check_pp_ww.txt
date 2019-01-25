@@ -1,0 +1,623 @@
+[?1034h************************************************************
+*                                                          *
+*                     W E L C O M E to                     *
+*              M A D G R A P H 5 _ a M C @ N L O           *
+*                                                          *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 2.6.2                 2018-04-29         *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                            and                           *
+*            http://amcatnlo.web.cern.ch/amcatnlo/         *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*           Type 'tutorial' to learn how MG5 works         *
+*    Type 'tutorial aMCatNLO' to learn how aMC@NLO works   *
+*    Type 'tutorial MadLoop' to learn how MadLoop works    *
+*                                                          *
+************************************************************
+load MG5 configuration from input/mg5_configuration.txt 
+fastjet-config does not seem to correspond to a valid fastjet-config executable (v3+). We will use fjcore instead.
+ Please set the 'fastjet'variable to the full (absolute) /PATH/TO/fastjet-config (including fastjet-config).
+ MG5_aMC> set fastjet /PATH/TO/fastjet-config
+
+/net/10.20.20.60/scratch/fambrogi/NEW_MG5/MG5_aMC_1/HEPTools/lhapdf6/bin/lhapdf-config does not seem to correspond to a valid lhapdf-config executable. 
+Please set the 'lhapdf' variable to the (absolute) /PATH/TO/lhapdf-config (including lhapdf-config).
+Note that you can still compile and run aMC@NLO with the built-in PDFs
+ MG5_aMC> set lhapdf /PATH/TO/lhapdf-config
+
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+Using default eps viewer "evince". Set another one in ./input/mg5_configuration.txt
+Using default web browser "firefox". Set another one in ./input/mg5_configuration.txt
+import /net/10.20.20.60/scratch/fambrogi/NEW_MG5/MG5_aMC_3/check.txt
+The import format was not given, so we guess it as command
+import model DMsimp_s_spin0_EW
+INFO: Change particles name to pass to MG5 convention 
+Defined multiparticle p = g u c d s u~ c~ d~ s~
+Defined multiparticle j = g u c d s u~ c~ d~ s~
+Defined multiparticle l+ = e+ mu+
+Defined multiparticle l- = e- mu-
+Defined multiparticle vl = ve vm vt
+Defined multiparticle vl~ = ve~ vm~ vt~
+[1;34mPass the definition of 'j' and 'p' to 5 flavour scheme.[0m
+Defined multiparticle all = g ghg ghg~ u c d s b u~ c~ d~ s~ b~ a gha gha~ ve vm vt e- mu- ve~ vm~ vt~ e+ mu+ t t~ z w+ ghz ghwp ghwm h xr xc y0 w- ghz~ ghwp~ ghwm~ xc~ ta- xd ta+ xd~
+check p p > W- W+
+check: PJFRY not available on your system; it will be skipped.[0m
+check: GOLEM not available on your system; it will be skipped.[0m
+check: Samurai not available on your system; it will be skipped.[0m
+INFO: Set All width to zero for non complex mass scheme checks 
+INFO: Checking process g g > w- w+ in unitary gauge 
+root: No diagrams for process: g g > w- w+
+INFO: Checking process g u > w- w+ in unitary gauge 
+root: No diagrams for process: g u > w- w+
+INFO: Checking process g c > w- w+ in unitary gauge 
+root: No diagrams for process: g c > w- w+
+INFO: Checking process g d > w- w+ in unitary gauge 
+root: No diagrams for process: g d > w- w+
+INFO: Checking process g s > w- w+ in unitary gauge 
+root: No diagrams for process: g s > w- w+
+INFO: Checking process g u~ > w- w+ in unitary gauge 
+root: No diagrams for process: g u~ > w- w+
+INFO: Checking process g c~ > w- w+ in unitary gauge 
+root: No diagrams for process: g c~ > w- w+
+INFO: Checking process g d~ > w- w+ in unitary gauge 
+root: No diagrams for process: g d~ > w- w+
+INFO: Checking process g s~ > w- w+ in unitary gauge 
+root: No diagrams for process: g s~ > w- w+
+INFO: Checking process g b > w- w+ in unitary gauge 
+root: No diagrams for process: g b > w- w+
+INFO: Checking process g b~ > w- w+ in unitary gauge 
+root: No diagrams for process: g b~ > w- w+
+INFO: Checking process u u > w- w+ in unitary gauge 
+root: No diagrams for process: u u > w- w+
+INFO: Checking process u c > w- w+ in unitary gauge 
+root: No diagrams for process: u c > w- w+
+INFO: Checking process u d > w- w+ in unitary gauge 
+root: No diagrams for process: u d > w- w+
+INFO: Checking process u s > w- w+ in unitary gauge 
+root: No diagrams for process: u s > w- w+
+INFO: Checking process u u~ > w- w+ in unitary gauge 
+INFO: Checking process u c~ > w- w+ in unitary gauge 
+INFO: Checking process u d~ > w- w+ in unitary gauge 
+root: No diagrams for process: u d~ > w- w+
+INFO: Checking process u s~ > w- w+ in unitary gauge 
+root: No diagrams for process: u s~ > w- w+
+INFO: Checking process u b > w- w+ in unitary gauge 
+root: No diagrams for process: u b > w- w+
+INFO: Checking process u b~ > w- w+ in unitary gauge 
+root: No diagrams for process: u b~ > w- w+
+INFO: Checking process c c > w- w+ in unitary gauge 
+root: No diagrams for process: c c > w- w+
+INFO: Checking process c d > w- w+ in unitary gauge 
+root: No diagrams for process: c d > w- w+
+INFO: Checking process c s > w- w+ in unitary gauge 
+root: No diagrams for process: c s > w- w+
+INFO: Checking process c u~ > w- w+ in unitary gauge 
+INFO: Checking process c c~ > w- w+ in unitary gauge 
+INFO: Checking process c d~ > w- w+ in unitary gauge 
+root: No diagrams for process: c d~ > w- w+
+INFO: Checking process c s~ > w- w+ in unitary gauge 
+root: No diagrams for process: c s~ > w- w+
+INFO: Checking process c b > w- w+ in unitary gauge 
+root: No diagrams for process: c b > w- w+
+INFO: Checking process c b~ > w- w+ in unitary gauge 
+root: No diagrams for process: c b~ > w- w+
+INFO: Checking process d d > w- w+ in unitary gauge 
+root: No diagrams for process: d d > w- w+
+INFO: Checking process d s > w- w+ in unitary gauge 
+root: No diagrams for process: d s > w- w+
+INFO: Checking process d u~ > w- w+ in unitary gauge 
+root: No diagrams for process: d u~ > w- w+
+INFO: Checking process d c~ > w- w+ in unitary gauge 
+root: No diagrams for process: d c~ > w- w+
+INFO: Checking process d d~ > w- w+ in unitary gauge 
+INFO: Checking process d s~ > w- w+ in unitary gauge 
+INFO: Checking process d b > w- w+ in unitary gauge 
+root: No diagrams for process: d b > w- w+
+INFO: Checking process d b~ > w- w+ in unitary gauge 
+root: No diagrams for process: d b~ > w- w+
+INFO: Checking process s s > w- w+ in unitary gauge 
+root: No diagrams for process: s s > w- w+
+INFO: Checking process s u~ > w- w+ in unitary gauge 
+root: No diagrams for process: s u~ > w- w+
+INFO: Checking process s c~ > w- w+ in unitary gauge 
+root: No diagrams for process: s c~ > w- w+
+INFO: Checking process s d~ > w- w+ in unitary gauge 
+INFO: Checking process s s~ > w- w+ in unitary gauge 
+INFO: Checking process s b > w- w+ in unitary gauge 
+root: No diagrams for process: s b > w- w+
+INFO: Checking process s b~ > w- w+ in unitary gauge 
+root: No diagrams for process: s b~ > w- w+
+INFO: Checking process u~ u~ > w- w+ in unitary gauge 
+root: No diagrams for process: u~ u~ > w- w+
+INFO: Checking process u~ c~ > w- w+ in unitary gauge 
+root: No diagrams for process: u~ c~ > w- w+
+INFO: Checking process u~ d~ > w- w+ in unitary gauge 
+root: No diagrams for process: u~ d~ > w- w+
+INFO: Checking process u~ s~ > w- w+ in unitary gauge 
+root: No diagrams for process: u~ s~ > w- w+
+INFO: Checking process u~ b > w- w+ in unitary gauge 
+root: No diagrams for process: u~ b > w- w+
+INFO: Checking process u~ b~ > w- w+ in unitary gauge 
+root: No diagrams for process: u~ b~ > w- w+
+INFO: Checking process c~ c~ > w- w+ in unitary gauge 
+root: No diagrams for process: c~ c~ > w- w+
+INFO: Checking process c~ d~ > w- w+ in unitary gauge 
+root: No diagrams for process: c~ d~ > w- w+
+INFO: Checking process c~ s~ > w- w+ in unitary gauge 
+root: No diagrams for process: c~ s~ > w- w+
+INFO: Checking process c~ b > w- w+ in unitary gauge 
+root: No diagrams for process: c~ b > w- w+
+INFO: Checking process c~ b~ > w- w+ in unitary gauge 
+root: No diagrams for process: c~ b~ > w- w+
+INFO: Checking process d~ d~ > w- w+ in unitary gauge 
+root: No diagrams for process: d~ d~ > w- w+
+INFO: Checking process d~ s~ > w- w+ in unitary gauge 
+root: No diagrams for process: d~ s~ > w- w+
+INFO: Checking process d~ b > w- w+ in unitary gauge 
+root: No diagrams for process: d~ b > w- w+
+INFO: Checking process d~ b~ > w- w+ in unitary gauge 
+root: No diagrams for process: d~ b~ > w- w+
+INFO: Checking process s~ s~ > w- w+ in unitary gauge 
+root: No diagrams for process: s~ s~ > w- w+
+INFO: Checking process s~ b > w- w+ in unitary gauge 
+root: No diagrams for process: s~ b > w- w+
+INFO: Checking process s~ b~ > w- w+ in unitary gauge 
+root: No diagrams for process: s~ b~ > w- w+
+INFO: Checking process b b > w- w+ in unitary gauge 
+root: No diagrams for process: b b > w- w+
+INFO: Checking process b b~ > w- w+ in unitary gauge 
+INFO: Checking process b~ b~ > w- w+ in unitary gauge 
+root: No diagrams for process: b~ b~ > w- w+
+INFO: Checking process u u~ > w- w+ in feynman gauge 
+INFO: Checking process u c~ > w- w+ in feynman gauge 
+INFO: Checking process c u~ > w- w+ in feynman gauge 
+INFO: Checking process c c~ > w- w+ in feynman gauge 
+INFO: Checking process d d~ > w- w+ in feynman gauge 
+INFO: Checking process d s~ > w- w+ in feynman gauge 
+INFO: Checking process s d~ > w- w+ in feynman gauge 
+INFO: Checking process s s~ > w- w+ in feynman gauge 
+INFO: Checking process b b~ > w- w+ in feynman gauge 
+INFO: Checking crossings of process g g > w- w+ 
+root: No diagrams for process: g g > w- w+
+INFO: Checking crossings of process g u > w- w+ 
+root: No diagrams for process: g u > w- w+
+INFO: Checking crossings of process g c > w- w+ 
+root: No diagrams for process: g c > w- w+
+INFO: Checking crossings of process g d > w- w+ 
+root: No diagrams for process: g d > w- w+
+INFO: Checking crossings of process g s > w- w+ 
+root: No diagrams for process: g s > w- w+
+INFO: Checking crossings of process g u~ > w- w+ 
+root: No diagrams for process: g u~ > w- w+
+INFO: Checking crossings of process g c~ > w- w+ 
+root: No diagrams for process: g c~ > w- w+
+INFO: Checking crossings of process g d~ > w- w+ 
+root: No diagrams for process: g d~ > w- w+
+INFO: Checking crossings of process g s~ > w- w+ 
+root: No diagrams for process: g s~ > w- w+
+INFO: Checking crossings of process g b > w- w+ 
+root: No diagrams for process: g b > w- w+
+INFO: Checking crossings of process g b~ > w- w+ 
+root: No diagrams for process: g b~ > w- w+
+INFO: Checking crossings of process u u > w- w+ 
+root: No diagrams for process: u u > w- w+
+INFO: Checking crossings of process u c > w- w+ 
+root: No diagrams for process: u c > w- w+
+INFO: Checking crossings of process u d > w- w+ 
+root: No diagrams for process: u d > w- w+
+INFO: Checking crossings of process u s > w- w+ 
+root: No diagrams for process: u s > w- w+
+INFO: Checking crossings of process u u~ > w- w+ 
+INFO: Testing permutation: [1, 2, 4, 3] 
+INFO: Testing permutation: [1, 3, 2, 4] 
+INFO: Testing permutation: [1, 3, 4, 2] 
+INFO: Testing permutation: [1, 4, 2, 3] 
+INFO: Testing permutation: [2, 1, 3, 4] 
+INFO: Testing permutation: [2, 3, 1, 4] 
+INFO: Testing permutation: [2, 3, 4, 1] 
+INFO: Testing permutation: [3, 1, 2, 4] 
+INFO: Testing permutation: [4, 1, 2, 3] 
+INFO: Checking crossings of process u c~ > w- w+ 
+INFO: Testing permutation: [1, 2, 4, 3] 
+INFO: Testing permutation: [1, 3, 2, 4] 
+INFO: Testing permutation: [1, 3, 4, 2] 
+INFO: Testing permutation: [1, 4, 2, 3] 
+INFO: Testing permutation: [2, 1, 3, 4] 
+INFO: Checking crossings of process u d~ > w- w+ 
+root: No diagrams for process: u d~ > w- w+
+INFO: Checking crossings of process u s~ > w- w+ 
+root: No diagrams for process: u s~ > w- w+
+INFO: Checking crossings of process u b > w- w+ 
+root: No diagrams for process: u b > w- w+
+INFO: Checking crossings of process u b~ > w- w+ 
+root: No diagrams for process: u b~ > w- w+
+INFO: Checking crossings of process c c > w- w+ 
+root: No diagrams for process: c c > w- w+
+INFO: Checking crossings of process c d > w- w+ 
+root: No diagrams for process: c d > w- w+
+INFO: Checking crossings of process c s > w- w+ 
+root: No diagrams for process: c s > w- w+
+INFO: Checking crossings of process c u~ > w- w+ 
+INFO: Testing permutation: [1, 2, 4, 3] 
+INFO: Testing permutation: [1, 3, 2, 4] 
+INFO: Testing permutation: [1, 3, 4, 2] 
+INFO: Testing permutation: [1, 4, 2, 3] 
+INFO: Testing permutation: [2, 1, 3, 4] 
+INFO: Checking crossings of process c c~ > w- w+ 
+INFO: Testing permutation: [1, 2, 4, 3] 
+INFO: Testing permutation: [1, 3, 2, 4] 
+INFO: Testing permutation: [1, 3, 4, 2] 
+INFO: Testing permutation: [1, 4, 2, 3] 
+INFO: Testing permutation: [2, 1, 3, 4] 
+INFO: Testing permutation: [2, 3, 1, 4] 
+INFO: Testing permutation: [2, 3, 4, 1] 
+INFO: Testing permutation: [3, 1, 2, 4] 
+INFO: Testing permutation: [4, 1, 2, 3] 
+INFO: Checking crossings of process c d~ > w- w+ 
+root: No diagrams for process: c d~ > w- w+
+INFO: Checking crossings of process c s~ > w- w+ 
+root: No diagrams for process: c s~ > w- w+
+INFO: Checking crossings of process c b > w- w+ 
+root: No diagrams for process: c b > w- w+
+INFO: Checking crossings of process c b~ > w- w+ 
+root: No diagrams for process: c b~ > w- w+
+INFO: Checking crossings of process d d > w- w+ 
+root: No diagrams for process: d d > w- w+
+INFO: Checking crossings of process d s > w- w+ 
+root: No diagrams for process: d s > w- w+
+INFO: Checking crossings of process d u~ > w- w+ 
+root: No diagrams for process: d u~ > w- w+
+INFO: Checking crossings of process d c~ > w- w+ 
+root: No diagrams for process: d c~ > w- w+
+INFO: Checking crossings of process d d~ > w- w+ 
+INFO: Testing permutation: [1, 2, 4, 3] 
+INFO: Testing permutation: [1, 3, 2, 4] 
+INFO: Testing permutation: [1, 3, 4, 2] 
+INFO: Testing permutation: [1, 4, 2, 3] 
+INFO: Testing permutation: [2, 1, 3, 4] 
+INFO: Testing permutation: [2, 3, 1, 4] 
+INFO: Testing permutation: [2, 3, 4, 1] 
+INFO: Testing permutation: [3, 1, 2, 4] 
+INFO: Testing permutation: [4, 1, 2, 3] 
+INFO: Checking crossings of process d s~ > w- w+ 
+INFO: Testing permutation: [1, 2, 4, 3] 
+INFO: Testing permutation: [1, 3, 2, 4] 
+INFO: Testing permutation: [1, 3, 4, 2] 
+INFO: Testing permutation: [1, 4, 2, 3] 
+INFO: Testing permutation: [2, 1, 3, 4] 
+INFO: Checking crossings of process d b > w- w+ 
+root: No diagrams for process: d b > w- w+
+INFO: Checking crossings of process d b~ > w- w+ 
+root: No diagrams for process: d b~ > w- w+
+INFO: Checking crossings of process s s > w- w+ 
+root: No diagrams for process: s s > w- w+
+INFO: Checking crossings of process s u~ > w- w+ 
+root: No diagrams for process: s u~ > w- w+
+INFO: Checking crossings of process s c~ > w- w+ 
+root: No diagrams for process: s c~ > w- w+
+INFO: Checking crossings of process s d~ > w- w+ 
+INFO: Testing permutation: [1, 2, 4, 3] 
+INFO: Testing permutation: [1, 3, 2, 4] 
+INFO: Testing permutation: [1, 3, 4, 2] 
+INFO: Testing permutation: [1, 4, 2, 3] 
+INFO: Testing permutation: [2, 1, 3, 4] 
+INFO: Checking crossings of process s s~ > w- w+ 
+INFO: Testing permutation: [1, 2, 4, 3] 
+INFO: Testing permutation: [1, 3, 2, 4] 
+INFO: Testing permutation: [1, 3, 4, 2] 
+INFO: Testing permutation: [1, 4, 2, 3] 
+INFO: Testing permutation: [2, 1, 3, 4] 
+INFO: Testing permutation: [2, 3, 1, 4] 
+INFO: Testing permutation: [2, 3, 4, 1] 
+INFO: Testing permutation: [3, 1, 2, 4] 
+INFO: Testing permutation: [4, 1, 2, 3] 
+INFO: Checking crossings of process s b > w- w+ 
+root: No diagrams for process: s b > w- w+
+INFO: Checking crossings of process s b~ > w- w+ 
+root: No diagrams for process: s b~ > w- w+
+INFO: Checking crossings of process u~ u~ > w- w+ 
+root: No diagrams for process: u~ u~ > w- w+
+INFO: Checking crossings of process u~ c~ > w- w+ 
+root: No diagrams for process: u~ c~ > w- w+
+INFO: Checking crossings of process u~ d~ > w- w+ 
+root: No diagrams for process: u~ d~ > w- w+
+INFO: Checking crossings of process u~ s~ > w- w+ 
+root: No diagrams for process: u~ s~ > w- w+
+INFO: Checking crossings of process u~ b > w- w+ 
+root: No diagrams for process: u~ b > w- w+
+INFO: Checking crossings of process u~ b~ > w- w+ 
+root: No diagrams for process: u~ b~ > w- w+
+INFO: Checking crossings of process c~ c~ > w- w+ 
+root: No diagrams for process: c~ c~ > w- w+
+INFO: Checking crossings of process c~ d~ > w- w+ 
+root: No diagrams for process: c~ d~ > w- w+
+INFO: Checking crossings of process c~ s~ > w- w+ 
+root: No diagrams for process: c~ s~ > w- w+
+INFO: Checking crossings of process c~ b > w- w+ 
+root: No diagrams for process: c~ b > w- w+
+INFO: Checking crossings of process c~ b~ > w- w+ 
+root: No diagrams for process: c~ b~ > w- w+
+INFO: Checking crossings of process d~ d~ > w- w+ 
+root: No diagrams for process: d~ d~ > w- w+
+INFO: Checking crossings of process d~ s~ > w- w+ 
+root: No diagrams for process: d~ s~ > w- w+
+INFO: Checking crossings of process d~ b > w- w+ 
+root: No diagrams for process: d~ b > w- w+
+INFO: Checking crossings of process d~ b~ > w- w+ 
+root: No diagrams for process: d~ b~ > w- w+
+INFO: Checking crossings of process s~ s~ > w- w+ 
+root: No diagrams for process: s~ s~ > w- w+
+INFO: Checking crossings of process s~ b > w- w+ 
+root: No diagrams for process: s~ b > w- w+
+INFO: Checking crossings of process s~ b~ > w- w+ 
+root: No diagrams for process: s~ b~ > w- w+
+INFO: Checking crossings of process b b > w- w+ 
+root: No diagrams for process: b b > w- w+
+INFO: Checking crossings of process b b~ > w- w+ 
+INFO: Testing permutation: [1, 2, 4, 3] 
+INFO: Testing permutation: [1, 3, 2, 4] 
+INFO: Testing permutation: [1, 3, 4, 2] 
+INFO: Testing permutation: [1, 4, 2, 3] 
+INFO: Testing permutation: [2, 1, 3, 4] 
+INFO: Testing permutation: [2, 3, 1, 4] 
+INFO: Testing permutation: [2, 3, 4, 1] 
+INFO: Testing permutation: [3, 1, 2, 4] 
+INFO: Testing permutation: [4, 1, 2, 3] 
+INFO: Checking crossings of process b~ b~ > w- w+ 
+root: No diagrams for process: b~ b~ > w- w+
+INFO: Set All width to zero for non complex mass scheme checks 
+INFO: Checking lorentz transformations for process g g > w- w+ 
+root: No diagrams for process: g g > w- w+
+INFO: Checking lorentz transformations for process g u > w- w+ 
+root: No diagrams for process: g u > w- w+
+INFO: Checking lorentz transformations for process g c > w- w+ 
+root: No diagrams for process: g c > w- w+
+INFO: Checking lorentz transformations for process g d > w- w+ 
+root: No diagrams for process: g d > w- w+
+INFO: Checking lorentz transformations for process g s > w- w+ 
+root: No diagrams for process: g s > w- w+
+INFO: Checking lorentz transformations for process g u~ > w- w+ 
+root: No diagrams for process: g u~ > w- w+
+INFO: Checking lorentz transformations for process g c~ > w- w+ 
+root: No diagrams for process: g c~ > w- w+
+INFO: Checking lorentz transformations for process g d~ > w- w+ 
+root: No diagrams for process: g d~ > w- w+
+INFO: Checking lorentz transformations for process g s~ > w- w+ 
+root: No diagrams for process: g s~ > w- w+
+INFO: Checking lorentz transformations for process g b > w- w+ 
+root: No diagrams for process: g b > w- w+
+INFO: Checking lorentz transformations for process g b~ > w- w+ 
+root: No diagrams for process: g b~ > w- w+
+INFO: Checking lorentz transformations for process u u > w- w+ 
+root: No diagrams for process: u u > w- w+
+INFO: Checking lorentz transformations for process u c > w- w+ 
+root: No diagrams for process: u c > w- w+
+INFO: Checking lorentz transformations for process u d > w- w+ 
+root: No diagrams for process: u d > w- w+
+INFO: Checking lorentz transformations for process u s > w- w+ 
+root: No diagrams for process: u s > w- w+
+INFO: Checking lorentz transformations for process u u~ > w- w+ 
+INFO: Checking lorentz transformations for process u c~ > w- w+ 
+INFO: Checking lorentz transformations for process u d~ > w- w+ 
+root: No diagrams for process: u d~ > w- w+
+INFO: Checking lorentz transformations for process u s~ > w- w+ 
+root: No diagrams for process: u s~ > w- w+
+INFO: Checking lorentz transformations for process u b > w- w+ 
+root: No diagrams for process: u b > w- w+
+INFO: Checking lorentz transformations for process u b~ > w- w+ 
+root: No diagrams for process: u b~ > w- w+
+INFO: Checking lorentz transformations for process c c > w- w+ 
+root: No diagrams for process: c c > w- w+
+INFO: Checking lorentz transformations for process c d > w- w+ 
+root: No diagrams for process: c d > w- w+
+INFO: Checking lorentz transformations for process c s > w- w+ 
+root: No diagrams for process: c s > w- w+
+INFO: Checking lorentz transformations for process c u~ > w- w+ 
+INFO: Checking lorentz transformations for process c c~ > w- w+ 
+INFO: Checking lorentz transformations for process c d~ > w- w+ 
+root: No diagrams for process: c d~ > w- w+
+INFO: Checking lorentz transformations for process c s~ > w- w+ 
+root: No diagrams for process: c s~ > w- w+
+INFO: Checking lorentz transformations for process c b > w- w+ 
+root: No diagrams for process: c b > w- w+
+INFO: Checking lorentz transformations for process c b~ > w- w+ 
+root: No diagrams for process: c b~ > w- w+
+INFO: Checking lorentz transformations for process d d > w- w+ 
+root: No diagrams for process: d d > w- w+
+INFO: Checking lorentz transformations for process d s > w- w+ 
+root: No diagrams for process: d s > w- w+
+INFO: Checking lorentz transformations for process d u~ > w- w+ 
+root: No diagrams for process: d u~ > w- w+
+INFO: Checking lorentz transformations for process d c~ > w- w+ 
+root: No diagrams for process: d c~ > w- w+
+INFO: Checking lorentz transformations for process d d~ > w- w+ 
+INFO: Checking lorentz transformations for process d s~ > w- w+ 
+INFO: Checking lorentz transformations for process d b > w- w+ 
+root: No diagrams for process: d b > w- w+
+INFO: Checking lorentz transformations for process d b~ > w- w+ 
+root: No diagrams for process: d b~ > w- w+
+INFO: Checking lorentz transformations for process s s > w- w+ 
+root: No diagrams for process: s s > w- w+
+INFO: Checking lorentz transformations for process s u~ > w- w+ 
+root: No diagrams for process: s u~ > w- w+
+INFO: Checking lorentz transformations for process s c~ > w- w+ 
+root: No diagrams for process: s c~ > w- w+
+INFO: Checking lorentz transformations for process s d~ > w- w+ 
+INFO: Checking lorentz transformations for process s s~ > w- w+ 
+INFO: Checking lorentz transformations for process s b > w- w+ 
+root: No diagrams for process: s b > w- w+
+INFO: Checking lorentz transformations for process s b~ > w- w+ 
+root: No diagrams for process: s b~ > w- w+
+INFO: Checking lorentz transformations for process u~ u~ > w- w+ 
+root: No diagrams for process: u~ u~ > w- w+
+INFO: Checking lorentz transformations for process u~ c~ > w- w+ 
+root: No diagrams for process: u~ c~ > w- w+
+INFO: Checking lorentz transformations for process u~ d~ > w- w+ 
+root: No diagrams for process: u~ d~ > w- w+
+INFO: Checking lorentz transformations for process u~ s~ > w- w+ 
+root: No diagrams for process: u~ s~ > w- w+
+INFO: Checking lorentz transformations for process u~ b > w- w+ 
+root: No diagrams for process: u~ b > w- w+
+INFO: Checking lorentz transformations for process u~ b~ > w- w+ 
+root: No diagrams for process: u~ b~ > w- w+
+INFO: Checking lorentz transformations for process c~ c~ > w- w+ 
+root: No diagrams for process: c~ c~ > w- w+
+INFO: Checking lorentz transformations for process c~ d~ > w- w+ 
+root: No diagrams for process: c~ d~ > w- w+
+INFO: Checking lorentz transformations for process c~ s~ > w- w+ 
+root: No diagrams for process: c~ s~ > w- w+
+INFO: Checking lorentz transformations for process c~ b > w- w+ 
+root: No diagrams for process: c~ b > w- w+
+INFO: Checking lorentz transformations for process c~ b~ > w- w+ 
+root: No diagrams for process: c~ b~ > w- w+
+INFO: Checking lorentz transformations for process d~ d~ > w- w+ 
+root: No diagrams for process: d~ d~ > w- w+
+INFO: Checking lorentz transformations for process d~ s~ > w- w+ 
+root: No diagrams for process: d~ s~ > w- w+
+INFO: Checking lorentz transformations for process d~ b > w- w+ 
+root: No diagrams for process: d~ b > w- w+
+INFO: Checking lorentz transformations for process d~ b~ > w- w+ 
+root: No diagrams for process: d~ b~ > w- w+
+INFO: Checking lorentz transformations for process s~ s~ > w- w+ 
+root: No diagrams for process: s~ s~ > w- w+
+INFO: Checking lorentz transformations for process s~ b > w- w+ 
+root: No diagrams for process: s~ b > w- w+
+INFO: Checking lorentz transformations for process s~ b~ > w- w+ 
+root: No diagrams for process: s~ b~ > w- w+
+INFO: Checking lorentz transformations for process b b > w- w+ 
+root: No diagrams for process: b b > w- w+
+INFO: Checking lorentz transformations for process b b~ > w- w+ 
+INFO: Checking lorentz transformations for process b~ b~ > w- w+ 
+root: No diagrams for process: b~ b~ > w- w+
+INFO: Set All width to zero for non complex mass scheme checks 
+INFO: Checking ward identities for process: g g > w- w+ 
+root: No diagrams for process: g g > w- w+
+INFO: Checking ward identities for process: g u > w- w+ 
+root: No diagrams for process: g u > w- w+
+INFO: Checking ward identities for process: g c > w- w+ 
+root: No diagrams for process: g c > w- w+
+INFO: Checking ward identities for process: g d > w- w+ 
+root: No diagrams for process: g d > w- w+
+INFO: Checking ward identities for process: g s > w- w+ 
+root: No diagrams for process: g s > w- w+
+INFO: Checking ward identities for process: g u~ > w- w+ 
+root: No diagrams for process: g u~ > w- w+
+INFO: Checking ward identities for process: g c~ > w- w+ 
+root: No diagrams for process: g c~ > w- w+
+INFO: Checking ward identities for process: g d~ > w- w+ 
+root: No diagrams for process: g d~ > w- w+
+INFO: Checking ward identities for process: g s~ > w- w+ 
+root: No diagrams for process: g s~ > w- w+
+INFO: Checking ward identities for process: g b > w- w+ 
+root: No diagrams for process: g b > w- w+
+INFO: Checking ward identities for process: g b~ > w- w+ 
+root: No diagrams for process: g b~ > w- w+
+INFO: No ward identity for process: u u > w- w+ 
+INFO: No ward identity for process: u c > w- w+ 
+INFO: No ward identity for process: u d > w- w+ 
+INFO: No ward identity for process: u s > w- w+ 
+INFO: No ward identity for process: u u~ > w- w+ 
+INFO: No ward identity for process: u c~ > w- w+ 
+INFO: No ward identity for process: u d~ > w- w+ 
+INFO: No ward identity for process: u s~ > w- w+ 
+INFO: No ward identity for process: u b > w- w+ 
+INFO: No ward identity for process: u b~ > w- w+ 
+INFO: No ward identity for process: c c > w- w+ 
+INFO: No ward identity for process: c d > w- w+ 
+INFO: No ward identity for process: c s > w- w+ 
+INFO: No ward identity for process: c u~ > w- w+ 
+INFO: No ward identity for process: c c~ > w- w+ 
+INFO: No ward identity for process: c d~ > w- w+ 
+INFO: No ward identity for process: c s~ > w- w+ 
+INFO: No ward identity for process: c b > w- w+ 
+INFO: No ward identity for process: c b~ > w- w+ 
+INFO: No ward identity for process: d d > w- w+ 
+INFO: No ward identity for process: d s > w- w+ 
+INFO: No ward identity for process: d u~ > w- w+ 
+INFO: No ward identity for process: d c~ > w- w+ 
+INFO: No ward identity for process: d d~ > w- w+ 
+INFO: No ward identity for process: d s~ > w- w+ 
+INFO: No ward identity for process: d b > w- w+ 
+INFO: No ward identity for process: d b~ > w- w+ 
+INFO: No ward identity for process: s s > w- w+ 
+INFO: No ward identity for process: s u~ > w- w+ 
+INFO: No ward identity for process: s c~ > w- w+ 
+INFO: No ward identity for process: s d~ > w- w+ 
+INFO: No ward identity for process: s s~ > w- w+ 
+INFO: No ward identity for process: s b > w- w+ 
+INFO: No ward identity for process: s b~ > w- w+ 
+INFO: No ward identity for process: u~ u~ > w- w+ 
+INFO: No ward identity for process: u~ c~ > w- w+ 
+INFO: No ward identity for process: u~ d~ > w- w+ 
+INFO: No ward identity for process: u~ s~ > w- w+ 
+INFO: No ward identity for process: u~ b > w- w+ 
+INFO: No ward identity for process: u~ b~ > w- w+ 
+INFO: No ward identity for process: c~ c~ > w- w+ 
+INFO: No ward identity for process: c~ d~ > w- w+ 
+INFO: No ward identity for process: c~ s~ > w- w+ 
+INFO: No ward identity for process: c~ b > w- w+ 
+INFO: No ward identity for process: c~ b~ > w- w+ 
+INFO: No ward identity for process: d~ d~ > w- w+ 
+INFO: No ward identity for process: d~ s~ > w- w+ 
+INFO: No ward identity for process: d~ b > w- w+ 
+INFO: No ward identity for process: d~ b~ > w- w+ 
+INFO: No ward identity for process: s~ s~ > w- w+ 
+INFO: No ward identity for process: s~ b > w- w+ 
+INFO: No ward identity for process: s~ b~ > w- w+ 
+INFO: No ward identity for process: b b > w- w+ 
+INFO: No ward identity for process: b b~ > w- w+ 
+INFO: No ward identity for process: b~ b~ > w- w+ 
+check: 28 check performed in 5 seconds
+Note That all width have been set to zero for those checks
+
+Lorentz invariance results:
+Process          Min element       Max element       Relative diff.    Result
+u u~ > w- w+     8.9983634540e-03  8.9983634540e-03  1.0988580161e-14  Passed
+u c~ > w- w+     6.1850594426e-34  2.4884733454e-32  9.7514516499e-01  Failed
+   JAMP 0        7.4220713311e-33  2.9861680145e-31  9.7514516499e-01  Failed
+c u~ > w- w+     5.0346579778e-33  2.4870090713e-32  7.9756173647e-01  Failed
+   JAMP 0        6.0415895734e-32  2.9844108856e-31  7.9756173647e-01  Failed
+c c~ > w- w+     1.7831416450e-02  1.7831416450e-02  1.0895883109e-14  Passed
+d d~ > w- w+     1.2603626527e-01  1.2603626527e-01  8.8087585128e-16  Passed
+d s~ > w- w+     3.6673489078e-34  1.9668622250e-32  9.8135431724e-01  Failed
+   JAMP 0        4.4008186893e-33  2.3602346700e-31  9.8135431724e-01  Failed
+s d~ > w- w+     4.4838056518e-33  3.4538845214e-32  8.7018078850e-01  Failed
+   JAMP 0        5.3805667821e-32  4.1446614256e-31  8.7018078850e-01  Failed
+s s~ > w- w+     3.4980613567e-03  3.4980613567e-03  4.6739513959e-14  Passed
+b b~ > w- w+     3.5710727392e-01  3.5710727392e-01  4.1970611990e-15  Passed
+Summary: 5/9 passed, 4/9 failed
+Failed processes: u c~ > w- w+, c u~ > w- w+, d s~ > w- w+, s d~ > w- w+
+Gauge results (switching between Unitary/Feynman):
+Process          Unitary           Feynman           Relative diff.    Result
+u u~ > w- w+     3.8416511675e-03  3.8416511675e-03  0.0000000000e+00  Passed
+u c~ > w- w+     2.2698952647e-32  2.2698952647e-32  0.0000000000e+00  Passed
+c u~ > w- w+     1.0294833200e-33  1.0294833200e-33  0.0000000000e+00  Passed
+c c~ > w- w+     1.5566763803e-03  1.5566763803e-03  0.0000000000e+00  Passed
+d d~ > w- w+     7.4302625582e-03  7.4302625582e-03  0.0000000000e+00  Passed
+d s~ > w- w+     7.0505586925e-32  7.0505586925e-32  0.0000000000e+00  Passed
+s d~ > w- w+     1.7225098633e-32  1.7225098633e-32  0.0000000000e+00  Passed
+s s~ > w- w+     1.3735000556e-03  1.3735000556e-03  0.0000000000e+00  Passed
+b b~ > w- w+     3.1841502415e-01  3.1841502415e-01  0.0000000000e+00  Passed
+Summary: 9/9 passed, 0/9 failed
+Process permutation results:
+Process          Min element       Max element       Relative diff.    Result
+u u~ > w- w+     3.5844488739e-03  3.5844488739e-03  3.7627751155e-14  Passed
+u c~ > w- w+     1.6997334848e-32  1.9506059218e-32  1.3745156770e-01  Failed
+c u~ > w- w+     1.7747409956e-32  1.9785685814e-32  1.0861218964e-01  Failed
+c c~ > w- w+     3.8760706399e-03  3.8760706399e-03  3.2111491499e-14  Passed
+d d~ > w- w+     7.4913753062e-02  7.4913753062e-02  7.4100080375e-16  Passed
+d s~ > w- w+     1.6894016731e-32  2.2412006639e-32  2.8077070308e-01  Failed
+s d~ > w- w+     2.4265964983e-33  4.6744551622e-33  6.3310584725e-01  Failed
+s s~ > w- w+     1.3446181259e-02  1.3446181259e-02  1.7287655232e-14  Passed
+b b~ > w- w+     2.4895682074e-02  2.4895682074e-02  1.8813517024e-14  Passed
+Summary: 5/9 passed, 4/9 failed
+Failed processes: Process: u c~ > w- w+, Process: c u~ > w- w+, Process: d s~ > w- w+, Process: s d~ > w- w+
+quit
