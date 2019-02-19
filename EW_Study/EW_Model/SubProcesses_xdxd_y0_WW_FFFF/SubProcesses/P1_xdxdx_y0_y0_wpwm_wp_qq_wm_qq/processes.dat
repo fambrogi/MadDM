@@ -1,0 +1,32 @@
+1       xd xd~ > u d~ d u~
+mirror  none
+2       xd xd~ > u d~ d c~
+mirror  none
+3       xd xd~ > u d~ s u~
+mirror  none
+4       xd xd~ > u d~ s c~
+mirror  none
+5       xd xd~ > u s~ d u~
+mirror  none
+6       xd xd~ > u s~ d c~
+mirror  none
+7       xd xd~ > u s~ s u~
+mirror  none
+8       xd xd~ > u s~ s c~
+mirror  none
+9       xd xd~ > c d~ d u~
+mirror  none
+10      xd xd~ > c d~ d c~
+mirror  none
+11      xd xd~ > c d~ s u~
+mirror  none
+12      xd xd~ > c d~ s c~
+mirror  none
+13      xd xd~ > c s~ d u~
+mirror  none
+14      xd xd~ > c s~ d c~
+mirror  none
+15      xd xd~ > c s~ s u~
+mirror  none
+16      xd xd~ > c s~ s c~
+mirror  none
