@@ -59,13 +59,18 @@ email: {\color{blue}federico.ambrogi88@gmail.com}
 \newcommand{\MG}{\texttt{MadGraph5\_aMC@NLO}}
 
 
+\newcommand{\run}{\texttt{run_\card.dat}}
+\newcommand{\param}{\texttt{param_\card.dat}}
 
 \section*{Abstract}
 This documents summarises the status of the studies of the discrepancies found in the energy spectra provided in the PPPC4DMID tables (labelled \textbf{PPPC4DMIDew} in MadDM v.3.0) and the spectra produced with MadDM 3.0.
 
 
 
-
+\section{Introduction}
+All the information, including the model used and the input cards (\run~,\param) can be found at:
+\
+\url{https://github.com/fambrogi/MadDM}
 
 \section{PPPC Electroweak Corrections}
 In this section the energy spectra for the Cosmic Rays $CRs = e^+, \nu_e , \gamma$ extracted from the \PPPC~and \PPPCew~ Tables are compared, to get an idea of the effect of the EW correction (according the \PPPC collaboration). 
@@ -100,28 +105,31 @@ add process xd xd~ > w- w+ X  /a
 add process xd xd~ > w- w+ X X  /a
 add process xd xd~ > w- w+ X X X  /a
 \end{verbatim}
+\\
 
-\subsection{Cross Sections Comparison}
-In Tab. \ref{xsec} the cross sections obtained with different runs are shown.
-Relevant parameters in the param\_card and run\_card:
-
+Relevant parameters in the \run~: 
 \begin{verbatim}
 *** run_card
-1001.0     = ebeam1  for $m_{\chi_D}$=1 TeV
+1001.0     = ebeam1  
 10001.0    = ebeam1  for $m_{\chi_D}$=10 TeV
 100001.0    = ebeam1  for $m_{\chi_D}$=100 TeV
-
+\end{verbatim}
+for  $m_{\chi_D}$=1 , 10, 100 TeV respectively, and the \param~:
+\begin{verbatim}
 *** param_card
 52 1.00000e+03 # MXd 
 54 2.00000e+03 # MY0  (= 2 x MXd )   
 \end{verbatim}
+\\
 
+\subsection{Cross Sections Comparison}
+In Tab. \ref{xsec} the cross sections obtained with different runs are shown.
 \begin{table*}[!h]
 \centering
 \renewcommand{\arraystretch}{1.2}
 \small
-\begin{tabular}{ l | c | c | c | c } \toprule \toprule
-$m_{\chi_D} $ & $\chi _D \chi _D \rightarrow WW $ & $\chi _D \chi _D \rightarrow WW X $ & $\chi _D \chi _D \rightarrow WWX X $ & $\chi _D \chi _D \rightarrow WW X X X$   \\
+\begin{tabular}{ l | c | c | c | c } \toprule \toprule 
+$\mathbf{m_{\chi_D}} $ & $\mathbf{\chi _D \chi _D \rightarrow WW} $ & $\mathbf{\chi _D \chi _D \rightarrow WW X} $ & $\mathbf{\chi _D \chi _D \rightarrow WWX X }$ & $\mathbf{\chi _D \chi _D \rightarrow WW X X X}$ \\  \toprule 
     1.0 TeV (Old) & 474 & 130* & 600 & 600 \\  
     1.0 TeV (Old, no $\gamma$) & 474 & 676 & 704 & - \\  
     1.0 TeV (New) & 173 & 215 & 219 & - \\  
@@ -137,14 +145,14 @@ $m_{\chi_D} $ & $\chi _D \chi _D \rightarrow WW $ & $\chi _D \chi _D \rightarrow
 
     \bottomrule \bottomrule
   \end{tabular}
-  \caption{The "New" cross sections were computed with $N_{Events}$=10,000, while the "Old" ones with $N_{Events}$=100,000.  }
+  \caption{Cross sections for various processes extracted from the LHE files. The "New" cross sections were computed with $N_{Events}$=10,000, while the "Old" ones with $N_{Events}$=100,000. Need to verify the value 130*. }
   \label{xsec}
 \end{table*}
 
 
 
 \clearpage
-\subsection{Spectra }
+\subsection{Spectra for $\chi_D \chi_D \rightarrow WW$}
 \subsubsection{$m_{\chi_D}$ = 1 TeV}
 \begin{figure}[!b]
 \centering
@@ -184,9 +192,59 @@ $m_{\chi_D} $ & $\chi _D \chi _D \rightarrow WW $ & $\chi _D \chi _D \rightarrow
 \caption{Energy Spectra for $m_{\chi_D}$ = 100 TeV (Old data)}
 \end{figure}
 %
-%
-%
+
 \clearpage
+\subsection{Spectra for $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$}
+
+Here the spectra for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$ are shown for $m_{\chi_D}$ = 1 TeV, compared to the \PPPC and \PPPCew~ spectra. To produce the sample, the EW model was modified adding masses to the light quarks and muons, otherwise there is a problem in \MG~when evaluating the cross sections. I used the value of the muon mass (0.105 GeV) for the light quarks, and 4.5 GeV for the bottom. \\
+
+The model can be found at \url{https://github.com/fambrogi/MadDM/tree/master/EW_Study/EW_Model_FermionMass},
+while the complete banner can be found in \url{https://github.com/fambrogi/MadDM/blob/master/EW_Study/Banners/xdxd_Y0_FFFF_1TeV_banner.dat} .
+
+\\
+\MG~ Proccess:
+\begin{verbatim}
+import model DMsimp_s_spin0_EW_MM
+define F = ve vm vt e- mu- ve~ vm~ vt~ e+ mu+ t t~ u c d s b u~ c~ d~ \
+s~ b~ ta- ta+
+generate xd xd~ > y0 > F F F F
+output xdxd_Y0_FFFF
+\end{verbatim}
+%
+\\
+
+Pythia8 cards commands:
+\begin{verbatim}
+TimeShower:weakShower = on (or off)
+WeakShower:singleEmission = off
+\end{verbatim}
+
+
+
+\begin{figure}[!b]
+\centering
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_Y0/1_antiprotons_FFFF_xdxd_1.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_1.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf}}
+\caption{Energy Spectra for $m_{\chi_D}$ = 1 TeV (Old data) for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$. The label "EW" and "NoEW" in the MadDM samples mean respectively samples produced with or without the EW corrections in Pythia8.}
+\end{figure}
+
+
+
+
+\clearpage
+
+
+
 \section*{Acknowledgments}
 Thanks
 %
