@@ -59,8 +59,10 @@ email: {\color{blue}federico.ambrogi88@gmail.com}
 \newcommand{\MG}{\texttt{MadGraph5\_aMC@NLO}}
 
 
-\newcommand{\run}{\texttt{run_\card.dat}}
-\newcommand{\param}{\texttt{param_\card.dat}}
+\newcommand{\run}{\texttt{run\_card.dat}}
+\newcommand{\param}{\texttt{param\_card.dat}}
+\newcommand{\mchi}{$m_{\chi _D}$}
+
 
 \section*{Abstract}
 This documents summarises the status of the studies of the discrepancies found in the energy spectra provided in the PPPC4DMID tables (labelled \textbf{PPPC4DMIDew} in MadDM v.3.0) and the spectra produced with MadDM 3.0.
@@ -68,10 +70,11 @@ This documents summarises the status of the studies of the discrepancies found i
 
 
 \section{Introduction}
-All the information, including the model used and the input cards (\run~,\param) can be found at:
-\
-\url{https://github.com/fambrogi/MadDM}
+All the information, including the model used and the input cards (\run~ ,\param) can be found at:
+\\
+{\color{blue} \url{ https://github.com/fambrogi/MadDM} }
 
+\clearpage
 \section{PPPC Electroweak Corrections}
 In this section the energy spectra for the Cosmic Rays $CRs = e^+, \nu_e , \gamma$ extracted from the \PPPC~and \PPPCew~ Tables are compared, to get an idea of the effect of the EW correction (according the \PPPC collaboration). 
 
@@ -83,6 +86,7 @@ In this section the energy spectra for the Cosmic Rays $CRs = e^+, \nu_e , \gamm
 \end{figure}
 
 
+\clearpage
 \section{EW with \MG}
 \subsection{Processes}
 The processes used for the production of the samples with emission of extra electroweak bosons (Higgs, W and Z bosons) are the following:
@@ -111,8 +115,8 @@ Relevant parameters in the \run~:
 \begin{verbatim}
 *** run_card
 1001.0     = ebeam1  
-10001.0    = ebeam1  for $m_{\chi_D}$=10 TeV
-100001.0    = ebeam1  for $m_{\chi_D}$=100 TeV
+10001.0    = ebeam1  
+100001.0    = ebeam1 
 \end{verbatim}
 for  $m_{\chi_D}$=1 , 10, 100 TeV respectively, and the \param~:
 \begin{verbatim}
@@ -123,7 +127,7 @@ for  $m_{\chi_D}$=1 , 10, 100 TeV respectively, and the \param~:
 \\
 
 \subsection{Cross Sections Comparison}
-In Tab. \ref{xsec} the cross sections obtained with different runs are shown.
+In Tab. \ref{xsec} the cross sections in [pb] obtained with different runs are shown.
 \begin{table*}[!h]
 \centering
 \renewcommand{\arraystretch}{1.2}
@@ -133,7 +137,10 @@ $\mathbf{m_{\chi_D}} $ & $\mathbf{\chi _D \chi _D \rightarrow WW} $ & $\mathbf{\
     1.0 TeV (Old) & 474 & 130* & 600 & 600 \\  
     1.0 TeV (Old, no $\gamma$) & 474 & 676 & 704 & - \\  
     1.0 TeV (New) & 173 & 215 & 219 & - \\  
+    1.0 TeV (New,AUTO) & 147.3 & 148.2 & - & - \\    
+
     1.0 TeV (Chiara) & 147.3 & 148.2 & 148.2 & - \\    
+
   
   10.0 TeV (Old)  & 15.1 $\times 10 ^3$ & 30.501 $\times 10 ^3$ & 37.018 $\times 10 ^3$ & - \\ 
   10.0 TeV (Old,no $\gamma$)  & 15.1 $\times 10^3$  & 2.7 $\times 10 ^7$ & 1.5 $\times 10^{10}$ & - \\ 
@@ -145,7 +152,7 @@ $\mathbf{m_{\chi_D}} $ & $\mathbf{\chi _D \chi _D \rightarrow WW} $ & $\mathbf{\
 
     \bottomrule \bottomrule
   \end{tabular}
-  \caption{Cross sections for various processes extracted from the LHE files. The "New" cross sections were computed with $N_{Events}$=10,000, while the "Old" ones with $N_{Events}$=100,000. Need to verify the value 130*. }
+  \caption{Cross sections in [pb]  for various processes extracted from the LHE files. The "New" cross sections were computed with $N_{Events}$=10,000, while the "Old" ones with $N_{Events}$=100,000. Need to verify the value 130*. }
   \label{xsec}
 \end{table*}
 
@@ -196,13 +203,13 @@ $\mathbf{m_{\chi_D}} $ & $\mathbf{\chi _D \chi _D \rightarrow WW} $ & $\mathbf{\
 \clearpage
 \subsection{Spectra for $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$}
 
-Here the spectra for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$ are shown for $m_{\chi_D}$ = 1 TeV, compared to the \PPPC and \PPPCew~ spectra. To produce the sample, the EW model was modified adding masses to the light quarks and muons, otherwise there is a problem in \MG~when evaluating the cross sections. I used the value of the muon mass (0.105 GeV) for the light quarks, and 4.5 GeV for the bottom. \\
+Here the spectra for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$ are shown for $m_{\chi_D}$ = 1 TeV, compared to the \PPPC and \PPPCew~ spectra. To produce the sample, the EW model was modified adding masses to the light quarks and muons, otherwise there is a problem in \MG~when evaluating the cross sections (re-using the same diagrams with masless particles?). I used the value of the muon mass (0.105 GeV) for the light quarks, and 4.5 GeV for the bottoms. \\
 
-The model can be found at \url{https://github.com/fambrogi/MadDM/tree/master/EW_Study/EW_Model_FermionMass},
-while the complete banner can be found in \url{https://github.com/fambrogi/MadDM/blob/master/EW_Study/Banners/xdxd_Y0_FFFF_1TeV_banner.dat} .
-
+The model can be found at {\color{blue} \url{https://github.com/fambrogi/MadDM/tree/master/EW_Study/EW_Model_FermionMass}}, while the complete banner can be found in {\color{blue} \url{https://github.com/fambrogi/MadDM/blob/master/EW_Study/Banners/xdxd_Y0_FFFF_1TeV_banner.dat} }.
 \\
-\MG~ Proccess:
+
+
+\MG~ Process:
 \begin{verbatim}
 import model DMsimp_s_spin0_EW_MM
 define F = ve vm vt e- mu- ve~ vm~ vt~ e+ mu+ t t~ u c d s b u~ c~ d~ \
@@ -212,6 +219,7 @@ output xdxd_Y0_FFFF
 \end{verbatim}
 %
 \\
+
 
 Pythia8 cards commands:
 \begin{verbatim}
@@ -238,9 +246,18 @@ WeakShower:singleEmission = off
 \caption{Energy Spectra for $m_{\chi_D}$ = 1 TeV (Old data) for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$. The label "EW" and "NoEW" in the MadDM samples mean respectively samples produced with or without the EW corrections in Pythia8.}
 \end{figure}
 
+\clearpage
+\section{MG5 Issues}
+Sometimes, but not always, I get the following message:
+\begin{verbatim}
+INFO: Combining Events 
+INFO: fail to reach target 10000 
+  === Results Summary for run: run_01 tag: tag_1 ===
 
-
-
+     Cross-section :   2.711e+06 +- 6.486e+04 pb
+     Nb of events :  25
+\end{verbatim}
+when generating events with extra bosons for \mchi = 100 TeV. The \MG~ version is 2.6.4 .
 \clearpage
 
 
