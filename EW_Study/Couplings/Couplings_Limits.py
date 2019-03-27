@@ -1,5 +1,5 @@
 """Coupling limits not to violate unitarity 
-   as in arXiv:1510.02110v2  
+   as in arXiv: 
 
    s < (pi * my0 **2)/ (gy**2 * mx) => gy**2 < (pi * my0**2)//(sqrts * mx)
 
@@ -12,33 +12,19 @@
 
 import os,sys
 import math 
-import matplotlib
-matplotlib.use('Agg')
-
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
-
 
 
 pi = math.pi
 
 
-def max_g(my0= 1. , sqrts= 1., mx = 1.):
+def max_g(my0=1. , sqrts=1., mx =1.):
     """ calculates the maximum allowed value for the coupling constant given sqrts and my0,
         for a specific mx mass """
     
     v = math.sqrt( (pi * my0**2)/(sqrts * mx) )
     return v
-
-
-def min_y0(sqrts = '', g = '', mx = ''):
-    """ calulates the minimum value of y0 for unitarity """
-    
-    y = math.sqrt( sqrts * g**2 * mx / pi )
-    return y
-
-
-
 '''
 mx = 1000.
 my0 = 100.
@@ -77,7 +63,6 @@ def create_grid(mx=''):
             Z.append(v)            
             
     return X,Y,Z 
-
 
 
 
@@ -142,27 +127,3 @@ for m in M:
     X,Y,Z = create_grid(mx=m)
     print('for m= ', m , ' the data is: ', X,Y,Z)
     plot_coupling_my0_sqrts(mx = m, x=X, y=Y, z=Z)
-
-
-
-
-Ms = [0.5 , 1 , 5 , 10 , 50, 100]
-Qs = [ 2.*n+2.*n/1000. for n in Ms ]
-
-Gs = [6.28, 1 , 0.5, 0.1 , 0.05, 0.01 , 0.005]
-
-#print Ms, Qs
-
-res = {}
-
-for g in Gs:
-    res[g] = []
-    for m,s in zip(Ms,Qs):
-
-        y =  min_y0(sqrts = s, g = g, mx = m)
-        res[g].append(y)
-        #print 'mX , mY, sqrts, g ' , m , y , s , g   
-
-
-
-print(res)
