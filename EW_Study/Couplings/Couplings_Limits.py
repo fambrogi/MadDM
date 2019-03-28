@@ -86,7 +86,7 @@ def plot_coupling_my0_sqrts(mx = '1000', x= '', y='', z=''):
     text(mx=mx)
     plt.hist2d(x, y, bins=[50,50] , norm = LogNorm(), weights=z)
     cb = plt.colorbar()
-    cb.ax.set_ylabel(r'Max($g_{Sw}$)', fontsize = fnt)
+    cb.ax.set_ylabel(r'Max($g_{Sxd}$)', fontsize = fnt)
     cb.ax.tick_params(labelsize=fnt-4)
     
     plt.savefig('PLOTS/coupling_constant_ul_Mxd_' + mx + '_Log.pdf' , bbox_inches = 'tight')

@@ -204,6 +204,7 @@ $\mathbf{m_{\chi_D}} $ & $\mathbf{\chi _D \chi _D \rightarrow WW} $ & $\mathbf{\
 \subsection{Spectra for $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$}
 
 Here the spectra for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$ are shown for $m_{\chi_D}$ = 1 TeV, compared to the \PPPC and \PPPCew~ spectra. To produce the sample, the EW model was modified adding masses to the light quarks and muons, otherwise there is a problem in \MG~when evaluating the cross sections (re-using the same diagrams with masless particles?). I used the value of the muon mass (0.105 GeV) for the light quarks, and 4.5 GeV for the bottoms. \\
+Note that this process include also Z bosons, since I did not remove their contribution explicitly form the diagrams, and that all the bosons contributing to the diagrams are on-shell. The presence of the Z/H bosons can account for some of the differences wrt the WW spectra from \PPPC or \PPPCew~.
 
 The model can be found at {\color{blue} \url{https://github.com/fambrogi/MadDM/tree/master/EW_Study/EW_Model_FermionMass}}, while the complete banner can be found in {\color{blue} \url{https://github.com/fambrogi/MadDM/blob/master/EW_Study/Banners/xdxd_Y0_FFFF_1TeV_banner.dat} }.
 \\
@@ -245,6 +246,78 @@ WeakShower:singleEmission = off
 { \includegraphics[width=0.49\textwidth]{Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf}}
 \caption{Energy Spectra for $m_{\chi_D}$ = 1 TeV (Old data) for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$. The label "EW" and "NoEW" in the MadDM samples mean respectively samples produced with or without the EW corrections in Pythia8.}
 \end{figure}
+
+
+\subsection{Spectra for $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$ with off-shell W and no Z}
+(to do!)
+\clearpage
+
+\section{Cross Sections}
+The results of the calculation of various processes cross section are presented. In Fig. \ref{xsec_1TeV} the cross section for different processes are shown. In this case, only the process inidcated by the lable contributes to the value of the cross section, meaning that e.g. the process $\chi_D \chi_D \rightarrow WW X$ does not include the contribution of the "tree level" process $\chi_D \chi_D \rightarrow WW$. 
+
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=0.49\textwidth]{Fig/XSEC/processes_xsec_1_TeV.png}
+	\caption{Cross sections for the processes $\chi_D \chi_D \rightarrow WW$ with up to three additional vector bosons $X=W^{\pm} H Z$. Note that only the cross section is relative only to the specific process as indicated by the label is considered (i.e. not the cumulative cross section). The parameters are set to $m_{\chi _D}= 1$ TeV , $m_{Y0}= 2$ TeV, $E_{Beam}=2001$ TeV.}
+\label{xsec_1TeV}
+\end{figure}
+%
+Since cross sections depend also on the total energy in the centre-of-mass of the DM annihilation i.e. on the parameter ebeam in \MG~, Fig. \ref{xsec_ebeam} shows the value of the cross section for different energies of the simulated beams.
+%
+\begin{figure}[!b]
+	\centering
+	\subfigure
+	{ \includegraphics[width=0.32\textwidth]{Fig/XSEC/xsec_Ebeam_1_TeV.png}}
+	\subfigure
+	{ \includegraphics[width=0.32\textwidth]{Fig/XSEC/xsec_Ebeam_10_TeV.png}}
+	\subfigure
+	{ \includegraphics[width=0.32\textwidth]{Fig/XSEC/xsec_Ebeam_100_TeV.png}}
+	\caption{Cross section of the process $\chi_D \chi_D \rightarrow WW$, for $m_{\chi _D}= 1,10,100$ TeV, for different energies of the beams. The mass of the mediator is set to double the mass of the DM particle.   }
+\label{xsec_ebeam}
+\end{figure}
+
+
+\section{Width of the mediator $Y0$ }
+When using the automatic computation of the width implemented in \MG~, problems start to arise when the mass of the mediator become large. In particular the width of the particle get to exceed largely the value of its own mass, as it show in Fig. \ref{width}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Fig/Widths_check.pdf}
+
+	\caption{Values of the width of the mediatro $Y0$ as calculated by \MG~. A value of $10\%$ of the mediator mass $m_{Y0}$ is shown by the gray line as a comparison.}
+	\label{width}
+\end{figure}
+
+
+\clearpage
+\section{Unitarity}
+
+As pointed out in e.g. \cite{Kahlhoefer:2015bea}, DM simplified model can face the problem of unitarity violation for specific combinations of the parameters of the model and/or depending on the energy scale. In the cited article, they show that for unitarity to be preserved, the centre-of-mass energy must satisfy:
+\begin{equation}
+\sqrt{s} < \frac{\pi \ m^2 _{Z'}}{(g^A_{DM})^2 m_{DM})} 
+\end{equation}
+Using the same formula (which is not exactly applicable to our model), the upper limit on the DM coupling constant $g_{wS}$ can be xtracted as:
+
+\begin{equation}
+g_{wS} < \sqrt{ \frac{\pi \ m^2 _{Y0}}{ m_{\chi_D} \sqrt{s} }  } 
+\end{equation}
+
+The results in Fig.\ref{couplings} show the upper limit values of $g_{Sxd}$ which preserve unitarity, for different DM and mediator masses and beam energies.
+
+\begin{figure}[!b]
+	\centering
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/COUPLINGS/coupling_constant_ul_Mxd_1000.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/COUPLINGS/coupling_constant_ul_Mxd_10000.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/COUPLINGS/coupling_constant_ul_Mxd_100000.pdf}}
+	\caption{Upper limits on the values of the coupling constant  $g_{Sxd}$  }
+	\label{couplings}
+\end{figure}
+
+Basically the plots look the same since we always use mxd , my=2*mxd, and Ebeam $\sim$ 2*mxd. So for our standard choices the coupling is fine (set to 1 in the param card).
+
 
 \clearpage
 \section{MG5 Issues}
