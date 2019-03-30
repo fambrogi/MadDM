@@ -1,0 +1,5 @@
+INFO: fail to reach target 100000 
+  === Results Summary for run: run_01 tag: tag_1 ===
+
+     Cross-section :   3.455e+05 +- 4797 pb
+     Nb of events :  754
