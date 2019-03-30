@@ -1,0 +1,13 @@
+m = 100 TeV
+y0 id = 54
+width y0 from MG5 = 18.9 GeV
+Ebeam 	 XSec[pb]
+101000	 0.309
+100100   0.309
+100010	 0.309 
+
+
+Why the hell in the previous runs I got:
+
+DECAY  54   1.909857e+07
+
