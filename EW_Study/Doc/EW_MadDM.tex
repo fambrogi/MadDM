@@ -244,12 +244,85 @@ WeakShower:singleEmission = off
 { \includegraphics[width=0.49\textwidth]{Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_1.pdf}}
 \subfigure
 { \includegraphics[width=0.49\textwidth]{Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf}}
-\caption{Energy Spectra for $m_{\chi_D}$ = 1 TeV (Old data) for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$. The label "EW" and "NoEW" in the MadDM samples mean respectively samples produced with or without the EW corrections in Pythia8.}
+\caption{Energy Spectra for $m_{\chi_D}$ = 1 TeV for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$. The label "EW" and "NoEW" in the MadDM samples mean respectively samples produced with or without the EW corrections in Pythia8.}
 \end{figure}
 
 
+\clearpage
 \subsection{Spectra for $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF$ with off-shell W and no Z}
-(to do!)
+The spectra in Fig. \ref{woff_1},\ref{woff_10},\ref{woff_100} were produced with the following \MG~processes:
+\begin{verbatim}
+import model DMsimp_s_spin0_EW_WithMass
+define F = ve vm vt e- mu- ve~ vm~ vt~ e+ mu+ t t~ u c d s b u~ c~ d~ \
+s~ b~ ta- ta+
+generate xd xd~ > F F F F $ w- w+ / z
+output xdxd_FFFF_WoffNoZ
+\end{verbatim}
+so, differently from the previous case, the $W^{\pm }$ bosons are required to be off-shell, and the $Z$ bosons are removed from the diagrams. In addition, the spectra obtaine with the removal of intermediate $Z$ bosons only are shown.
+\subsubsection{ $m_{\chi_D}$ = 1 TeV}
+\begin{figure}[!b]
+\centering
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/1_antiprotons_FFFF_1.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/1_neutrinos_mu_FFFF_1.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/1_neutrinos_tau_FFFF_1.pdf}}
+\caption{Energy Spectra for $m_{\chi_D}$ = 1 TeV for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF \$w^- w^+ /Z $, for $m_{\chi_D}$ = 1 TeV. The label "EW" and "NoEW" in the MadDM samples mean respectively samples produced with or without the EW corrections in Pythia8.}
+\label{woff_1}
+\end{figure}
+
+
+
+\subsubsection{ $m_{\chi_D}$ = 10 TeV}
+\begin{figure}[!b]
+\centering
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/10_antiprotons_FFFF_10.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/10_positrons_FFFF_10.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/10_neutrinos_e_FFFF_10.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/10_neutrinos_mu_FFFF_10.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFFF_10.pdf}}
+\caption{Energy Spectra for $m_{\chi_D}$ = 10 TeV for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF \$w^- w^+ /Z $, for $m_{\chi_D}$ = 1 TeV. The label "EW" and "NoEW" in the MadDM samples mean respectively samples produced with or without the EW corrections in Pythia8.}
+\label{woff_10}
+\end{figure}
+
+
+\subsubsection{ $m_{\chi_D}$ = 100 TeV}
+\begin{figure}[!b]
+\centering
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/100_antiprotons_FFFF_100.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/100_positrons_FFFF_100.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF_100.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/100_neutrinos_mu_FFFF_100.pdf}}
+\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_FFFF_WZ/100_neutrinos_tau_FFFF_100.pdf}}
+\caption{Energy Spectra for $m_{\chi_D}$ = 100 TeV for the process $\chi_D \chi_D \rightarrow Y0 \rightarrow FFFF \$w^- w^+ /Z $, for $m_{\chi_D}$ = 1 TeV. The label "EW" and "NoEW" in the MadDM samples mean respectively samples produced with or without the EW corrections in Pythia8.}
+\label{woff_100}
+\end{figure}
+
+For large $m_{\chi_D}$ masses, the spectra produced with the decays from off-shell $W$ bosons look very similar to the ones from the \PPPCew~. However also note that the eelctroweak corrections from Pythia8 don't seem to have any effect at all, i.e. they are not calculated for the 4 fermions. 
+
+
+
 \clearpage
 
 \section{Cross Sections}
@@ -299,7 +372,7 @@ As pointed out in e.g. \cite{Kahlhoefer:2015bea}, DM simplified model can face t
 Using the same formula (which is not exactly applicable to our model), the upper limit on the DM coupling constant $g_{wS}$ can be xtracted as:
 
 \begin{equation}
-g_{wS} < \sqrt{ \frac{\pi \ m^2 _{Y0}}{ m_{\chi_D} \sqrt{s} }  } 
+g_{Sxd} < \sqrt{ \frac{\pi \ m^2 _{Y0}}{ m_{\chi_D} \sqrt{s} }  } 
 \end{equation}
 
 The results in Fig.\ref{couplings} show the upper limit values of $g_{Sxd}$ which preserve unitarity, for different DM and mediator masses and beam energies.
