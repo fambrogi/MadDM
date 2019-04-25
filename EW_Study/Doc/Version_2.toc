@@ -1,2 +1,0 @@
-\contentsline {section}{\numberline {1}PPPC Electroweak Corrections}{1}{section.1}
-\contentsline {section}{\numberline {2}MadDM vs PPPC Electroweak Corrections}{1}{section.2}

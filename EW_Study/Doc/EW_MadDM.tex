@@ -159,6 +159,43 @@ $\mathbf{m_{\chi_D}} $ & $\mathbf{\chi _D \chi _D \rightarrow WW} $ & $\mathbf{\
 
 
 \clearpage
+\subsection{Spectra for $\chi_D \chi_D \rightarrow e^- e^+$}
+The following spectra in Fig. \ref{ee} are obtained with:
+\begin{verbatim}
+import model /home/federico/Desktop/Tools/MadGraph5/MG5_aMC_v2_6_5/mod\
+els/DMsimp_s_spin0_leptons
+generate xd xd~ > e- e+
+add process xd xd~ > e- e+ z
+add process xd xd~ > e- ve~ w+
+add process xd xd~ > e+ ve w-
+\end{verbatim}
+in order to test the EW correction produced ba \MG~ on the electron-positron pairs. Chiara modified the models to include direct couplings of the mediator to the leptons.
+However it seems that including the additional processes in \MG~ does not affect at all the spectra. Indeed, in the lhe files there are no neutrinos, W or Z bosons (100k events generated). I additionally tested the $n_1 n_1 \rightarrow e^- e^+$ production (i.e. MSSM) to check that the spectra are indeed the same. 
+\begin{figure}[!b]
+	\centering
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf}}
+	\subfigure
+	{\includegraphics[width=0.49\textwidth]{Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf}}
+	\subfigure
+	{\includegraphics[width=0.49\textwidth]{Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf}}
+
+	\caption{Energy Spectra for the channel $e^- e^p$ using the DM simplified model with couplings to leptons or the MSSM. }
+	\label{ee}
+\end{figure}
+\\
+For further test, shown in Fig. \ref{ee_Z}, I generated the samples: 
+\begin{verbatim}
+import model /home/federico/Desktop/Tools/MadGraph5/MG5_aMC_v2_6_5/mod\
+els/DMsimp_s_spin0_leptons
+generate xd xd~ > e- e+ z
+\end{verbatim}
+however \MG~ returns zero events (i.e. cross section equals zero).
+
+
+
+
+\clearpage
 \subsection{Spectra for $\chi_D \chi_D \rightarrow WW$}
 \subsubsection{$m_{\chi_D}$ = 1 TeV}
 \begin{figure}[!b]
@@ -326,7 +363,7 @@ For large $m_{\chi_D}$ masses, the spectra produced with the decays from off-she
 \clearpage
 
 \section{Cross Sections}
-The results of the calculation of various processes cross section are presented. In Fig. \ref{xsec_1TeV} the cross section for different processes are shown. In this case, only the process inidcated by the lable contributes to the value of the cross section, meaning that e.g. the process $\chi_D \chi_D \rightarrow WW X$ does not include the contribution of the "tree level" process $\chi_D \chi_D \rightarrow WW$. 
+The results of the calculation of various processes cross section are presented. In Fig. \ref{xsec_1TeV} the cross section for different processes are shown. In this case, only the process indicated by the label contributes to the value of the cross section, meaning that e.g. the process $\chi_D \chi_D \rightarrow WW X$ does not include the contribution of the "tree level" process $\chi_D \chi_D \rightarrow WW$. 
 
 \begin{figure}[!b]
 	\centering

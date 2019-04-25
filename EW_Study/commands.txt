@@ -1,0 +1,19 @@
+import /home/federico/Desktop/Tools/Pythia8/pythia8240/examples/Results_Today_1TeV/xdxd_ee_eez_evew_xd_1000_beam_1100.lhe  as s1100
+import  /home/federico/Desktop/Tools/Pythia8/pythia8240/examples/Results_Today_1TeV/xdxd_ee_eez_evew_xd_1000_beam_1150.lhe as s1150
+import  /home/federico/Desktop/Tools/Pythia8/pythia8240/examples/Results_Today_1TeV/xdxd_ee_eez_evew_xd_1000_beam_1180.lhe as s1180
+import  /home/federico/Desktop/Tools/Pythia8/pythia8240/examples/Results_Today_1TeV/xdxd_ee_eez_evew_xd_1000_beam_1185.lhe as s1185
+import  /home/federico/Desktop/Tools/Pythia8/pythia8240/examples/Results_Today_1TeV/xdxd_ee_eez_evew_xd_1000_beam_1190.lhe as s1190
+import  /home/federico/Desktop/Tools/Pythia8/pythia8240/examples/Results_Today_1TeV/xdxd_ee_eez_evew_xd_1000_beam_1200.lhe as s1200
+import  /home/federico/Desktop/Tools/Pythia8/pythia8240/examples/Results_Today_1TeV/xdxd_ee_eez_evew_xd_1000_beam_1500.lhe as s1500
+import  /home/federico/Desktop/Tools/Pythia8/pythia8240/examples/Results_Today_1TeV/xdxd_ee_eez_evew_xd_1000_beam_2000.lhe as s2000
+
+define W = w- w+ 
+define E = e- e+
+plot PT(W) 50 0 2100 
+plot PT(z) 50 0 2100 
+plot PT(E) 50 0 2100
+plot N(W) 3 0 3
+plot N(z) 3 0 3
+set main.stacking_method = normalize2one
+
+submit Kinematics_Analysis
