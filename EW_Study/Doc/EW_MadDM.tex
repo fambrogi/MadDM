@@ -295,7 +295,7 @@ s~ b~ ta- ta+
 generate xd xd~ > F F F F $ w- w+ / z
 output xdxd_FFFF_WoffNoZ
 \end{verbatim}
-so, differently from the previous case, the $W^{\pm }$ bosons are required to be off-shell, and the $Z$ bosons are removed from the diagrams. In addition, the spectra obtaine with the removal of intermediate $Z$ bosons only are shown.
+so, differently from the previous case, the $W^{\pm }$ bosons are required to be off-shell, and the $Z$ bosons are removed from the diagrams. In addition, the spectra obtained with the removal of intermediate $Z$ bosons only are shown.
 \subsubsection{ $m_{\chi_D}$ = 1 TeV}
 \begin{figure}[!b]
 \centering
@@ -356,12 +356,108 @@ so, differently from the previous case, the $W^{\pm }$ bosons are required to be
 \label{woff_100}
 \end{figure}
 
-For large $m_{\chi_D}$ masses, the spectra produced with the decays from off-shell $W$ bosons look very similar to the ones from the \PPPCew~. However also note that the eelctroweak corrections from Pythia8 don't seem to have any effect at all, i.e. they are not calculated for the 4 fermions. 
+For large $m_{\chi_D}$ masses, the spectra produced with the decays from off-shell $W$ bosons look very similar to the ones from the \PPPCew~. However also note that the electroweak corrections from Pythia 8 don't seem to have any effect at all, i.e. they are not calculated for the 4 fermions. 
 
 
 
 \clearpage
+\section{MG EW Corrections for $x_d x_d \rightarrow e^- e^+ $}
+Process implemented in \MG:
+\begin{verbatim}
+import model DMsimp_s_spin0_leptons
+generate xd xd~ > e- e+
+add process xd xd~ > e- e+ z
+add process xd xd~ > e+ ve w-
+add process xd xd~ > e- ve~ w+
+output xdxd_ee_eez_evew
+\end{verbatim}
 
+\subsection{Kinematic Distributions}
+\begin{figure}[!b]
+	\centering
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/e_pt.png}}
+	\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/W_pt.png}}
+	\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/Z_pt.png}}
+	\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/W_m.png}}
+	\subfigure
+{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/Z_m.png}}
+	
+	\caption{Kinematic distributions of the electron, W and Z $p_T$ , and W and Z multiplicities, for different beams energy ($m_{x_d}=1$ TeV)}.
+	\label{woff_100}
+\end{figure}
+
+\clearpage
+\subsection{Spectra for $m_/xd=$1 TeV}
+\begin{figure}[!b]
+	\centering
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/1_antiprotons_ee_eeZ_eveW_1.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/1_positrons_ee_eeZ_eveW_1.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/1_gammas_ee_eeZ_eveW_1.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/1_neutrinos_e_ee_eeZ_eveW_1.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/1_neutrinos_mu_ee_eeZ_eveW_1.pdf}}
+		\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/1_neutrinos_tau_ee_eeZ_eveW_1.pdf}}
+	\caption{Energy spectra for different beam energies for  $m_/xd=$1 TeV. The process considered is  $x_d x_d \rightarrow e^- e^+ $, with the addition of the EW emission implemented in \MG~. For reference also the spectra for $x_d x_d \rightarrow ZZ $ from the \PPPC and \PPPCew are shown. }.
+	\label{spec_eeMGew1}
+\end{figure}
+
+
+\clearpage
+\subsection{Spectra for $m_{xd}=$10 TeV}
+\begin{figure}[!b]
+	\centering
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/10_antiprotons_ee_eeZ_eveW_10.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/10_positrons_ee_eeZ_eveW_10.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/10_gammas_ee_eeZ_eveW_10.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/10_neutrinos_e_ee_eeZ_eveW_10.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/10_neutrinos_mu_ee_eeZ_eveW_10.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/10_neutrinos_tau_ee_eeZ_eveW_10.pdf}}
+	\caption{Same as \ref{spec_eeMGew1} for  $m_/xd=$10 TeV}.
+	\label{spec_eeMGew10}
+\end{figure}
+
+
+\clearpage
+\subsection{Spectra for $m_{xd}=$100 TeV}
+\begin{figure}[!b]
+	\centering
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/100_antiprotons_ee_eeZ_eveW_100.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/100_positrons_ee_eeZ_eveW_100.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/100_gammas_ee_eeZ_eveW_100.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/100_neutrinos_e_ee_eeZ_eveW_100.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/100_neutrinos_mu_ee_eeZ_eveW_100.pdf}}
+	\subfigure
+	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/100_neutrinos_tau_ee_eeZ_eveW_100.pdf}}
+	\caption{Same as \ref{spec_eeMGew1} for  $m_/xd=$100 TeV}.
+	\label{spec_eeMGew100}
+\end{figure}
+
+
+
+
+
+
+\clearpage
 \section{Cross Sections}
 The results of the calculation of various processes cross section are presented. In Fig. \ref{xsec_1TeV} the cross section for different processes are shown. In this case, only the process indicated by the label contributes to the value of the cross section, meaning that e.g. the process $\chi_D \chi_D \rightarrow WW X$ does not include the contribution of the "tree level" process $\chi_D \chi_D \rightarrow WW$. 
 
@@ -372,7 +468,7 @@ The results of the calculation of various processes cross section are presented.
 \label{xsec_1TeV}
 \end{figure}
 %
-Since cross sections depend also on the total energy in the centre-of-mass of the DM annihilation i.e. on the parameter ebeam in \MG~, Fig. \ref{xsec_ebeam} shows the value of the cross section for different energies of the simulated beams.
+Since cross sections depend also on the total energy in the centre-of-mass of the DM annihilation i.e. on the parameter $E_{beam}$ in \MG~, Fig. \ref{xsec_ebeam} shows the cross section values for different energies of the simulated beams.
 %
 \begin{figure}[!b]
 	\centering
@@ -389,6 +485,9 @@ Since cross sections depend also on the total energy in the centre-of-mass of th
 
 \section{Width of the mediator $Y0$ }
 When using the automatic computation of the width implemented in \MG~, problems start to arise when the mass of the mediator become large. In particular the width of the particle get to exceed largely the value of its own mass, as it show in Fig. \ref{width}.
+Note: this is solved if the parameter $\Lambda$ i.e. the scale of the new physics is set to a value higher than the mass of the DM.
+If so, the width of the Y0 becomes stable.
+Note that also the cross section scales with $\Lambda$.
 
 \begin{figure}[!h]
 	\centering
