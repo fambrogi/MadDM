@@ -14,7 +14,7 @@
 \contentsline {subsubsection}{\numberline {3.6.3} $m_{\chi _D}$ = 100 TeV}{16}{subsubsection.3.6.3}
 \contentsline {section}{\numberline {4}MG EW Corrections for $x_d x_d \rightarrow e^- e^+ $}{17}{section.4}
 \contentsline {subsection}{\numberline {4.1}Kinematic Distributions}{18}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Spectra for $m_/xd=$1 TeV}{19}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Spectra for $m_{xd}=$1 TeV}{19}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Spectra for $m_{xd}=$10 TeV}{20}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Spectra for $m_{xd}=$100 TeV}{21}{subsection.4.4}
 \contentsline {section}{\numberline {5}Cross Sections}{22}{section.5}
