@@ -100,12 +100,18 @@ def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = ''):
         ax = plt.gca().add_artist(first_l)
 
 
-        if DM_o == '1000.0' : BEAMS = ['1100', '1150','1180','1185','1188','1189','1190','1200', '1500', '2000']
-        elif DM_o == '10000.0' : BEAMS = ['11000', '11500', '12000', '15000', '20000']
-        elif DM_o == '100000.0' : BEAMS = ['110000', '115000', '120000', '150000', '200000']
+        if DM_o == '1000.0' :
+            BEAMS = ['1100', '1150','1180','1185','1188','1189','1190','1200', '1500', '2000']
+            COLORS = ['blue','cyan','slateblue','lime','limegreen','green','brown','gold','orange','red','magenta']
+        elif DM_o == '10000.0' :
+            BEAMS = ['11000', '11500', '12000', '15000', '20000']
+            COLORS = ['blue', 'cyan', 'lime', 'gold', 'magenta']
+        elif DM_o == '100000.0' :
+            BEAMS = ['110000', '115000', '120000', '150000', '200000']
+            COLORS = ['blue', 'cyan', 'lime', 'gold', 'magenta']
 
 
-        for c,b in zip(['blue','cyan','slateblue','lime','limegreen','green','brown','gold','orange','red','magenta'],BEAMS):
+        for c,b in zip( COLORS, BEAMS ):
              ee_EWPy8   = 'Data/Data_xd_'+DM_n+'_beam_'+b+'_pythiaEW_True/'  + Name_Dic[CR] + '_test1000GeV_ww_lhe.dat'
              ee_noEWPy8 = 'Data/Data_xd_'+DM_n+'_beam_'+b+'_pythiaEW_False/' + Name_Dic[CR] + '_test1000GeV_ww_lhe.dat'
  

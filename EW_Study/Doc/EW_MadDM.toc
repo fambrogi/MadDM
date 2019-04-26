@@ -9,15 +9,15 @@
 \contentsline {subsubsection}{\numberline {3.4.2}"Old" $m_{\chi _D}$ = 100 TeV}{10}{subsubsection.3.4.2}
 \contentsline {subsection}{\numberline {3.5}Spectra for $\chi _D \chi _D \rightarrow Y0 \rightarrow FFFF$}{11}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Spectra for $\chi _D \chi _D \rightarrow Y0 \rightarrow FFFF$ with off-shell W and no Z}{13}{subsection.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1} $m_{\chi _D}$ = 1 TeV}{13}{subsubsection.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.2} $m_{\chi _D}$ = 10 TeV}{13}{subsubsection.3.6.2}
-\contentsline {subsubsection}{\numberline {3.6.3} $m_{\chi _D}$ = 100 TeV}{13}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.1} $m_{\chi _D}$ = 1 TeV}{14}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2} $m_{\chi _D}$ = 10 TeV}{15}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3} $m_{\chi _D}$ = 100 TeV}{16}{subsubsection.3.6.3}
 \contentsline {section}{\numberline {4}MG EW Corrections for $x_d x_d \rightarrow e^- e^+ $}{17}{section.4}
-\contentsline {subsection}{\numberline {4.1}Kinematic Distributions}{17}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Spectra for $m_/xd=$1 TeV}{18}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Spectra for $m_{xd}=$10 TeV}{19}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Spectra for $m_{xd}=$100 TeV}{20}{subsection.4.4}
-\contentsline {section}{\numberline {5}Cross Sections}{21}{section.5}
-\contentsline {section}{\numberline {6}Width of the mediator $Y0$ }{22}{section.6}
-\contentsline {section}{\numberline {7}Unitarity}{23}{section.7}
-\contentsline {section}{\numberline {8}MG5 Issues}{24}{section.8}
+\contentsline {subsection}{\numberline {4.1}Kinematic Distributions}{18}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Spectra for $m_/xd=$1 TeV}{19}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Spectra for $m_{xd}=$10 TeV}{20}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Spectra for $m_{xd}=$100 TeV}{21}{subsection.4.4}
+\contentsline {section}{\numberline {5}Cross Sections}{22}{section.5}
+\contentsline {section}{\numberline {6}Width of the mediator $Y0$ }{23}{section.6}
+\contentsline {section}{\numberline {7}Unitarity}{24}{section.7}
+\contentsline {section}{\numberline {8}MG5 Issues}{25}{section.8}

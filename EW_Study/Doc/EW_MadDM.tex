@@ -296,6 +296,7 @@ generate xd xd~ > F F F F $ w- w+ / z
 output xdxd_FFFF_WoffNoZ
 \end{verbatim}
 so, differently from the previous case, the $W^{\pm }$ bosons are required to be off-shell, and the $Z$ bosons are removed from the diagrams. In addition, the spectra obtained with the removal of intermediate $Z$ bosons only are shown.
+\clearpage
 \subsubsection{ $m_{\chi_D}$ = 1 TeV}
 \begin{figure}[!b]
 \centering
@@ -316,7 +317,7 @@ so, differently from the previous case, the $W^{\pm }$ bosons are required to be
 \end{figure}
 
 
-
+\clearpage
 \subsubsection{ $m_{\chi_D}$ = 10 TeV}
 \begin{figure}[!b]
 \centering
@@ -336,7 +337,7 @@ so, differently from the previous case, the $W^{\pm }$ bosons are required to be
 \label{woff_10}
 \end{figure}
 
-
+\clearpage
 \subsubsection{ $m_{\chi_D}$ = 100 TeV}
 \begin{figure}[!b]
 \centering
@@ -371,9 +372,29 @@ add process xd xd~ > e+ ve w-
 add process xd xd~ > e- ve~ w+
 output xdxd_ee_eez_evew
 \end{verbatim}
+The corresponding Feynman diagrams, for reference, are shown in Fig. \ref{fey}.
+\begin{figure}[!h]
+	\centering
 
+	\includegraphics[width=1\textwidth]{Fig/xdxd_ee_eeZ_eveW/Fey.png}}
+
+	\caption{Feynman diagrams.}
+	\label{fey}
+\end{figure}
+
+
+
+\clearpage
 \subsection{Kinematic Distributions}
-\begin{figure}[!b]
+Kinematic distributions of the e,W and Z $p_T$, W and Z boson multiplicities for $m_{x_d}=1$ TeV. Below a certain  $E_{beam}$ threshold, the cross section for the processes are zero except for the "tree-level" $x_d x_d \rightarrow ee$; this was tested with e.g. the process 
+\begin{verbatim}
+import model DMsimp_s_spin0_leptons
+generate xd xd~ > e- e+ z
+\end{verbatim}
+, which was the reason why I started using higher energy beams than what we usually set (e.g. 1001 or 1010 for $m_{x_d}=1$ ).
+
+
+\begin{figure}[!h]
 	\centering
 	\subfigure
 	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/e_pt.png}}
@@ -386,13 +407,13 @@ output xdxd_ee_eez_evew
 	\subfigure
 { \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/Z_m.png}}
 	
-	\caption{Kinematic distributions of the electron, W and Z $p_T$ , and W and Z multiplicities, for different beams energy ($m_{x_d}=1$ TeV)}.
+	\caption{Kinematic distributions of the e,W and Z $p_T$, and W and Z multiplicities, for different beams energy ($m_{x_d}=1$ TeV)}.
 	\label{woff_100}
 \end{figure}
 
 \clearpage
 \subsection{Spectra for $m_/xd=$1 TeV}
-\begin{figure}[!b]
+\begin{figure}[!h]
 	\centering
 	\subfigure
 	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/1_antiprotons_ee_eeZ_eveW_1.pdf}}
@@ -413,7 +434,7 @@ output xdxd_ee_eez_evew
 
 \clearpage
 \subsection{Spectra for $m_{xd}=$10 TeV}
-\begin{figure}[!b]
+\begin{figure}[!h]
 	\centering
 	\subfigure
 	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/10_antiprotons_ee_eeZ_eveW_10.pdf}}
@@ -434,7 +455,7 @@ output xdxd_ee_eez_evew
 
 \clearpage
 \subsection{Spectra for $m_{xd}=$100 TeV}
-\begin{figure}[!b]
+\begin{figure}[!h]
 	\centering
 	\subfigure
 	{ \includegraphics[width=0.49\textwidth]{Fig/xdxd_ee_eeZ_eveW/100_antiprotons_ee_eeZ_eveW_100.pdf}}
