@@ -36,7 +36,6 @@ def Apply_Plot_Properties(x_label = True, y_label = True):
 
 ######
 import math
-DM = 3000
 
 def dna_dx(x, dm=1.0):
     alpha_em = 1/137.
@@ -70,11 +69,12 @@ samples = ['Res_new/n1n1_wwa_1TeV.txt',           'Res_new/n1n1_wwa_10TeV.txt' ,
 os.system('mkdir plots_new')
 
 colors = ['red','gold','blue','limegreen']
+colors = ['red','gold','blue','limegreen']
 lab_eq = 'arXiv:1001.3950 Eq. B62.a' 
 label_massless = r'MadDM $\tilde \chi_1 ^0 \tilde \chi_1 ^0  \rightarrow w^- w^+ \gamma$ with $\tilde \chi_1 ^{\pm}$ t-chan.(0.5GeV)'
 label_80 = r'MadDM $\tilde \chi_1 ^0 \tilde \chi_1 ^0  \rightarrow w^- w^+ \gamma$ with $\tilde \chi_1 ^{\pm}$ t-chan.(80 GeV)'
 
-masses = [1000, 5000, 10000, 20000]
+masses = [1000, 5000, 10000]
 #######################################################################################
 """ Calculate from analytical equation """
 # calculating from analytical equation
@@ -109,12 +109,12 @@ ax = plt.gca().add_artist(first_legend)
 handles = []
 plot1 = plt.plot([-1000,-1000] , [-1000,-1000], color = 'black', label = lab_eq , ls = ':')
 plot2 = plt.plot([-1000,-1000] , [-1000,-1000], color = 'black', label = label_massless, ls = '--' , lw = 1.1)
-plot3 = plt.plot([-1000,-1000] , [-1000,-1000], color = 'black', label = label_80 , ls = '-' , lw = 1.1)
+#plot3 = plt.plot([-1000,-1000] , [-1000,-1000], color = 'black', label = label_80 , ls = '-' , lw = 1.1)
 
 
 handles.append(plot1[0])
 handles.append(plot2[0])
-handles.append(plot3[0])
+#handles.append(plot3[0])
 second_legend = plt.legend(handles= handles, fontsize=SIZE-9, loc = 'upper right', fancybox=True , ncol = 1)
 frame = second_legend.get_frame()
 frame.set_edgecolor('gray')
@@ -129,7 +129,7 @@ ax = plt.gca().add_artist(second_legend)
 
 #######################################################################################
 """ MadDM massless chargino """
-samples_dir = 'Res_new/massless_chargino/'
+samples_dir = 'Res_latest/'
 
 
 SCALE = 3.5
@@ -137,12 +137,13 @@ X, edges = [],[] ### contains the x values and the y values (ready for plotting)
 simples = []
 handles = []
 for dm,c in zip(masses,colors):
-    range_h = [0.01, 1]
+    range_h = [0.01, 0.999]
     bins = 15
     val = []
-    files = samples_dir + 'n1n1_wwa_DMTeV_chmassless.txt'
+    files = samples_dir + 'n1n1_wwa_allmassless_DM.txt'
     files = files.replace('DM', str(dm).replace('000',''))
     fi = open(files, 'r').readlines()
+    fi = fi[15:-15] # remove the text lines
 
     values   = [ eval(x.replace("\n","")) for x in fi if 'progress' not in x and x !="\n"]
     values_n = [ x/dm  for x in values if x] 
@@ -164,7 +165,7 @@ for dm,c in zip(masses,colors):
 
 
 
-
+'''
 #######################################################################################
 """ MadDM 80 GeV chargino """
 
@@ -173,12 +174,12 @@ samples_dir = 'Res_new/chargino_80/'
 SAMPLES = ['n1n1_wwa_only_ch80_1TeV.txt' , 'n1n1_wwa_100k_20TeV_ch80_n0', 'n1n1_wwa_200k_50TeV_ch80_n78_cut500' , 'n1n1_wwa_200k_100TeV_ch80_n78_cut500' ]
 SCALE = 3.5
 masses = [1000,20000,50000,100000]
-masses = [1000]
 X, edges = [],[] ### contains the x values and the y values (ready for plotting)
 for dm,c in zip(masses,colors):
-    range_h = [0.01, 1]
-    bins = 15
+    range_h = [0.001, 2]
+    bins = 100
     val = []
+    files = samples_dir + '../n1n1_wwa_only_ch80_DMTeV.txt'
     files = files.replace('DM', str(dm).replace('000',''))
     fi = open(files, 'r').readlines()
 
@@ -194,7 +195,7 @@ for dm,c in zip(masses,colors):
     if dm == 10000: DM = str(dm).replace('10000','10 TeV')
     plt.plot(e[:len(val)], val, color = c, label = label_massless + r"$m_{\tilde \chi _1 ^0}$=" + DM , ls = '-' , lw = 1.1)
     #plt.scatter(e[:len(val)], val, color = c, label = label_80 + r"$m_{\tilde \chi _1 ^0}$=" + DM , s = 3)
-
+'''
 
 
 
@@ -207,6 +208,8 @@ axes = plt.subplot(111)
 axes.xaxis.set_minor_formatter(FormatStrFormatter("%.2f"))
 
 
+
+os.system('mkdir Plots_Latest')
 plt.xlim(0.009 , 2 )
 plt.yscale('log')
 plt.xscale('log')
@@ -216,7 +219,7 @@ plt.xlabel(r'x = $E_{\gamma}$/$m_{DM}$')
 plt.grid(which='major', linestyle=':', color = 'lightgray', lw = 1.05)
 #plt.grid(which='minor', linestyle=':' , color = 'lightgray', lw = 1.05)
 #plt.legend(loc = 'upper left', fontsize = 6)
-plt.savefig('plots_new/Gammas_Validation.pdf', bbox_inches = 'tight')
+plt.savefig('Plots_Latest/Gammas_Validation.pdf', bbox_inches = 'tight')
 plt.close()
 
 
@@ -224,7 +227,7 @@ plt.close()
 
 
 
-
+print len(simples)
 ### smple histogram normalized by the mass
 bins = 50
 plt.title(r'$DM \ DM  \rightarrow W^- W^+ \gamma$', y=1.03)
@@ -235,9 +238,9 @@ plt.ylim(0.01, 10)
 plt.ylabel(r'$dN_{\gamma}/dx$')
 plt.xlabel(r'x = $E_{\gamma}$/$m_{DM}$')
 plt.grid(which='major', linestyle=':', color = 'lightgray', lw = 1.05)
-plt.hist(simples, bins= bins, color = colors, histtype = 'step', label = ['1 TeV','5 TeV','10 TeV','20 TeV'], density = True)
+plt.hist(simples, bins= bins, histtype = 'step', label = ['1 TeV','5 TeV','10 TeV'], density = True)
 plt.legend()
-plt.savefig('plots_new/simple_Gammas.pdf', bbox_inches = 'tight')
+plt.savefig('Plots_Latest/simple_Gammas.pdf', bbox_inches = 'tight')
 plt.close()
 
 

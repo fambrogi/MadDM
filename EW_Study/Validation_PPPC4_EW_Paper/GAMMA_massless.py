@@ -137,7 +137,7 @@ X, edges = [],[] ### contains the x values and the y values (ready for plotting)
 simples = []
 handles = []
 for dm,c in zip(masses,colors):
-    range_h = [0.01, 1]
+    range_h = [0.01, 0.999]
     bins = 15
     val = []
     files = samples_dir + 'n1n1_wwa_DMTeV_chmassless.txt'
@@ -173,12 +173,12 @@ samples_dir = 'Res_new/chargino_80/'
 SAMPLES = ['n1n1_wwa_only_ch80_1TeV.txt' , 'n1n1_wwa_100k_20TeV_ch80_n0', 'n1n1_wwa_200k_50TeV_ch80_n78_cut500' , 'n1n1_wwa_200k_100TeV_ch80_n78_cut500' ]
 SCALE = 3.5
 masses = [1000,20000,50000,100000]
-masses = [1000]
 X, edges = [],[] ### contains the x values and the y values (ready for plotting)
 for dm,c in zip(masses,colors):
-    range_h = [0.01, 1]
-    bins = 15
+    range_h = [0.001, 2]
+    bins = 100
     val = []
+    files = samples_dir + '../n1n1_wwa_only_ch80_DMTeV.txt'
     files = files.replace('DM', str(dm).replace('000',''))
     fi = open(files, 'r').readlines()
 
