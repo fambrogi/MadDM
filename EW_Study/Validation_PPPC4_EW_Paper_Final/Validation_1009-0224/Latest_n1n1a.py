@@ -87,6 +87,14 @@ for el in [1]:
         a = plt.hist(values_n, bins = bins, range = range_h, histtype = 'step', color = 'orange', label = r'$ m_{\tilde \chi ^0 _1 } =$ 1 TeV'  , density = True )
 
 
+	F = open('res/n1n1_wwa_1000_noacut.txt' , 'r').readlines()
+        fi = F[15:-15] # remove the text lines
+	values   = [ eval(x.replace("\n","")) for x in fi if 'progress' not in x and x !="\n"]
+        values_n = [ x/1000.  for x in values if x] 
+        a = plt.hist(values_n, bins = bins, range = range_h, histtype = 'step', color = 'gold', label = r'$ m_{\tilde \chi ^0 _1 } =$ 1 TeV (no photon cut)'  , density = True )
+
+
+
 	F = open('res/n1n1_wwa_10000.txt' , 'r').readlines()
         fi = F[15:-15] # remove the text lines
 	values   = [ eval(x.replace("\n","")) for x in fi if 'progress' not in x and x !="\n"]
@@ -98,7 +106,7 @@ for el in [1]:
 
 
 	os.system('mkdir Plots')
-	plt.xlim(0.0009 , 3 )
+	plt.xlim(0.000009 , 3 )
 	plt.yscale('log')
 	plt.xscale('log')
 

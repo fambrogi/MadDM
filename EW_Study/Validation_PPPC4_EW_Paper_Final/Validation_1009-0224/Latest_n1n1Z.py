@@ -56,9 +56,10 @@ print bins
 scale = 0.17
 
 
-M = ["3000","1000"]
-C = ['blue', 'cyan']
-L = ['3 TeV', '20 TeV']
+M = ["3000","10000","1000"]
+
+C = ['blue', 'cyan','slateblue']
+
 
 SIZE = 15
 lab_eq = 'arXiv:1009.0224 Eq. B.62b' 
@@ -72,9 +73,9 @@ label = r'MadDM Wino-like $\tilde \chi_1 ^0 \tilde \chi_1 ^0  \rightarrow w^- w^
 
 FF = 5.
 FF_1 = 10
-FF_10 = 55
+FF_10 = 3
 handles = []
-for dm,c,l in zip(M,C,L):
+for dm,c in zip(M,C):
         if dm == "3000":
             x,y = np.loadtxt('lines_paper/Z_paper_green.txt', unpack = True)
             y = FF * y
@@ -97,12 +98,20 @@ for dm,c,l in zip(M,C,L):
 	    plt.plot(x_eq, FF_1 * np.array(y_eq), color = 'black', ls = ':', label = 'arXiv 1009.0224 Eq.B62(b)'  )
      	    plt.ylim(0.1, 10)
 
+	elif dm == "10000":
+            x_eq, y_eq = theory_line(eval(dm))
+	    plt.plot(x_eq, FF_10 * np.array(y_eq), color = 'black', ls = ':', label = 'arXiv 1009.0224 Eq.B62(b)'  )
+     	    plt.ylim(0.1, 10)
+
+        print "DM IS", dm 
 	F = open('res/n1n1_wwz_'+ dm + '.txt' , 'r').readlines()
+        print F[:20]
         fi = F[15:-15] # remove the text lines
+        print fi[:30]
 	values   = [ eval(x.replace("\n","")) for x in fi if 'progress' not in x and x !="\n"]
         values_n = [ x/eval(dm)  for x in values if x] 
 
-        a = plt.hist(values_n, bins = bins, range = range_h, histtype = 'step', color = c, label = label + ' ' + dm.replace("3000","3 TeV").replace("10000","1 TeV")  , density = True )
+        a = plt.hist(values_n, bins = bins, range = range_h, histtype = 'step', color = c, label = label + ' ' + dm.replace("3000","3 TeV").replace("10000","10 TeV").replace("1000","1 TeV")  , density = True )
 
 
 	plt.legend(loc = 'upper right' , fontsize = 9)
