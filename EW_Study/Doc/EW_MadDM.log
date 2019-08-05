@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.10)  25 JUL 2019 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.10)  25 JUL 2019 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2502,13 +2502,19 @@ lusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Ready/Gammas_Validation_nu.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
->] (./EW_MadDM.bbl)
+>]
+<Fig/Validation_1009/n1n1_wwa.pdf, id=2426, 419.0905pt x 315.54425pt>
+File: Fig/Validation_1009/n1n1_wwa.pdf Graphic file (type pdf)
+<use Fig/Validation_1009/n1n1_wwa.pdf>
+Package pdftex.def Info: Fig/Validation_1009/n1n1_wwa.pdf  used on input line 6
+33.
+(pdftex.def)             Requested size: 236.61482pt x 178.15764pt.
 
-Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 643.
-[28 <./Fig/Validation_1009/n1n1_wwz_3000.pdf> <./Fig/Validation_1009/n1n1_wwz_1
-000.pdf
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./EW_MadDM.bbl [28 <./Fig/Validation_1009/n1n1_wwz_3000.pdf> <./Fig/Validation
+_1009/n1n1_wwz_1000.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/n1n1_wwz_1000.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
@@ -2516,11 +2522,16 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/n1n1_wwz_1000.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/n1n1_wwz_10000.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 643.
+>])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 649.
+[29 <./Fig/Validation_1009/n1n1_wwa.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 649.
  (./EW_MadDM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 643.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 643.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 649.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 649.
 Package rerunfilecheck Info: File `EW_MadDM.out' has not changed.
 (rerunfilecheck)             Checksum: B38D172F2B30E21279793B045EB5714F;1995.
 
@@ -2530,16 +2541,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 643.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 649.
  ) 
 Here is how much of TeX's memory you used:
- 7363 strings out of 494847
- 117646 string characters out of 6179080
- 181924 words of memory out of 5000000
- 10396 multiletter control sequences out of 15000+600000
+ 7371 strings out of 494847
+ 117856 string characters out of 6179080
+ 182193 words of memory out of 5000000
+ 10401 multiletter control sequences out of 15000+600000
  25033 words of font info for 70 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 39i,13n,32p,1432b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,13n,32p,1461b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/federico/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.
 600pk> </home/federico/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1
 000.600pk> </home/federico/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/e
@@ -2576,10 +2587,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvro8a.pfb>
-Output written on EW_MadDM.pdf (29 pages, 2048439 bytes).
+Output written on EW_MadDM.pdf (30 pages, 2063091 bytes).
 PDF statistics:
- 3068 PDF objects out of 3580 (max. 8388607)
- 2288 compressed objects within 23 object streams
- 87 named destinations out of 1000 (max. 500000)
- 630 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3108 PDF objects out of 3580 (max. 8388607)
+ 2314 compressed objects within 24 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 635 words of extra memory for PDF output out of 10000 (max. 10000000)
 
