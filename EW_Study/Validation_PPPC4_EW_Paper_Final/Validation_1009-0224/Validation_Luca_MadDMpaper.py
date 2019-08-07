@@ -48,8 +48,12 @@ R = ['101','2']
 S = ['-','--']
 C = ['lime','blue']
 
-luca = r'$ \chi _r \chi_r \rightarrow u \bar u \gamma$'
-mssm = r'$ \tilde \chi _1 ^0 \tilde \chi _1 ^0  \rightarrow u \bar u \gamma$' 
+luca = r'$ \chi _r \chi_r \rightarrow u \bar u $'
+
+bos = { 'z':r'$z$' , 'a':r'$\gamma$' } 
+
+
+mssm = r'$ \tilde \chi _1 ^0 \tilde \chi _1 ^0  \rightarrow u \bar u $' 
 A = [r'x = $E_{\gamma}$/$E_{CM}$',r'x = $E_{z}$/$E_{CM}$']
 Y = [r'$dN_{\gamma}/dx$', r'$dN_{z}/dx$']
 
@@ -59,16 +63,16 @@ for w,a,ya in zip (['a','z'] , A, Y ):
 
 	F = open('res/Luca/Luca_qq' + w + '_' + r + '.txt' , 'r').readlines()
         fi = F[15:-15] # remove the text lines
-	values   = [ eval(x.replace("\n","")) for x in fi if 'progress' not in x and 'particle' not in x and x !="\n"]
+	values   = [ eval(x.replace("\n","")) for x in fi if 'progress' not in x and 'particle' not in x and x !="\n" ]
         values_n = [ x/10000.  for x in values if x] 
-        a = plt.hist(values_n, bins = bins, range = range_h, histtype = 'step', color = 'lime', label = luca + ', r=' + r.replace('101','1.01') , density = True , ls = s )
+        plt.hist(values_n, bins = bins, range = range_h, histtype = 'step', color = 'lime', label = luca + bos[w] + ', r=' + r.replace('101','1.01') , density = True , ls = s )
 
 
 	F = open('res/Luca/MSSM_qq' + w + '_'  + r + '.txt' , 'r').readlines()
         fi = F[15:-15] # remove the text lines
 	values   = [ eval(x.replace("\n","")) for x in fi if 'progress' not in x and 'particle' not in x and x !="\n"]
         values_n = [ x/10000.  for x in values if x] 
-        a = plt.hist(values_n, bins = bins, range = range_h, histtype = 'step', color = 'blue', label = mssm + ', r=' + r.replace('101','1.01') , density = True , ls = s)
+        plt.hist(values_n, bins = bins, range = range_h, histtype = 'step', color = 'blue', label = mssm + bos[w] + ', r=' + r.replace('101','1.01') , density = True , ls = s)
 
 
    
@@ -76,7 +80,8 @@ for w,a,ya in zip (['a','z'] , A, Y ):
         y = 30 * y
  	plt.plot(x,y, color = 'gray', label = 'MadDM Paper'  + ', r=' + r.replace('101','1.01') , ls = s , lw = 0.9)
 
-    
+        plt.ylabel(ya)
+        plt.xlabel(a)
 
     plt.legend(loc = 'upper left' , fontsize = 7)
     plt.title( r'$ m_{\chi}=10$ TeV', y = 1.03 )
@@ -85,8 +90,7 @@ for w,a,ya in zip (['a','z'] , A, Y ):
     #plt.yscale('log')
     #plt.xscale('log')
     plt.ylim(0., 4)
-    plt.ylabel(ya)
-    plt.xlabel(a)
+ 
     plt.grid(which='major', linestyle=':', color = 'lightgray', lw = 1.05)
     #plt.grid(which='minor', linestyle=':' , color = 'lightgray', lw = 1.05)
     #plt.legend(loc = 'upper left', fontsize = 6)

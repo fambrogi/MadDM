@@ -213,6 +213,7 @@ however \MG~ returns zero events (i.e. cross section equals zero).
 \subfigure
 {\includegraphics[width=0.49\textwidth]{Fig/1TeV/1_neutrinos_tau_PPPC_Comparison_xdxd_fotone_1.pdf}}
 \caption{Energy Spectra for $m_{\chi_D}$ = 1 TeV}
+\label{simp1tev}
 \end{figure}
 %
 %
@@ -564,7 +565,7 @@ when generating events with extra bosons for \mchi = 100 TeV. The \MG~ version i
 \clearpage
 
 
-\section{ {\color{red }  OLD Validation papers arXiv 1009.0224 and 1001.3950 }}
+\section{   OLD Validation papers arXiv 1009.0224 and 1001.3950 }
 \subsection{Validation Minimal DM Model $x_d x_d \rightarrow \mu^- \mu^+$ + EW arXiv:1001.3950}
 
 \begin{figure}[!h]
@@ -609,8 +610,9 @@ when generating events with extra bosons for \mchi = 100 TeV. The \MG~ version i
 	\label{n1n1a}
 \end{figure}
 
+
 \clearpage
-\section{Validation papers arXiv 1009.0224}}
+\section{Validation paper arXiv 1009.0224}}
 In this section we present the validation of the results for the "Minimal Dark Matter" model introduced in \cite{Ciafaloni:2010ti}. In this DM only has electroweak interactions; we take the case of the parameter space of the MSSM where the DM candidate is a pure Wino-like $\tilde \chi_1 ^0$, and consequently mass degenerate with the lightest chargino $\tilde \chi_1 ^{\pm}$. The results are shown in Fig. \ref{minimal_z}. The plots show the comparison between the results in \cite{Ciafaloni:2010ti} and the results obtained with \maddm~ for the annihilation process $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+ z$. The upper plots is obtained for $m_{\tilde \chi_1 ^0}=$ 3 TeV. We see that the \maddm~ results are in good agreement with the theoretical predictions, which are calculated using different approximation methods.  The lower plots compare the \maddm~ distributions with the spectra obtained using Eq.B62b for alternative DM mass of 1 and 10 TeV respectively. Note that Eq.B62b (case of extra Z boson radiation) and  Eq.B62a (case of extra photon radiation) do not produce the correct kinematic boundaries in the low energy boundary of the spectra (according to the authors). Note that the theory predictions for $m_{\tilde \chi_1 ^0}=1,3,10$ TeV were rescaled by multiplying for the arbitrary factors 5,10,3. {\color{blue} I have no idea why but it is the only way to make them to the correct scale.} 
 \begin{figure}[!h]
 	\centering
@@ -621,7 +623,7 @@ In this section we present the validation of the results for the "Minimal Dark M
 	\subfigure
     { \includegraphics[width=0.47\textwidth]{Fig/Validation_1009/n1n1_wwz_10000.pdf} }
 	
-	\caption{Validation of the \maddm~ results with the theoretical prediction from \cite{Ciafaloni:2010ti}, using the "Minimal Dark Matter" model for Wino-like MSSM $\tilde \chi_1 ^0-\tilde \chi_1 ^{\pm}$, for the process  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+ z$. Upper panel: comparison for $m_{\tilde \chi_1 ^0}=$ 3 TeV, the theory predictions are shown in dashed yellow and green lines (line digitized form the original paper, corresponding to two different parametrization used in the analytical calculations) and black dotted (Eq.B62b). In particular, the prediction from the Eq.B62b does not reproduce correctly the low energy tail of the distributions. Lowe panels: comparison for  $m_{\tilde \chi_1 ^0}=$ 1 and 10 TeV.  }
+	\caption{Validation of the \maddm~ results with the theoretical prediction from \cite{Ciafaloni:2010ti}, using the "Minimal Dark Matter" model for Wino-like MSSM $\tilde \chi_1 ^0-\tilde \chi_1 ^{\pm}$, for the process  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+ z$. Upper panel: comparison for $m_{\tilde \chi_1 ^0}=$ 3 TeV, the theory predictions are shown in dashed yellow and green lines (line digitized form the original paper, corresponding to two different parametrization used in the analytical calculations) and black dotted (Eq.B62b). In particular, the prediction from the Eq.B62b does not reproduce correctly the low energy tail of the distributions. Lower panels: comparison for  $m_{\tilde \chi_1 ^0}=$ 1 and 10 TeV.  }
 	\label{minimal_z}
 \end{figure}
 
@@ -635,6 +637,61 @@ Analogously, the process involving the radiation of one extra photons was valida
 	\caption{Same as Fig. \ref{minimal_z} for the 3-body annihilation process  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+ \gamma$. Note that the edges in the \maddm~ distributions are due to the cut on the photon energy in the \textit{run\_card.dat}.}
 	\label{minimal_a}
 \end{figure}
+
+
+\clearpage
+\subsection{Single emission of Z boson with the minimal DM model (Wino-like LSP)}
+In this Section I analyse the single contribution of each process, i.e. $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+$,  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+z$ and  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+ zz$, for $m_{\tilde \chi_1 ^0}=$ 1 TeV .  
+I set, in the param and tun card, I set $m_{\tilde \chi_1 ^0}=$ 1 TeV , $m_{\tilde \chi_1 ^{\pm}}=$ 1.0001 TeV (almost mass degenerate), Ebeam = 1.0001 TeV. 
+
+{\color{blue} I am now doing also 3 and 10 TeV.  At least for the 1 TeV case, the emission of 3 Z bosons seems not necessary since the cross section for zz corrections is already a factor 100 smaller than the tree level. Then, I will add the emission of Higgses, photons and Ws to have the complete EW corrections; however, in the case of the DMsimp\_s\_spin0\_EW model model in Fig. \ref{simp1tev}, there was no significant difference. } 
+
+
+\begin{figure}[!h]
+\centering
+\subfigure
+{ \includegraphics[width=0.48\textwidth]{Fig/Validation_1009/1_antiprotons_n1ww_single_1.pdf} } 
+\subfigure
+{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/1_positrons_n1ww_single_1.pdf} }
+\subfigure
+{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/1_gammas_n1ww_single_1.pdf} }
+\subfigure
+{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/1_neutrinos_e_n1ww_single_1.pdf} }
+\subfigure
+{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/1_neutrinos_mu_n1ww_single_1.pdf} }
+\subfigure
+{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf} }
+
+\caption{Emission of Z bosons in the minimal DM model (Wino-like LSP) for $m_{\tilde \chi_1 ^0}=$ 1 TeV. We considered separately the processes  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+$,  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+z$ and  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+ zz$. The corresponding cross section is reported in the legend,and it is used no normalized the spectrum with respect to the tree level process (since Pythia gives normalized spectra, I rescaled each process by multiplying by the ratio of the cross sections), e.g. the curve for the one z emission is rescaled by (tree level)/(one z emission). The lime line is obtained by adding the contribution of each process. Note that the PPPC comparison is just for reference. and the MadDM processes are not complete since the emission of a photons, Higgses and Ws should also be included. Compare with Fig. \ref{simp1tev} for the DMsimp\_s\_spin0\_EW model.}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\clearpage
+\section{Validation Luca's plot from MadDM 3.0 paper}
+This is just to check that everything works fine with Luca's model and his validation.
+
+\begin{figure}[!h]
+	\centering
+		\subfigure
+	{ \includegraphics[width=0.48\textwidth]{Fig/Validation_1009/lucaa.png} } 
+		\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/Luca_a.pdf} }
+		\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/lucaz.png} }
+		\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/Luca_z.pdf} }
+	\caption{Validation of Luca's plots from MadDM 3.0}
+		
+		
+\end{figure}
+
 
 
 

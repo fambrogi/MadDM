@@ -21,8 +21,10 @@
 \contentsline {section}{\numberline {6}Width of the mediator $Y0$ }{23}{section.6}
 \contentsline {section}{\numberline {7}Unitarity}{24}{section.7}
 \contentsline {section}{\numberline {8}MG5 Issues}{25}{section.8}
-\contentsline {section}{\numberline {9} {\color {red } OLD Validation papers arXiv 1009.0224 and 1001.3950 }}{26}{section.9}
+\contentsline {section}{\numberline {9} OLD Validation papers arXiv 1009.0224 and 1001.3950 }{26}{section.9}
 \contentsline {subsection}{\numberline {9.1}Validation Minimal DM Model $x_d x_d \rightarrow \mu ^- \mu ^+$ + EW arXiv:1001.3950}{26}{subsection.9.1}
 \contentsline {subsection}{\numberline {9.2}Validation $n_1 n_1 \rightarrow w^- w^+ z$ arXiv:1009.0224}{26}{subsection.9.2}
 \contentsline {subsection}{\numberline {9.3}Validation $n_1 n_1 \rightarrow w^- w^+ \gamma $ arXiv:1009.0224}{27}{subsection.9.3}
-\contentsline {section}{\numberline {10} Validation papers arXiv 1009.0224}{27}{section.10}
+\contentsline {section}{\numberline {10}Validation paper arXiv 1009.0224}{28}{section.10}
+\contentsline {subsection}{\numberline {10.1}Single emission of Z boson with the minimal DM model (Wino-like LSP)}{31}{subsection.10.1}
+\contentsline {section}{\numberline {11}Validation Luca's plot from MadDM 3.0 paper}{33}{section.11}
