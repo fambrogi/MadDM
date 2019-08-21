@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.10)  7 AUG 2019 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.10)  20 AUG 2019 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,6 +303,12 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 
 LaTeX Warning: Label `woff_100' multiply defined.
 
+
+LaTeX Warning: Label `singleemission_1tev' multiply defined.
+
+
+LaTeX Warning: Label `singleemission_1tev' multiply defined.
+
 )
 \openout1 = `EW_MadDM.aux'.
 
@@ -433,7 +439,10 @@ Type  H <return>  for immediate help.
                                                   
 l.113 
       
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -443,7 +452,10 @@ Type  H <return>  for immediate help.
                                                   
 l.128 
       
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 Overfull \hbox (45.03923pt too wide) in paragraph at lines 135--155
  [][] 
@@ -494,7 +506,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.176 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf, id=362, 471.95103pt x 353.69107pt>
 File: Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf>
@@ -504,7 +521,12 @@ Package pdftex.def Info: Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf  used on input line
 ! Undefined control sequence.
 l.178 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf, id=363, 465.74266pt x 353.69107pt>
 File: Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf Graphic file (type pdf)
 <use Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf>
@@ -514,7 +536,12 @@ e 179.
 ! Undefined control sequence.
 l.180 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf, id=364, 465.74266pt x 353.69107pt>
 File: Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf Graphic file (type pdf)
 <use Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf>
@@ -534,12 +561,12 @@ Overfull \hbox (8.71284pt too wide) in paragraph at lines 172--188
 
  <./Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf> <./Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
 >] [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -592,7 +619,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.203 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/1TeV/1_antiprotons_PPPC_Comparison_xdxd_fotone_1.pdf, id=458, 546.82559pt 
 x 414.90776pt>
 File: Fig/1TeV/1_antiprotons_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (ty
@@ -604,7 +636,12 @@ df  used on input line 204.
 ! Undefined control sequence.
 l.205 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/1TeV/1_positrons_PPPC_Comparison_xdxd_fotone_1.pdf, id=459, 546.82559pt x 
 414.90776pt>
 File: Fig/1TeV/1_positrons_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (type
@@ -616,7 +653,12 @@ Package pdftex.def Info: Fig/1TeV/1_positrons_PPPC_Comparison_xdxd_fotone_1.pdf
 ! Undefined control sequence.
 l.207 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/1TeV/1_gammas_PPPC_Comparison_xdxd_fotone_1.pdf, id=460, 549.7205pt x 414.
 90776pt>
 File: Fig/1TeV/1_gammas_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (type pd
@@ -628,7 +670,12 @@ sed on input line 208.
 ! Undefined control sequence.
 l.209 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/1TeV/1_neutrinos_e_PPPC_Comparison_xdxd_fotone_1.pdf, id=461, 546.82559pt 
 x 414.90776pt>
 File: Fig/1TeV/1_neutrinos_e_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (ty
@@ -640,7 +687,12 @@ df  used on input line 210.
 ! Undefined control sequence.
 l.211 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/1TeV/1_neutrinos_mu_PPPC_Comparison_xdxd_fotone_1.pdf, id=462, 546.82559pt
  x 414.90776pt>
 File: Fig/1TeV/1_neutrinos_mu_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (t
@@ -652,7 +704,12 @@ pdf  used on input line 212.
 ! Undefined control sequence.
 l.213 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/1TeV/1_neutrinos_tau_PPPC_Comparison_xdxd_fotone_1.pdf, id=463, 546.82559p
 t x 414.90776pt>
 File: Fig/1TeV/1_neutrinos_tau_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (
@@ -666,28 +723,29 @@ Package pdftex.def Info: Fig/1TeV/1_neutrinos_tau_PPPC_Comparison_xdxd_fotone_1
  <./Fig/1TeV/1_antiprotons_PPPC_Comparison_xdxd_fotone_1.pdf> <./Fig/1TeV/1_pos
 itrons_PPPC_Comparison_xdxd_fotone_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/1TeV/1_positrons_PPPC_Comparison_xdxd_foto
-ne_1.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/1TeV/1_positrons_PPPC_Comparison_
+xdxd_fotone_1.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
 > <./Fig/1TeV/1_gammas_PPPC_Comparison_xdxd_fotone_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/1TeV/1_gammas_PPPC_Comparison_xdxd_fotone_
-1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/1TeV/1_gammas_PPPC_Comparison_xdx
+d_fotone_1.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
 > <./Fig/1TeV/1_neutrinos_e_PPPC_Comparison_xdxd_fotone_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/1TeV/1_neutrinos_e_PPPC_Comparison_xdxd_fo
-tone_1.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/1TeV/1_neutrinos_e_PPPC_Compariso
+n_xdxd_fotone_1.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
 > <./Fig/1TeV/1_neutrinos_mu_PPPC_Comparison_xdxd_fotone_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/1TeV/1_neutrinos_mu_PPPC_Comparison_xdxd_f
-otone_1.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/1TeV/1_neutrinos_mu_PPPC_Comparis
+on_xdxd_fotone_1.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
 > <./Fig/1TeV/1_neutrinos_tau_PPPC_Comparison_xdxd_fotone_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/1TeV/1_neutrinos_tau_PPPC_Comparison_xdxd_
-fotone_1.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/1TeV/1_neutrinos_tau_PPPC_Compari
+son_xdxd_fotone_1.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -712,7 +770,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.225 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/100TeV_OLD/OLD_100000_antiprotons_PPPC_Comparison_xdxd_100000.pdf, id=624,
  546.82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_antiprotons_PPPC_Comparison_xdxd_100000.pdf Gra
@@ -724,7 +787,12 @@ xdxd_100000.pdf  used on input line 226.
 ! Undefined control sequence.
 l.227 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/100TeV_OLD/OLD_100000_positrons_PPPC_Comparison_xdxd_100000.pdf, id=625, 5
 46.82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_positrons_PPPC_Comparison_xdxd_100000.pdf Graph
@@ -736,7 +804,12 @@ xd_100000.pdf  used on input line 228.
 ! Undefined control sequence.
 l.229 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/100TeV_OLD/OLD_100000_gammas_PPPC_Comparison_xdxd_100000.pdf, id=626, 546.
 82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_gammas_PPPC_Comparison_xdxd_100000.pdf Graphic 
@@ -748,7 +821,12 @@ Package pdftex.def Info: Fig/100TeV_OLD/OLD_100000_gammas_PPPC_Comparison_xdxd_
 ! Undefined control sequence.
 l.231 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/100TeV_OLD/OLD_100000_neutrinos_e_PPPC_Comparison_xdxd_100000.pdf, id=627,
  546.82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_neutrinos_e_PPPC_Comparison_xdxd_100000.pdf Gra
@@ -760,7 +838,12 @@ xdxd_100000.pdf  used on input line 232.
 ! Undefined control sequence.
 l.233 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/100TeV_OLD/OLD_100000_neutrinos_mu_PPPC_Comparison_xdxd_100000.pdf, id=628
 , 546.82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_neutrinos_mu_PPPC_Comparison_xdxd_100000.pdf Gr
@@ -772,7 +855,12 @@ _xdxd_100000.pdf  used on input line 234.
 ! Undefined control sequence.
 l.235 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/100TeV_OLD/OLD_100000_neutrinos_tau_PPPC_Comparison_xdxd_100000.pdf, id=62
 9, 546.82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_neutrinos_tau_PPPC_Comparison_xdxd_100000.pdf G
@@ -786,29 +874,29 @@ n_xdxd_100000.pdf  used on input line 236.
  <./Fig/100TeV_OLD/OLD_100000_antiprotons_PPPC_Comparison_xdxd_100000.pdf> <./F
 ig/100TeV_OLD/OLD_100000_positrons_PPPC_Comparison_xdxd_100000.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/100TeV_OLD/OLD_100000_positrons_PPPC_Compa
-rison_xdxd_100000.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/100TeV_OLD/OLD_100000_positrons_P
+PPC_Comparison_xdxd_100000.pdf): PDF inclusion: multiple pdfs with page group i
+ncluded in a single page
 > <./Fig/100TeV_OLD/OLD_100000_gammas_PPPC_Comparison_xdxd_100000.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/100TeV_OLD/OLD_100000_gammas_PPPC_Comparis
-on_xdxd_100000.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/100TeV_OLD/OLD_100000_gammas_PPPC
+_Comparison_xdxd_100000.pdf): PDF inclusion: multiple pdfs with page group incl
+uded in a single page
 > <./Fig/100TeV_OLD/OLD_100000_neutrinos_e_PPPC_Comparison_xdxd_100000.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/100TeV_OLD/OLD_100000_neutrinos_e_PPPC_Com
-parison_xdxd_100000.pdf): PDF inclusion: multiple pdfs with page group included
- in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/100TeV_OLD/OLD_100000_neutrinos_e
+_PPPC_Comparison_xdxd_100000.pdf): PDF inclusion: multiple pdfs with page group
+ included in a single page
 > <./Fig/100TeV_OLD/OLD_100000_neutrinos_mu_PPPC_Comparison_xdxd_100000.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/100TeV_OLD/OLD_100000_neutrinos_mu_PPPC_Co
-mparison_xdxd_100000.pdf): PDF inclusion: multiple pdfs with page group include
-d in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/100TeV_OLD/OLD_100000_neutrinos_m
+u_PPPC_Comparison_xdxd_100000.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
 > <./Fig/100TeV_OLD/OLD_100000_neutrinos_tau_PPPC_Comparison_xdxd_100000.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/100TeV_OLD/OLD_100000_neutrinos_tau_PPPC_C
-omparison_xdxd_100000.pdf): PDF inclusion: multiple pdfs with page group includ
-ed in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/100TeV_OLD/OLD_100000_neutrinos_t
+au_PPPC_Comparison_xdxd_100000.pdf): PDF inclusion: multiple pdfs with page gro
+up included in a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -869,11 +957,19 @@ Type  H <return>  for immediate help.
                                                   
 l.261 
       
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 ! Undefined control sequence.
 l.273 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_Y0/1_antiprotons_FFFF_xdxd_1.pdf, id=790, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_Y0/1_antiprotons_FFFF_xdxd_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_Y0/1_antiprotons_FFFF_xdxd_1.pdf>
@@ -883,7 +979,12 @@ ut line 274.
 ! Undefined control sequence.
 l.275 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf, id=791, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf>
@@ -893,7 +994,12 @@ Package pdftex.def Info: Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf  used on input
 ! Undefined control sequence.
 l.277 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf, id=792, 549.7205pt x 414.90776pt>
 File: Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf>
@@ -903,7 +1009,12 @@ ne 278.
 ! Undefined control sequence.
 l.279 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf, id=793, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf>
@@ -913,7 +1024,12 @@ ut line 280.
 ! Undefined control sequence.
 l.281 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_1.pdf, id=794, 546.82559pt x 414.90776pt>
 
 File: Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_1.pdf Graphic file (type pdf)
@@ -924,7 +1040,12 @@ put line 282.
 ! Undefined control sequence.
 l.283 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf, id=795, 546.82559pt x 414.90776pt
 >
 File: Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf Graphic file (type pdf)
@@ -937,24 +1058,25 @@ nput line 284.
 ] [12 <./Fig/xdxd_Y0/1_antiprotons_FFFF_xdxd_1.pdf> <./Fig/xdxd_Y0/1_positrons_
 FFFF_xdxd_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_1.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_
+1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd
+_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1014,7 +1136,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.304 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/1_antiprotons_FFFF_1.pdf, id=974, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/1_antiprotons_FFFF_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/1_antiprotons_FFFF_1.pdf>
@@ -1024,7 +1151,12 @@ ut line 305.
 ! Undefined control sequence.
 l.306 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf, id=975, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf>
@@ -1034,7 +1166,12 @@ Package pdftex.def Info: Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf  used on input
 ! Undefined control sequence.
 l.308 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf, id=976, 549.7205pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf>
@@ -1044,7 +1181,12 @@ ne 309.
 ! Undefined control sequence.
 l.310 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf, id=977, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf>
@@ -1054,7 +1196,12 @@ ut line 311.
 ! Undefined control sequence.
 l.312 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/1_neutrinos_mu_FFFF_1.pdf, id=978, 546.82559pt x 414.90776pt>
 
 File: Fig/xdxd_FFFF_WZ/1_neutrinos_mu_FFFF_1.pdf Graphic file (type pdf)
@@ -1065,7 +1212,12 @@ put line 313.
 ! Undefined control sequence.
 l.314 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/1_neutrinos_tau_FFFF_1.pdf, id=979, 546.82559pt x 414.90776pt
 >
 File: Fig/xdxd_FFFF_WZ/1_neutrinos_tau_FFFF_1.pdf Graphic file (type pdf)
@@ -1078,24 +1230,25 @@ nput line 315.
  <./Fig/xdxd_FFFF_WZ/1_antiprotons_FFFF_1.pdf> <./Fig/xdxd_FFFF_WZ/1_positrons_
 FFFF_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_FFFF_WZ/1_neutrinos_mu_FFFF_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/1_neutrinos_mu_FFFF_1.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/1_neutrinos_mu_FFFF_
+1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_FFFF_WZ/1_neutrinos_tau_FFFF_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/1_neutrinos_tau_FFFF_1.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/1_neutrinos_tau_FFFF
+_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1120,7 +1273,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.325 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/10_antiprotons_FFFF_10.pdf, id=1155, 546.82559pt x 414.90776p
 t>
 File: Fig/xdxd_FFFF_WZ/10_antiprotons_FFFF_10.pdf Graphic file (type pdf)
@@ -1131,7 +1289,12 @@ nput line 326.
 ! Undefined control sequence.
 l.327 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/10_positrons_FFFF_10.pdf, id=1156, 546.82559pt x 414.90776pt>
 
 File: Fig/xdxd_FFFF_WZ/10_positrons_FFFF_10.pdf Graphic file (type pdf)
@@ -1142,7 +1305,12 @@ ut line 328.
 ! Undefined control sequence.
 l.329 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf, id=1157, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf>
@@ -1152,7 +1320,12 @@ line 330.
 ! Undefined control sequence.
 l.331 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/10_neutrinos_e_FFFF_10.pdf, id=1158, 546.82559pt x 414.90776p
 t>
 File: Fig/xdxd_FFFF_WZ/10_neutrinos_e_FFFF_10.pdf Graphic file (type pdf)
@@ -1163,7 +1336,12 @@ nput line 332.
 ! Undefined control sequence.
 l.333 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/10_neutrinos_mu_FFFF_10.pdf, id=1159, 546.82559pt x 414.90776
 pt>
 File: Fig/xdxd_FFFF_WZ/10_neutrinos_mu_FFFF_10.pdf Graphic file (type pdf)
@@ -1174,7 +1352,12 @@ input line 334.
 ! Undefined control sequence.
 l.335 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFFF_10.pdf, id=1160, 546.82559pt x 414.9077
 6pt>
 File: Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFFF_10.pdf Graphic file (type pdf)
@@ -1187,24 +1370,27 @@ Package pdftex.def Info: Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFFF_10.pdf  used on
  <./Fig/xdxd_FFFF_WZ/10_antiprotons_FFFF_10.pdf> <./Fig/xdxd_FFFF_WZ/10_positro
 ns_FFFF_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/10_positrons_FFFF_10.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/10_positrons_FFFF_10
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_FFFF_WZ/10_neutrinos_e_FFFF_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/10_neutrinos_e_FFFF_10.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/10_neutrinos_e_FFFF_
+10.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
 > <./Fig/xdxd_FFFF_WZ/10_neutrinos_mu_FFFF_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/10_neutrinos_mu_FFFF_10.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/10_neutrinos_mu_FFFF
+_10.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
 > <./Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFFF_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFFF_10.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFF
+F_10.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1229,7 +1415,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.345 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/100_antiprotons_FFFF_100.pdf, id=1336, 546.82559pt x 414.9077
 6pt>
 File: Fig/xdxd_FFFF_WZ/100_antiprotons_FFFF_100.pdf Graphic file (type pdf)
@@ -1240,7 +1431,12 @@ Package pdftex.def Info: Fig/xdxd_FFFF_WZ/100_antiprotons_FFFF_100.pdf  used on
 ! Undefined control sequence.
 l.347 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/100_positrons_FFFF_100.pdf, id=1337, 546.82559pt x 414.90776p
 t>
 File: Fig/xdxd_FFFF_WZ/100_positrons_FFFF_100.pdf Graphic file (type pdf)
@@ -1251,7 +1447,12 @@ nput line 348.
 ! Undefined control sequence.
 l.349 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf, id=1338, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf>
@@ -1261,7 +1462,12 @@ t line 350.
 ! Undefined control sequence.
 l.351 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF_100.pdf, id=1339, 546.82559pt x 414.9077
 6pt>
 File: Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF_100.pdf Graphic file (type pdf)
@@ -1272,7 +1478,12 @@ Package pdftex.def Info: Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF_100.pdf  used on
 ! Undefined control sequence.
 l.353 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/100_neutrinos_mu_FFFF_100.pdf, id=1340, 546.82559pt x 414.907
 76pt>
 File: Fig/xdxd_FFFF_WZ/100_neutrinos_mu_FFFF_100.pdf Graphic file (type pdf)
@@ -1283,7 +1494,12 @@ n input line 354.
 ! Undefined control sequence.
 l.355 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_FFFF_WZ/100_neutrinos_tau_FFFF_100.pdf, id=1341, 546.82559pt x 414.90
 776pt>
 File: Fig/xdxd_FFFF_WZ/100_neutrinos_tau_FFFF_100.pdf Graphic file (type pdf)
@@ -1296,24 +1512,28 @@ on input line 356.
  <./Fig/xdxd_FFFF_WZ/100_antiprotons_FFFF_100.pdf> <./Fig/xdxd_FFFF_WZ/100_posi
 trons_FFFF_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/100_positrons_FFFF_100.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/100_positrons_FFFF_1
+00.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
 > <./Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf): PDF
- inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.
+pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF_100.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF
+_100.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
 > <./Fig/xdxd_FFFF_WZ/100_neutrinos_mu_FFFF_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/100_neutrinos_mu_FFFF_100.pdf
-): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/100_neutrinos_mu_FFF
+F_100.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
 > <./Fig/xdxd_FFFF_WZ/100_neutrinos_tau_FFFF_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_FFFF_WZ/100_neutrinos_tau_FFFF_100.pd
-f): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_FFFF_WZ/100_neutrinos_tau_FF
+FF_100.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1353,14 +1573,24 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/Fey.png  used on input line 380.
                                                   \color@endbox 
 l.384 \end{figure}
                   
-? 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 [17
 
  <./Fig/xdxd_ee_eeZ_eveW/Fey.png>]
 ! Undefined control sequence.
 l.400 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/e_pt.png, id=1528, 999.735pt x 473.77pt>
 File: Fig/xdxd_ee_eeZ_eveW/e_pt.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/e_pt.png>
@@ -1370,7 +1600,12 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/e_pt.png  used on input line 401.
 ! Undefined control sequence.
 l.402 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/W_pt.png, id=1529, 999.735pt x 473.77pt>
 File: Fig/xdxd_ee_eeZ_eveW/W_pt.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/W_pt.png>
@@ -1380,7 +1615,12 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/W_pt.png  used on input line 403.
 ! Undefined control sequence.
 l.404 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/Z_pt.png, id=1530, 999.735pt x 473.77pt>
 File: Fig/xdxd_ee_eeZ_eveW/Z_pt.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/Z_pt.png>
@@ -1390,7 +1630,12 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/Z_pt.png  used on input line 405.
 ! Undefined control sequence.
 l.406 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/W_m.png, id=1531, 999.735pt x 473.77pt>
 File: Fig/xdxd_ee_eeZ_eveW/W_m.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/W_m.png>
@@ -1399,7 +1644,12 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/W_m.png  used on input line 407.
 ! Undefined control sequence.
 l.408 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/Z_m.png, id=1532, 999.735pt x 473.77pt>
 File: Fig/xdxd_ee_eeZ_eveW/Z_m.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/Z_m.png>
@@ -1425,7 +1675,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.419 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/1_antiprotons_ee_eeZ_eveW_1.pdf, id=1538, 465.74266pt x 3
 53.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_antiprotons_ee_eeZ_eveW_1.pdf Graphic file (type p
@@ -1437,7 +1692,12 @@ used on input line 420.
 ! Undefined control sequence.
 l.421 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/1_positrons_ee_eeZ_eveW_1.pdf, id=1539, 465.74266pt x 353
 .69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_positrons_ee_eeZ_eveW_1.pdf Graphic file (type pdf
@@ -1449,7 +1709,12 @@ ed on input line 422.
 ! Undefined control sequence.
 l.423 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/1_gammas_ee_eeZ_eveW_1.pdf, id=1540, 471.95103pt x 353.69
 107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_gammas_ee_eeZ_eveW_1.pdf Graphic file (type pdf)
@@ -1460,7 +1725,12 @@ on input line 424.
 ! Undefined control sequence.
 l.425 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/1_neutrinos_e_ee_eeZ_eveW_1.pdf, id=1541, 465.74266pt x 3
 53.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_neutrinos_e_ee_eeZ_eveW_1.pdf Graphic file (type p
@@ -1472,7 +1742,12 @@ used on input line 426.
 ! Undefined control sequence.
 l.427 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/1_neutrinos_mu_ee_eeZ_eveW_1.pdf, id=1542, 465.74266pt x 
 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_neutrinos_mu_ee_eeZ_eveW_1.pdf Graphic file (type 
@@ -1484,7 +1759,12 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/1_neutrinos_mu_ee_eeZ_eveW_1.pdf
 ! Undefined control sequence.
 l.429 		\subfigure
                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/1_neutrinos_tau_ee_eeZ_eveW_1.pdf, id=1543, 465.74266pt x
  353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_neutrinos_tau_ee_eeZ_eveW_1.pdf Graphic file (type
@@ -1498,27 +1778,29 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/1_neutrinos_tau_ee_eeZ_eveW_1.pdf
  <./Fig/xdxd_ee_eeZ_eveW/1_antiprotons_ee_eeZ_eveW_1.pdf> <./Fig/xdxd_ee_eeZ_ev
 eW/1_positrons_ee_eeZ_eveW_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/1_positrons_ee_eeZ_eveW_1
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/1_positrons_ee_e
+eZ_eveW_1.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
 > <./Fig/xdxd_ee_eeZ_eveW/1_gammas_ee_eeZ_eveW_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/1_gammas_ee_eeZ_eveW_1.pd
-f): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/1_gammas_ee_eeZ_
+eveW_1.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
 > <./Fig/xdxd_ee_eeZ_eveW/1_neutrinos_e_ee_eeZ_eveW_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/1_neutrinos_e_ee_eeZ_eveW
-_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/1_neutrinos_e_ee
+_eeZ_eveW_1.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
 > <./Fig/xdxd_ee_eeZ_eveW/1_neutrinos_mu_ee_eeZ_eveW_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/1_neutrinos_mu_ee_eeZ_eve
-W_1.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/1_neutrinos_mu_e
+e_eeZ_eveW_1.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
 > <./Fig/xdxd_ee_eeZ_eveW/1_neutrinos_tau_ee_eeZ_eveW_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/1_neutrinos_tau_ee_eeZ_ev
-eW_1.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/1_neutrinos_tau_
+ee_eeZ_eveW_1.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1535,7 +1817,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.440 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/10_antiprotons_ee_eeZ_eveW_10.pdf, id=1701, 465.74266pt x
  353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_antiprotons_ee_eeZ_eveW_10.pdf Graphic file (type
@@ -1547,7 +1834,12 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/10_antiprotons_ee_eeZ_eveW_10.pdf
 ! Undefined control sequence.
 l.442 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/10_positrons_ee_eeZ_eveW_10.pdf, id=1702, 465.74266pt x 3
 53.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_positrons_ee_eeZ_eveW_10.pdf Graphic file (type p
@@ -1559,7 +1851,12 @@ used on input line 443.
 ! Undefined control sequence.
 l.444 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/10_gammas_ee_eeZ_eveW_10.pdf, id=1703, 465.74266pt x 353.
 69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_gammas_ee_eeZ_eveW_10.pdf Graphic file (type pdf)
@@ -1571,7 +1868,12 @@ d on input line 445.
 ! Undefined control sequence.
 l.446 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/10_neutrinos_e_ee_eeZ_eveW_10.pdf, id=1704, 465.74266pt x
  353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_neutrinos_e_ee_eeZ_eveW_10.pdf Graphic file (type
@@ -1583,7 +1885,12 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/10_neutrinos_e_ee_eeZ_eveW_10.pdf
 ! Undefined control sequence.
 l.448 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/10_neutrinos_mu_ee_eeZ_eveW_10.pdf, id=1705, 465.74266pt 
 x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_neutrinos_mu_ee_eeZ_eveW_10.pdf Graphic file (typ
@@ -1595,7 +1902,12 @@ f  used on input line 449.
 ! Undefined control sequence.
 l.450 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/10_neutrinos_tau_ee_eeZ_eveW_10.pdf, id=1706, 465.74266pt
  x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_neutrinos_tau_ee_eeZ_eveW_10.pdf Graphic file (ty
@@ -1609,28 +1921,29 @@ df  used on input line 451.
  <./Fig/xdxd_ee_eeZ_eveW/10_antiprotons_ee_eeZ_eveW_10.pdf> <./Fig/xdxd_ee_eeZ_
 eveW/10_positrons_ee_eeZ_eveW_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/10_positrons_ee_eeZ_eveW_
-10.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/10_positrons_ee_
+eeZ_eveW_10.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
 > <./Fig/xdxd_ee_eeZ_eveW/10_gammas_ee_eeZ_eveW_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/10_gammas_ee_eeZ_eveW_10.
-pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/10_gammas_ee_eeZ
+_eveW_10.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
 > <./Fig/xdxd_ee_eeZ_eveW/10_neutrinos_e_ee_eeZ_eveW_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/10_neutrinos_e_ee_eeZ_eve
-W_10.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/10_neutrinos_e_e
+e_eeZ_eveW_10.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
 > <./Fig/xdxd_ee_eeZ_eveW/10_neutrinos_mu_ee_eeZ_eveW_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/10_neutrinos_mu_ee_eeZ_ev
-eW_10.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/10_neutrinos_mu_
+ee_eeZ_eveW_10.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
 > <./Fig/xdxd_ee_eeZ_eveW/10_neutrinos_tau_ee_eeZ_eveW_10.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/10_neutrinos_tau_ee_eeZ_e
-veW_10.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/10_neutrinos_tau
+_ee_eeZ_eveW_10.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1647,7 +1960,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.461 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/100_antiprotons_ee_eeZ_eveW_100.pdf, id=1866, 465.74266pt
  x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_antiprotons_ee_eeZ_eveW_100.pdf Graphic file (ty
@@ -1659,7 +1977,12 @@ df  used on input line 462.
 ! Undefined control sequence.
 l.463 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/100_positrons_ee_eeZ_eveW_100.pdf, id=1867, 465.74266pt x
  353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_positrons_ee_eeZ_eveW_100.pdf Graphic file (type
@@ -1671,7 +1994,12 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/100_positrons_ee_eeZ_eveW_100.pdf
 ! Undefined control sequence.
 l.465 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/100_gammas_ee_eeZ_eveW_100.pdf, id=1868, 465.74266pt x 35
 3.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_gammas_ee_eeZ_eveW_100.pdf Graphic file (type pd
@@ -1683,7 +2011,12 @@ sed on input line 466.
 ! Undefined control sequence.
 l.467 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/100_neutrinos_e_ee_eeZ_eveW_100.pdf, id=1869, 465.74266pt
  x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_neutrinos_e_ee_eeZ_eveW_100.pdf Graphic file (ty
@@ -1695,7 +2028,12 @@ df  used on input line 468.
 ! Undefined control sequence.
 l.469 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/100_neutrinos_mu_ee_eeZ_eveW_100.pdf, id=1870, 465.74266p
 t x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_neutrinos_mu_ee_eeZ_eveW_100.pdf Graphic file (t
@@ -1707,7 +2045,12 @@ pdf  used on input line 470.
 ! Undefined control sequence.
 l.471 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/xdxd_ee_eeZ_eveW/100_neutrinos_tau_ee_eeZ_eveW_100.pdf, id=1871, 465.74266
 pt x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_neutrinos_tau_ee_eeZ_eveW_100.pdf Graphic file (
@@ -1721,28 +2064,29 @@ Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/100_neutrinos_tau_ee_eeZ_eveW_100
  <./Fig/xdxd_ee_eeZ_eveW/100_antiprotons_ee_eeZ_eveW_100.pdf> <./Fig/xdxd_ee_ee
 Z_eveW/100_positrons_ee_eeZ_eveW_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_positrons_ee_eeZ_eveW
-_100.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_positrons_ee
+_eeZ_eveW_100.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
 > <./Fig/xdxd_ee_eeZ_eveW/100_gammas_ee_eeZ_eveW_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_gammas_ee_eeZ_eveW_10
-0.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_gammas_ee_ee
+Z_eveW_100.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
 > <./Fig/xdxd_ee_eeZ_eveW/100_neutrinos_e_ee_eeZ_eveW_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_neutrinos_e_ee_eeZ_ev
-eW_100.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_neutrinos_e_
+ee_eeZ_eveW_100.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
 > <./Fig/xdxd_ee_eeZ_eveW/100_neutrinos_mu_ee_eeZ_eveW_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_neutrinos_mu_ee_eeZ_e
-veW_100.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_neutrinos_mu
+_ee_eeZ_eveW_100.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
 > <./Fig/xdxd_ee_eeZ_eveW/100_neutrinos_tau_ee_eeZ_eveW_100.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_neutrinos_tau_ee_eeZ_
-eveW_100.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_neutrinos_ta
+u_ee_eeZ_eveW_100.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
 >]
 <Fig/XSEC/processes_xsec_1_TeV.png, id=2032, 516.7305pt x 460.3599pt>
 File: Fig/XSEC/processes_xsec_1_TeV.png Graphic file (type png)
@@ -1754,7 +2098,12 @@ Package pdftex.def Info: Fig/XSEC/processes_xsec_1_TeV.png  used on input line
 ! Undefined control sequence.
 l.497 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/XSEC/xsec_Ebeam_1_TeV.png, id=2034, 517.4532pt x 430.0065pt>
 File: Fig/XSEC/xsec_Ebeam_1_TeV.png Graphic file (type png)
 <use Fig/XSEC/xsec_Ebeam_1_TeV.png>
@@ -1764,7 +2113,12 @@ Package pdftex.def Info: Fig/XSEC/xsec_Ebeam_1_TeV.png  used on input line 498.
 ! Undefined control sequence.
 l.499 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/XSEC/xsec_Ebeam_10_TeV.png, id=2035, 517.4532pt x 443.0151pt>
 File: Fig/XSEC/xsec_Ebeam_10_TeV.png Graphic file (type png)
 <use Fig/XSEC/xsec_Ebeam_10_TeV.png>
@@ -1774,7 +2128,12 @@ Package pdftex.def Info: Fig/XSEC/xsec_Ebeam_10_TeV.png  used on input line 500
 ! Undefined control sequence.
 l.501 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/XSEC/xsec_Ebeam_100_TeV.png, id=2036, 517.4532pt x 448.074pt>
 File: Fig/XSEC/xsec_Ebeam_100_TeV.png Graphic file (type png)
 <use Fig/XSEC/xsec_Ebeam_100_TeV.png>
@@ -1802,7 +2161,12 @@ Package pdftex.def Info: Fig/Widths_check.pdf  used on input line 516.
 ! Undefined control sequence.
 l.540 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/COUPLINGS/coupling_constant_ul_Mxd_1000.pdf, id=2102, 524.37593pt x 399.11
 609pt>
 File: Fig/COUPLINGS/coupling_constant_ul_Mxd_1000.pdf Graphic file (type pdf)
@@ -1813,7 +2177,12 @@ on input line 541.
 ! Undefined control sequence.
 l.542 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/COUPLINGS/coupling_constant_ul_Mxd_10000.pdf, id=2103, 524.37593pt x 399.1
 1609pt>
 File: Fig/COUPLINGS/coupling_constant_ul_Mxd_10000.pdf Graphic file (type pdf)
@@ -1824,7 +2193,12 @@ Package pdftex.def Info: Fig/COUPLINGS/coupling_constant_ul_Mxd_10000.pdf  used
 ! Undefined control sequence.
 l.544 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/COUPLINGS/coupling_constant_ul_Mxd_100000.pdf, id=2104, 532.04521pt x 399.
 11609pt>
 File: Fig/COUPLINGS/coupling_constant_ul_Mxd_100000.pdf Graphic file (type pdf)
@@ -1838,12 +2212,14 @@ d on input line 545.
  <./Fig/COUPLINGS/coupling_constant_ul_Mxd_1000.pdf> <./Fig/COUPLINGS/coupling_
 constant_ul_Mxd_10000.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/COUPLINGS/coupling_constant_ul_Mxd_10000.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/COUPLINGS/coupling_constant_ul_Mx
+d_10000.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
 > <./Fig/COUPLINGS/coupling_constant_ul_Mxd_100000.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/COUPLINGS/coupling_constant_ul_Mxd_100000.
-pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/COUPLINGS/coupling_constant_ul_Mx
+d_100000.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
 >] [25
 
 ]
@@ -1886,7 +2262,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.573 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Ready/mumu_validation.png, id=2280, 438.6789pt x 327.3831pt>
 File: Fig/Ready/mumu_validation.png Graphic file (type png)
 <use Fig/Ready/mumu_validation.png>
@@ -1896,7 +2277,12 @@ Package pdftex.def Info: Fig/Ready/mumu_validation.png  used on input line 575.
 ! Undefined control sequence.
 l.576 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Ready/mumu_validation_basic.png, id=2281, 433.62pt x 327.3831pt>
 File: Fig/Ready/mumu_validation_basic.png Graphic file (type png)
 <use Fig/Ready/mumu_validation_basic.png>
@@ -1975,7 +2361,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ! Undefined control sequence.
 l.602 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Ready/Gammas_Validation.pdf, id=2326, 419.0905pt x 335.03241pt>
 File: Fig/Ready/Gammas_Validation.pdf Graphic file (type pdf)
 <use Fig/Ready/Gammas_Validation.pdf>
@@ -1985,7 +2376,12 @@ Package pdftex.def Info: Fig/Ready/Gammas_Validation.pdf  used on input line 60
 ! Undefined control sequence.
 l.604 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Ready/simple_Gammas.pdf, id=2327, 419.0905pt x 335.03241pt>
 File: Fig/Ready/simple_Gammas.pdf Graphic file (type pdf)
 <use Fig/Ready/simple_Gammas.pdf>
@@ -1994,7 +2390,12 @@ Package pdftex.def Info: Fig/Ready/simple_Gammas.pdf  used on input line 605.
 ! Undefined control sequence.
 l.606 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Ready/Gammas_Validation_nu.pdf, id=2328, 419.0905pt x 342.8709pt>
 File: Fig/Ready/Gammas_Validation_nu.pdf Graphic file (type pdf)
 <use Fig/Ready/Gammas_Validation_nu.pdf>
@@ -2005,21 +2406,28 @@ Package pdftex.def Info: Fig/Ready/Gammas_Validation_nu.pdf  used on input line
 
  <./Fig/Ready/Gammas_Validation.pdf> <./Fig/Ready/simple_Gammas.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/Ready/simple_Gammas.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Ready/simple_Gammas.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
 > <./Fig/Ready/Gammas_Validation_nu.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/Ready/Gammas_Validation_nu.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Ready/Gammas_Validation_nu.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
 >]
 ! Too many }'s.
 l.615 \section{Validation paper arXiv 1009.0224}}
                                                  
-? 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
 ! Undefined control sequence.
 l.619 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Validation_1009/n1n1_wwz_3000.pdf, id=2432, 418.7294pt x 314.6774pt>
 File: Fig/Validation_1009/n1n1_wwz_3000.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/n1n1_wwz_3000.pdf>
@@ -2029,7 +2437,12 @@ ine 620.
 ! Undefined control sequence.
 l.621 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Validation_1009/n1n1_wwz_1000.pdf, id=2433, 418.7294pt x 314.6774pt>
 File: Fig/Validation_1009/n1n1_wwz_1000.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/n1n1_wwz_1000.pdf>
@@ -2039,7 +2452,12 @@ ine 622.
 ! Undefined control sequence.
 l.623 	\subfigure
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Validation_1009/n1n1_wwz_10000.pdf, id=2434, 418.7294pt x 314.6774pt>
 File: Fig/Validation_1009/n1n1_wwz_10000.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/n1n1_wwz_10000.pdf>
@@ -2063,17 +2481,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ] [29 <./Fig/Validation_1009/n1n1_wwz_3000.pdf> <./Fig/Validation_1009/n1n1_wwz
 _1000.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/Validation_1009/n1n1_wwz_1000.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/n1n1_wwz_1000.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Fig/Validation_1009/n1n1_wwz_10000.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/Validation_1009/n1n1_wwz_10000.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/n1n1_wwz_10000.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
 >] [30 <./Fig/Validation_1009/n1n1_wwa.pdf>]
 ! Undefined control sequence.
 l.652 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Validation_1009/1_antiprotons_n1ww_single_1.pdf, id=2548, 465.74266pt x 35
 3.69107pt>
 File: Fig/Validation_1009/1_antiprotons_n1ww_single_1.pdf Graphic file (type pd
@@ -2085,7 +2508,12 @@ sed on input line 653.
 ! Undefined control sequence.
 l.654 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Validation_1009/1_positrons_n1ww_single_1.pdf, id=2549, 465.74266pt x 353.
 69107pt>
 File: Fig/Validation_1009/1_positrons_n1ww_single_1.pdf Graphic file (type pdf)
@@ -2097,7 +2525,12 @@ d on input line 655.
 ! Undefined control sequence.
 l.656 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Validation_1009/1_gammas_n1ww_single_1.pdf, id=2550, 471.95103pt x 353.691
 07pt>
 File: Fig/Validation_1009/1_gammas_n1ww_single_1.pdf Graphic file (type pdf)
@@ -2108,7 +2541,12 @@ n input line 657.
 ! Undefined control sequence.
 l.658 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Validation_1009/1_neutrinos_e_n1ww_single_1.pdf, id=2551, 465.74266pt x 35
 3.69107pt>
 File: Fig/Validation_1009/1_neutrinos_e_n1ww_single_1.pdf Graphic file (type pd
@@ -2120,7 +2558,12 @@ sed on input line 659.
 ! Undefined control sequence.
 l.660 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Validation_1009/1_neutrinos_mu_n1ww_single_1.pdf, id=2552, 465.74266pt x 3
 53.69107pt>
 File: Fig/Validation_1009/1_neutrinos_mu_n1ww_single_1.pdf Graphic file (type p
@@ -2132,7 +2575,12 @@ used on input line 661.
 ! Undefined control sequence.
 l.662 \subfigure
                 
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf, id=2553, 465.74266pt x 
 353.69107pt>
 File: Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf Graphic file (type 
@@ -2141,6 +2589,225 @@ pdf)
 Package pdftex.def Info: Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf 
  used on input line 663.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+! Undefined control sequence.
+l.673 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf, id=2556, 465.74266pt x 35
+3.69107pt>
+File: Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf Graphic file (type pd
+f)
+<use Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf>
+Package pdftex.def Info: Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf  u
+sed on input line 674.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.675 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/3_positrons_n1ww_single_3.pdf, id=2557, 465.74266pt x 353.
+69107pt>
+File: Fig/Validation_1009/3_positrons_n1ww_single_3.pdf Graphic file (type pdf)
+
+<use Fig/Validation_1009/3_positrons_n1ww_single_3.pdf>
+Package pdftex.def Info: Fig/Validation_1009/3_positrons_n1ww_single_3.pdf  use
+d on input line 676.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.677 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/3_gammas_n1ww_single_3.pdf, id=2558, 465.74266pt x 353.691
+07pt>
+File: Fig/Validation_1009/3_gammas_n1ww_single_3.pdf Graphic file (type pdf)
+<use Fig/Validation_1009/3_gammas_n1ww_single_3.pdf>
+Package pdftex.def Info: Fig/Validation_1009/3_gammas_n1ww_single_3.pdf  used o
+n input line 678.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.679 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf, id=2559, 465.74266pt x 35
+3.69107pt>
+File: Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf Graphic file (type pd
+f)
+<use Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf>
+Package pdftex.def Info: Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf  u
+sed on input line 680.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.681 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf, id=2560, 465.74266pt x 3
+53.69107pt>
+File: Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf Graphic file (type p
+df)
+<use Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf>
+Package pdftex.def Info: Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf  
+used on input line 682.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.683 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf, id=2561, 465.74266pt x 
+353.69107pt>
+File: Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf Graphic file (type 
+pdf)
+<use Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf>
+Package pdftex.def Info: Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf 
+ used on input line 684.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+! Undefined control sequence.
+l.693 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf, id=2563, 465.74266pt x 
+353.69107pt>
+File: Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf Graphic file (type 
+pdf)
+<use Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf>
+Package pdftex.def Info: Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf 
+ used on input line 694.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.695 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/10_positrons_n1ww_single_10.pdf, id=2564, 465.74266pt x 35
+3.69107pt>
+File: Fig/Validation_1009/10_positrons_n1ww_single_10.pdf Graphic file (type pd
+f)
+<use Fig/Validation_1009/10_positrons_n1ww_single_10.pdf>
+Package pdftex.def Info: Fig/Validation_1009/10_positrons_n1ww_single_10.pdf  u
+sed on input line 696.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.697 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/10_gammas_n1ww_single_10.pdf, id=2565, 465.74266pt x 353.6
+9107pt>
+File: Fig/Validation_1009/10_gammas_n1ww_single_10.pdf Graphic file (type pdf)
+<use Fig/Validation_1009/10_gammas_n1ww_single_10.pdf>
+Package pdftex.def Info: Fig/Validation_1009/10_gammas_n1ww_single_10.pdf  used
+ on input line 698.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.699 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf, id=2566, 465.74266pt x 
+353.69107pt>
+File: Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf Graphic file (type 
+pdf)
+<use Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf>
+Package pdftex.def Info: Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf 
+ used on input line 700.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.701 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf, id=2567, 465.74266pt x
+ 353.69107pt>
+File: Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf Graphic file (type
+ pdf)
+<use Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf>
+Package pdftex.def Info: Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf
+  used on input line 702.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.703 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pdf, id=2568, 465.74266pt 
+x 353.69107pt>
+File: Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pdf Graphic file (typ
+e pdf)
+<use Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pdf>
+Package pdftex.def Info: Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pd
+f  used on input line 704.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Fig/Validation_1009/xsections_minimalDmwinolike.png, id=2570, 422.0568pt x 342
+.5598pt>
+File: Fig/Validation_1009/xsections_minimalDmwinolike.png Graphic file (type pn
+g)
+<use Fig/Validation_1009/xsections_minimalDmwinolike.png>
+Package pdftex.def Info: Fig/Validation_1009/xsections_minimalDmwinolike.png  u
+sed on input line 714.
+(pdftex.def)             Requested size: 425.90668pt x 345.70038pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2153,83 +2820,158 @@ LaTeX Warning: Text page 32 contains only floats.
 [32 <./Fig/Validation_1009/1_antiprotons_n1ww_single_1.pdf> <./Fig/Validation_1
 009/1_positrons_n1ww_single_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/Validation_1009/1_positrons_n1ww_single_1.
-pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/1_positrons_n1ww_
+single_1.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
 > <./Fig/Validation_1009/1_gammas_n1ww_single_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/Validation_1009/1_gammas_n1ww_single_1.pdf
-): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/1_gammas_n1ww_sin
+gle_1.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
 > <./Fig/Validation_1009/1_neutrinos_e_n1ww_single_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/Validation_1009/1_neutrinos_e_n1ww_single_
-1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/1_neutrinos_e_n1w
+w_single_1.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
 > <./Fig/Validation_1009/1_neutrinos_mu_n1ww_single_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/Validation_1009/1_neutrinos_mu_n1ww_single
-_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/1_neutrinos_mu_n1
+ww_single_1.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
 > <./Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/Validation_1009/1_neutrinos_tau_n1ww_singl
-e_1.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/1_neutrinos_tau_n
+1ww_single_1.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
+>] [33 <./Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf> <./Fig/Validatio
+n_1009/3_positrons_n1ww_single_3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/3_positrons_n1ww_
+single_3.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+> <./Fig/Validation_1009/3_gammas_n1ww_single_3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/3_gammas_n1ww_sin
+gle_3.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+> <./Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/3_neutrinos_e_n1w
+w_single_3.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+> <./Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/3_neutrinos_mu_n1
+ww_single_3.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <./Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/3_neutrinos_tau_n
+1ww_single_3.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
+>] [34 <./Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf> <./Fig/Validat
+ion_1009/10_positrons_n1ww_single_10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/10_positrons_n1ww
+_single_10.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+> <./Fig/Validation_1009/10_gammas_n1ww_single_10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/10_gammas_n1ww_si
+ngle_10.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+> <./Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/10_neutrinos_e_n1
+ww_single_10.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
+> <./Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/10_neutrinos_mu_n
+1ww_single_10.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+> <./Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/10_neutrinos_tau_
+n1ww_single_10.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
+>] [35 <./Fig/Validation_1009/xsections_minimalDmwinolike.png>]
 ! Undefined control sequence.
-l.682 		\subfigure
+l.728 		\subfigure
                   
-? 
-<Fig/Validation_1009/lucaa.png, id=2754, 651.43375pt x 624.3325pt>
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/lucaa.png, id=3163, 651.43375pt x 624.3325pt>
 File: Fig/Validation_1009/lucaa.png Graphic file (type png)
 <use Fig/Validation_1009/lucaa.png>
-Package pdftex.def Info: Fig/Validation_1009/lucaa.png  used on input line 683.
+Package pdftex.def Info: Fig/Validation_1009/lucaa.png  used on input line 729.
 
 (pdftex.def)             Requested size: 206.49722pt x 197.90422pt.
 ! Undefined control sequence.
-l.684 		\subfigure
+l.730 		\subfigure
                   
-? 
-<Fig/Validation_1009/Luca_a.pdf, id=2755, 411.72842pt x 335.41647pt>
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/Luca_a.pdf, id=3164, 411.72842pt x 335.41647pt>
 File: Fig/Validation_1009/Luca_a.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/Luca_a.pdf>
-Package pdftex.def Info: Fig/Validation_1009/Luca_a.pdf  used on input line 685
+Package pdftex.def Info: Fig/Validation_1009/Luca_a.pdf  used on input line 731
 .
 (pdftex.def)             Requested size: 206.49722pt x 168.22473pt.
 ! Undefined control sequence.
-l.686 		\subfigure
+l.732 		\subfigure
                   
-? 
-<Fig/Validation_1009/lucaz.png, id=2756, 415.5525pt x 411.5375pt>
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/lucaz.png, id=3165, 415.5525pt x 411.5375pt>
 File: Fig/Validation_1009/lucaz.png Graphic file (type png)
 <use Fig/Validation_1009/lucaz.png>
-Package pdftex.def Info: Fig/Validation_1009/lucaz.png  used on input line 687.
+Package pdftex.def Info: Fig/Validation_1009/lucaz.png  used on input line 733.
 
 (pdftex.def)             Requested size: 206.49722pt x 204.49977pt.
 ! Undefined control sequence.
-l.688 		\subfigure
+l.734 		\subfigure
                   
-? 
-<Fig/Validation_1009/Luca_z.pdf, id=2757, 411.36734pt x 334.50027pt>
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Fig/Validation_1009/Luca_z.pdf, id=3166, 411.36734pt x 334.50027pt>
 File: Fig/Validation_1009/Luca_z.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/Luca_z.pdf>
-Package pdftex.def Info: Fig/Validation_1009/Luca_z.pdf  used on input line 689
+Package pdftex.def Info: Fig/Validation_1009/Luca_z.pdf  used on input line 735
 .
 (pdftex.def)             Requested size: 206.49722pt x 167.91324pt.
-[33
+[36
 
  <./Fig/Validation_1009/lucaa.png> <./Fig/Validation_1009/Luca_a.pdf> <./Fig/Va
 lidation_1009/lucaz.png> <./Fig/Validation_1009/Luca_z.pdf
 
-pdfTeX warning: pdflatex (file ./Fig/Validation_1009/Luca_z.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/Luca_z.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
 >] (./EW_MadDM.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 706.
- [34
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 752.
+ [37
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 706.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 752.
  (./EW_MadDM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 706.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 706.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 752.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 752.
 Package rerunfilecheck Info: File `EW_MadDM.out' has not changed.
 (rerunfilecheck)             Checksum: DD74B11A30F906CAB5DFE53B352160B9;2187.
 
@@ -2239,13 +2981,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 706.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 752.
  ) 
 Here is how much of TeX's memory you used:
- 7434 strings out of 494847
- 120304 string characters out of 6179080
- 182267 words of memory out of 5000000
- 10444 multiletter control sequences out of 15000+600000
+ 7507 strings out of 494847
+ 124002 string characters out of 6179080
+ 182471 words of memory out of 5000000
+ 10498 multiletter control sequences out of 15000+600000
  25033 words of font info for 70 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  39i,13n,31p,1461b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2285,10 +3027,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvro8a.pfb>
-Output written on EW_MadDM.pdf (35 pages, 2210671 bytes).
+Output written on EW_MadDM.pdf (38 pages, 2345771 bytes).
 PDF statistics:
- 3408 PDF objects out of 3580 (max. 8388607)
- 2577 compressed objects within 26 object streams
- 99 named destinations out of 1000 (max. 500000)
- 701 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3821 PDF objects out of 4296 (max. 8388607)
+ 2969 compressed objects within 30 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 766 words of extra memory for PDF output out of 10000 (max. 10000000)
 

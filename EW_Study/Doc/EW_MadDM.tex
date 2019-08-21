@@ -642,9 +642,8 @@ Analogously, the process involving the radiation of one extra photons was valida
 \clearpage
 \subsection{Single emission of Z boson with the minimal DM model (Wino-like LSP)}
 In this Section I analyse the single contribution of each process, i.e. $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+$,  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+z$ and  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+ zz$, for $m_{\tilde \chi_1 ^0}=$ 1 TeV .  
-I set, in the param and tun card, I set $m_{\tilde \chi_1 ^0}=$ 1 TeV , $m_{\tilde \chi_1 ^{\pm}}=$ 1.0001 TeV (almost mass degenerate), Ebeam = 1.0001 TeV. 
-
-{\color{blue} I am now doing also 3 and 10 TeV.  At least for the 1 TeV case, the emission of 3 Z bosons seems not necessary since the cross section for zz corrections is already a factor 100 smaller than the tree level. Then, I will add the emission of Higgses, photons and Ws to have the complete EW corrections; however, in the case of the DMsimp\_s\_spin0\_EW model model in Fig. \ref{simp1tev}, there was no significant difference. } 
+I set, in the param and run card, I set $m_{\tilde \chi_1 ^0}=$ 1 TeV , $m_{\tilde \chi_1 ^{\pm}}=$ 1.0001 TeV (almost mass degenerate), Ebeam = 1.0001 TeV. 
+The emission of 3 Z bosons seems not necessary since the cross section for zz corrections is already a factor 100 smaller than the tree level. Then, I will add the emission of Higgses, photons and Ws to have the complete EW corrections; however, in the case of the DMsimp\_s\_spin0\_EW model model in Fig. \ref{simp1tev}, there was no significant difference. 
 
 
 \begin{figure}[!h]
@@ -662,14 +661,60 @@ I set, in the param and tun card, I set $m_{\tilde \chi_1 ^0}=$ 1 TeV , $m_{\til
 \subfigure
 {\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf} }
 
-\caption{Emission of Z bosons in the minimal DM model (Wino-like LSP) for $m_{\tilde \chi_1 ^0}=$ 1 TeV. We considered separately the processes  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+$,  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+z$ and  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+ zz$. The corresponding cross section is reported in the legend,and it is used no normalized the spectrum with respect to the tree level process (since Pythia gives normalized spectra, I rescaled each process by multiplying by the ratio of the cross sections), e.g. the curve for the one z emission is rescaled by (tree level)/(one z emission). The lime line is obtained by adding the contribution of each process. Note that the PPPC comparison is just for reference. and the MadDM processes are not complete since the emission of a photons, Higgses and Ws should also be included. Compare with Fig. \ref{simp1tev} for the DMsimp\_s\_spin0\_EW model.}
+\caption{Emission of Z bosons in the minimal DM model (Wino-like LSP) for $m_{\tilde \chi_1 ^0}=$ 1 TeV. We considered separately the processes  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+$,  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+z$ and  $\tilde \chi _1 ^0  \tilde \chi _1 ^0 \rightarrow w^- w^+ zz$. The corresponding cross section is reported in the legend, and it is used to normalize the spectrum with respect to the tree level process (since Pythia gives normalized spectra, I rescaled each process by multiplying by the ratio of the cross sections), e.g. the curve for the one z emission is rescaled by (tree level)/(one z emission). The lime line is obtained by adding the contribution of each process. Note that the PPPC comparison is just for reference: the MadDM processes are not complete since the emission of photons, Higgses and Ws should also be included. Compare with Fig. \ref{simp1tev} for the DMsimp\_s\_spin0\_EW model.}
+\label{singleemission_1tev}
 \end{figure}
 
 
 
+\begin{figure}[!h]
+	\centering
+	\subfigure
+	{ \includegraphics[width=0.48\textwidth]{Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf} } 
+	\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/3_positrons_n1ww_single_3.pdf} }
+	\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/3_gammas_n1ww_single_3.pdf} }
+	\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf} }
+	\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf} }
+	\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf} }
+	
+	\caption{Same as Fig. \ref{singleemission_1tev} for $m_{\tilde \chi_1 ^0}=$ 3 TeV. }
+	\label{singleemission_1tev}
+\end{figure}
 
 
+\begin{figure}[!h]
+	\centering
+	\subfigure
+	{ \includegraphics[width=0.48\textwidth]{Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf} } 
+	\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/10_positrons_n1ww_single_10.pdf} }
+	\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/10_gammas_n1ww_single_10.pdf} }
+	\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf} }
+	\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf} }
+	\subfigure
+	{\includegraphics[width=0.48\textwidth]{Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pdf} }
+	
+	\caption{Same as Fig. \ref{singleemission_1tev} for $m_{\tilde \chi_1 ^0}=$ 10 TeV. }
+	\label{singleemission_1tev}
+\end{figure}
 
+
+\begin{figure}[!h]
+	\centering
+	
+ \includegraphics[width=0.99\textwidth]{Fig/Validation_1009/xsections_minimalDmwinolike.png}  
+	
+	\caption{Cross sections for the tree-level annihilation and the emission of one and two extra Z bosons. }
+	\label{xsection_winolike}
+\end{figure}
 
 
 
