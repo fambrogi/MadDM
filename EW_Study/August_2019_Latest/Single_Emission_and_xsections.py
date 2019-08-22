@@ -1,3 +1,6 @@
+""" Plots the contribution of tree, one emisison or two emission 
+    of Z, photons and h bosons SEPARATELY """
+
 import os,sys
 import numpy as np
 import math
@@ -16,6 +19,8 @@ plt.rcParams['text.latex.preamble'] = [
                                        r'\sansmath'               # <- tricky! -- gotta actually tell tex to use!
                                        ]
 
+
+from XSEC import * 
 
 def READ(F):
     x, y = np.loadtxt(F , unpack=True )
@@ -64,20 +69,46 @@ def xsection_plot(x1='', x2='', x3=''):
     plt.savefig('PLOTS/n1ww_single/xsections_minimalDmwinolike.png', bbox_inches='tight')
 
 
-xsections_1 = [96.5 , 12.4      , 0.6 ]
-xsections_3 = [18.631 , 5.5153 , 0.731662023 ]
-xsections_10 = [3.0623, 1.71248, 0.41186550998]
+
+""" Xsections extracted from the LHE files """
+xsections_dic = { 'z' : { '1': { 'abs':  [96.5 , 12.4 , 0.6 ] , 'rel': [1 , 12.4/96.5  , 0.6/96.5    ] }  ,
+	                  '3': { 'abs':  [18.63 , 5.51, 0.73] , 'rel': [1 , 5.51/18.63 , 0.73/18.63  ] }  ,
+	                  '10': { 'abs':  [3.06, 1.71,   0.41] , 'rel': [1 , 1.71/3.06  , 0.411/3.06 ] } } , 
 
 
-xsection_plot (x1=xsections_1 , x2=xsections_3 , x3=xsections_10 )
+
+		  'a' : { '1': { 'abs':  [96.5 , 10.76 , 1.087 ] , 'rel': [1 , 12.4/96.5  , 0.6/96.5    ] }  , # ok
+	                  '3': { 'abs':  [18.63 , 3.94, 0.32] , 'rel': [1 , 5.51/18.63 , 0.73/18.63  ] } , # ok
+	                 '10': { 'abs':  [3.06, 1.08,   0.12] , 'rel': [1 , 1.71/3.06  , 0.411/3.06  ] } } , # missing aa
 
 
-def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = '' , scaled = False):
-    DM_o = DM
-    DM = str(DM).replace('1000','1').replace('3000','3')
+	          'h' : { '1': { 'abs':  [96.5 , 0.184 , 0.0007 ] , 'rel': [1 , 12.4/96.5  , 0.6/96.5    ] } ,
+	                  '3': { 'abs':  [18.63 , 0.05, 0.0005] , 'rel': [1 , 5.51/18.63 , 0.73/18.63    ] } ,
+	                 '10': { 'abs':  [3.06, 0.012,   0.0079] , 'rel': [1 , 1.71/3.06  , 0.411/3.06   ] } } ,  } # all ok
+
+
+
+"""
+   if DM_o == '1000':
+       xsections_o = [96.5 , 12.4      , 0.6 ]
+       xsections = [1    , 12.4/96.5 , 0.6/96.5 ]
+    elif DM_o == '3000':
+       xsections_o = [18.631 , 5.5153 , 0.731662023 ]
+       xsections = [1 , 5.5153/18.63 , 0.7316/18.63 ]
+    elif DM_o == '10000':
+       xsections_o = [3.0623, 1.71248, 0.41186550998]
+       xsections = [ 1, 1.71248/3.0623, 0.41186550998/3.0623 ]
+"""
+
+def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = '' , scaled = False, boson = 'z'):
+    """ DM must be as the PPPC tables need it e.g. 1000.0 """
+
+
+    DM_f = str(DM).replace('10000.0','10').replace('3000.0','3').replace('1000.0','1')
+
     
     dir = 'Results/'
-    Style_Dic = {   'positrons': r'$e^+$' ,
+    Style_Dic = {   'positrons': r'$e^+$' , 
                     'gammas': r'$ \gamma$' ,
                     'neutrinos_e':r'$\nu _e$' ,
                     'neutrinos_mu':r'$\nu _{\mu}$' ,
@@ -123,12 +154,20 @@ def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = '' , scaled = False)
     spec = Name_Dic[CR]
     
     
-    FILES  = ['Data_n1ww_n1_' + DM_o + '_pythiaEW_False', 'Data_n1wwz_n1_' + DM_o + '_pythiaEW_False', 'Data_n1wwzz_n1_' + DM_o + '_pythiaEW_False']
+    FILES  = ['Data_n1n1_ww_' + DM_f + 'TeV', 'Data_n1n1_ww'+ boson +'_' + DM_f + 'TeV', 'Data_n1n1_ww'+ boson + boson +'_' + DM_f + 'TeV' ]
 
+
+
+    if boson == 'z':
+       l_boson = r'$Z$'
+    elif boson =='h':
+       l_boson = r'$h$'
+    elif boson =='a':
+       l_boson = r'$\gamma$'
 
     LABELS = [r'MadDM $\tilde \chi_1 ^0 \tilde \chi_1 ^0  \rightarrow W^-W^+ $',
-              r'MadDM $\tilde \chi_1 ^0 \tilde \chi_1 ^0  \rightarrow W^-W^+ Z$' ,
-              r'MadDM $\tilde \chi_1 ^0 \tilde \chi_1 ^0  \rightarrow W^-W^+ ZZ$' ]
+              r'MadDM $\tilde \chi_1 ^0 \tilde \chi_1 ^0  \rightarrow W^-W^+ $' + l_boson ,
+              r'MadDM $\tilde \chi_1 ^0 \tilde \chi_1 ^0  \rightarrow W^-W^+ $' + l_boson + l_boson ]
            
     COLORS = ['cyan' ,  'slateblue', 'blue' , 'navy']
     COLORS = ['cyan' , 'slateblue' , 'blue' ]
@@ -142,22 +181,14 @@ def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = '' , scaled = False)
     and I multiply by the ratio of e.g. wwz/ww the wwz sample.
     """
 
-    if DM_o == '1000':
-       xsections_o = [96.5 , 12.4      , 0.6 ]
-       xsections = [1    , 12.4/96.5 , 0.6/96.5 ]
-    elif DM_o == '3000':
-       xsections_o = [18.631 , 5.5153 , 0.731662023 ]
-       xsections = [1 , 5.5153/18.63 , 0.7316/18.63 ]
-    elif DM_o == '10000':
-       xsections_o = [3.0623, 1.71248, 0.41186550998]
-       xsections = [ 1, 1.71248/3.0623, 0.41186550998/3.0623 ]
-
+ 
+    xsections_abs , xsections_rel = xsections_dic[boson][DM_f]['abs'] , xsections_dic[boson][DM_f]['rel']
   
     for C in chans:
         combi = []
-
-        a = plt.plot(dic_noEW['x'] , dic_noEW[CR][DM_o+'.0'][C]   , color = 'black' , linestyle= '-' , linewidth = width , label = 'PPPC4DMID'    )
-        b = plt.plot(dic_EW['x']   , dic_EW[CR][DM_o  +'.0'][C]   , color = 'black' , linestyle= '--', linewidth = width , label = 'PPPC4DMID EW' )
+        DM = str(DM)
+        a = plt.plot(dic_noEW['x'] , dic_noEW[CR][DM][C] , color = 'black' , linestyle= '-' , linewidth = width , label = 'PPPC4DMID'    )
+        b = plt.plot(dic_EW['x']   , dic_EW[CR][DM][C]   , color = 'black' , linestyle= '--', linewidth = width , label = 'PPPC4DMID EW' )
 
     
         handles.append( a[0] )
@@ -172,7 +203,7 @@ def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = '' , scaled = False)
         # Samples with photons
 
         dic = {}
-        for F,C,L,s,so in zip (FILES, COLORS, LABELS, xsections, xsections_o):
+        for F,C,L,s,so in zip (FILES, COLORS, LABELS, xsections_rel, xsections_abs):
 
 
             F   = dir +'/' + F + '/' + Name_Dic[CR] + '_test1000GeV_ww_lhe.dat'
@@ -218,7 +249,7 @@ def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = '' , scaled = False)
     os.system('mkdir PLOTS')
     os.system('mkdir PLOTS/n1ww_single/')
 
-    plt.savefig('PLOTS/n1ww_single/' + DM + '_' + CR + '_n1ww_single_'+DM +'.pdf', bbox_inches='tight')
+    plt.savefig('PLOTS/n1ww_single/' + DM + '_' + CR + '_n1ww_single_'+DM + '_' + boson + '.pdf', bbox_inches='tight')
     plt.close()
 
 
@@ -231,15 +262,19 @@ Dic_EW = np.load('../PPPC_Tables_EW.npy', allow_pickle= True).item()
 #['antiprotons', 'gammas', 'neutrinos_e', 'neutrinos_mu', 'neutrinos_tau', 'positrons']
 
 
-DMs = ['1000' , '3000', '10000']
+DMs = ['1000.0' , '3000.0', '10000.0']
 CRs = ['gammas','positrons','neutrinos_e', 'neutrinos_tau' , 'neutrinos_mu' , 'antiprotons' ]
 #CRs = ['gammas',]
-'''
-for m in DMs:
+
+
+DMs = ['1000.0' , '3000.0' , '10000.0']
+for m in DMs: 
+  for h in ['h','z','a']:
     for c in CRs:
-        print 'Producing the plot for the CR: ' + c + ' for a DM candidate of ' + m + ' GeV'
-        Plot(m, dic_EW = Dic_EW, dic_noEW = Dic_NoEW , CR = c, scaled = True)
-'''
+  
+        print 'Producing the plot for the CR: ' + c + ' for a DM candidate of ' + m + ' GeV' + ' , boson' + h
+        Plot(m, dic_EW = Dic_EW, dic_noEW = Dic_NoEW , CR = c, scaled = True, boson = h)
+
 
 
 
