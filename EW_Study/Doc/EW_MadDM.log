@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.10)  20 AUG 2019 09:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.10)  23 AUG 2019 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,6 +309,9 @@ LaTeX Warning: Label `singleemission_1tev' multiply defined.
 
 LaTeX Warning: Label `singleemission_1tev' multiply defined.
 
+
+LaTeX Warning: Label `ew_comparison_1' multiply defined.
+
 )
 \openout1 = `EW_MadDM.aux'.
 
@@ -415,7 +418,7 @@ Overfull \hbox (39.41504pt too wide) in paragraph at lines 73--76
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `!tbp') on input line 81.
 
-<Fig/EW_noEW_PPPC.pdf, id=188, 543.8935pt x 631.75293pt>
+<Fig/EW_noEW_PPPC.pdf, id=193, 543.8935pt x 631.75293pt>
 File: Fig/EW_noEW_PPPC.pdf Graphic file (type pdf)
 <use Fig/EW_noEW_PPPC.pdf>
 Package pdftex.def Info: Fig/EW_noEW_PPPC.pdf  used on input line 83.
@@ -512,7 +515,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf, id=362, 471.95103pt x 353.69107pt>
+<Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf, id=367, 471.95103pt x 353.69107pt>
 File: Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf>
 Package pdftex.def Info: Fig/xdxd_eeEW/1_gammas_eeEW_1.pdf  used on input line 
@@ -527,7 +530,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf, id=363, 465.74266pt x 353.69107pt>
+<Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf, id=368, 465.74266pt x 353.69107pt>
 File: Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf Graphic file (type pdf)
 <use Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf>
 Package pdftex.def Info: Fig/xdxd_eeEW/10_gammas_eeEW_10.pdf  used on input lin
@@ -542,7 +545,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf, id=364, 465.74266pt x 353.69107pt>
+<Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf, id=369, 465.74266pt x 353.69107pt>
 File: Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf Graphic file (type pdf)
 <use Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf>
 Package pdftex.def Info: Fig/xdxd_eeEW/100_gammas_eeEW_100.pdf  used on input l
@@ -625,7 +628,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/1TeV/1_antiprotons_PPPC_Comparison_xdxd_fotone_1.pdf, id=458, 546.82559pt 
+<Fig/1TeV/1_antiprotons_PPPC_Comparison_xdxd_fotone_1.pdf, id=463, 546.82559pt 
 x 414.90776pt>
 File: Fig/1TeV/1_antiprotons_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (ty
 pe pdf)
@@ -642,7 +645,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/1TeV/1_positrons_PPPC_Comparison_xdxd_fotone_1.pdf, id=459, 546.82559pt x 
+<Fig/1TeV/1_positrons_PPPC_Comparison_xdxd_fotone_1.pdf, id=464, 546.82559pt x 
 414.90776pt>
 File: Fig/1TeV/1_positrons_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (type
  pdf)
@@ -659,7 +662,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/1TeV/1_gammas_PPPC_Comparison_xdxd_fotone_1.pdf, id=460, 549.7205pt x 414.
+<Fig/1TeV/1_gammas_PPPC_Comparison_xdxd_fotone_1.pdf, id=465, 549.7205pt x 414.
 90776pt>
 File: Fig/1TeV/1_gammas_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (type pd
 f)
@@ -676,7 +679,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/1TeV/1_neutrinos_e_PPPC_Comparison_xdxd_fotone_1.pdf, id=461, 546.82559pt 
+<Fig/1TeV/1_neutrinos_e_PPPC_Comparison_xdxd_fotone_1.pdf, id=466, 546.82559pt 
 x 414.90776pt>
 File: Fig/1TeV/1_neutrinos_e_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (ty
 pe pdf)
@@ -693,7 +696,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/1TeV/1_neutrinos_mu_PPPC_Comparison_xdxd_fotone_1.pdf, id=462, 546.82559pt
+<Fig/1TeV/1_neutrinos_mu_PPPC_Comparison_xdxd_fotone_1.pdf, id=467, 546.82559pt
  x 414.90776pt>
 File: Fig/1TeV/1_neutrinos_mu_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (t
 ype pdf)
@@ -710,7 +713,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/1TeV/1_neutrinos_tau_PPPC_Comparison_xdxd_fotone_1.pdf, id=463, 546.82559p
+<Fig/1TeV/1_neutrinos_tau_PPPC_Comparison_xdxd_fotone_1.pdf, id=468, 546.82559p
 t x 414.90776pt>
 File: Fig/1TeV/1_neutrinos_tau_PPPC_Comparison_xdxd_fotone_1.pdf Graphic file (
 type pdf)
@@ -776,7 +779,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/100TeV_OLD/OLD_100000_antiprotons_PPPC_Comparison_xdxd_100000.pdf, id=624,
+<Fig/100TeV_OLD/OLD_100000_antiprotons_PPPC_Comparison_xdxd_100000.pdf, id=629,
  546.82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_antiprotons_PPPC_Comparison_xdxd_100000.pdf Gra
 phic file (type pdf)
@@ -793,7 +796,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/100TeV_OLD/OLD_100000_positrons_PPPC_Comparison_xdxd_100000.pdf, id=625, 5
+<Fig/100TeV_OLD/OLD_100000_positrons_PPPC_Comparison_xdxd_100000.pdf, id=630, 5
 46.82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_positrons_PPPC_Comparison_xdxd_100000.pdf Graph
 ic file (type pdf)
@@ -810,7 +813,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/100TeV_OLD/OLD_100000_gammas_PPPC_Comparison_xdxd_100000.pdf, id=626, 546.
+<Fig/100TeV_OLD/OLD_100000_gammas_PPPC_Comparison_xdxd_100000.pdf, id=631, 546.
 82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_gammas_PPPC_Comparison_xdxd_100000.pdf Graphic 
 file (type pdf)
@@ -827,7 +830,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/100TeV_OLD/OLD_100000_neutrinos_e_PPPC_Comparison_xdxd_100000.pdf, id=627,
+<Fig/100TeV_OLD/OLD_100000_neutrinos_e_PPPC_Comparison_xdxd_100000.pdf, id=632,
  546.82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_neutrinos_e_PPPC_Comparison_xdxd_100000.pdf Gra
 phic file (type pdf)
@@ -844,7 +847,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/100TeV_OLD/OLD_100000_neutrinos_mu_PPPC_Comparison_xdxd_100000.pdf, id=628
+<Fig/100TeV_OLD/OLD_100000_neutrinos_mu_PPPC_Comparison_xdxd_100000.pdf, id=633
 , 546.82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_neutrinos_mu_PPPC_Comparison_xdxd_100000.pdf Gr
 aphic file (type pdf)
@@ -861,8 +864,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/100TeV_OLD/OLD_100000_neutrinos_tau_PPPC_Comparison_xdxd_100000.pdf, id=62
-9, 546.82559pt x 414.90776pt>
+<Fig/100TeV_OLD/OLD_100000_neutrinos_tau_PPPC_Comparison_xdxd_100000.pdf, id=63
+4, 546.82559pt x 414.90776pt>
 File: Fig/100TeV_OLD/OLD_100000_neutrinos_tau_PPPC_Comparison_xdxd_100000.pdf G
 raphic file (type pdf)
 <use Fig/100TeV_OLD/OLD_100000_neutrinos_tau_PPPC_Comparison_xdxd_100000.pdf>
@@ -970,7 +973,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_Y0/1_antiprotons_FFFF_xdxd_1.pdf, id=790, 546.82559pt x 414.90776pt>
+<Fig/xdxd_Y0/1_antiprotons_FFFF_xdxd_1.pdf, id=795, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_Y0/1_antiprotons_FFFF_xdxd_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_Y0/1_antiprotons_FFFF_xdxd_1.pdf>
 Package pdftex.def Info: Fig/xdxd_Y0/1_antiprotons_FFFF_xdxd_1.pdf  used on inp
@@ -985,7 +988,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf, id=791, 546.82559pt x 414.90776pt>
+<Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf, id=796, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf>
 Package pdftex.def Info: Fig/xdxd_Y0/1_positrons_FFFF_xdxd_1.pdf  used on input
@@ -1000,7 +1003,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf, id=792, 549.7205pt x 414.90776pt>
+<Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf, id=797, 549.7205pt x 414.90776pt>
 File: Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf>
 Package pdftex.def Info: Fig/xdxd_Y0/1_gammas_FFFF_xdxd_1.pdf  used on input li
@@ -1015,7 +1018,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf, id=793, 546.82559pt x 414.90776pt>
+<Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf, id=798, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf>
 Package pdftex.def Info: Fig/xdxd_Y0/1_neutrinos_e_FFFF_xdxd_1.pdf  used on inp
@@ -1030,7 +1033,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_1.pdf, id=794, 546.82559pt x 414.90776pt>
+<Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_1.pdf, id=799, 546.82559pt x 414.90776pt>
 
 File: Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_Y0/1_neutrinos_mu_FFFF_xdxd_1.pdf>
@@ -1046,7 +1049,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf, id=795, 546.82559pt x 414.90776pt
+<Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf, id=800, 546.82559pt x 414.90776pt
 >
 File: Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_Y0/1_neutrinos_tau_FFFF_xdxd_1.pdf>
@@ -1142,7 +1145,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/1_antiprotons_FFFF_1.pdf, id=974, 546.82559pt x 414.90776pt>
+<Fig/xdxd_FFFF_WZ/1_antiprotons_FFFF_1.pdf, id=980, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/1_antiprotons_FFFF_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/1_antiprotons_FFFF_1.pdf>
 Package pdftex.def Info: Fig/xdxd_FFFF_WZ/1_antiprotons_FFFF_1.pdf  used on inp
@@ -1157,7 +1160,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf, id=975, 546.82559pt x 414.90776pt>
+<Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf, id=981, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf>
 Package pdftex.def Info: Fig/xdxd_FFFF_WZ/1_positrons_FFFF_1.pdf  used on input
@@ -1172,7 +1175,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf, id=976, 549.7205pt x 414.90776pt>
+<Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf, id=982, 549.7205pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf>
 Package pdftex.def Info: Fig/xdxd_FFFF_WZ/1_gammas_FFFF_1.pdf  used on input li
@@ -1187,7 +1190,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf, id=977, 546.82559pt x 414.90776pt>
+<Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf, id=983, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf>
 Package pdftex.def Info: Fig/xdxd_FFFF_WZ/1_neutrinos_e_FFFF_1.pdf  used on inp
@@ -1202,7 +1205,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/1_neutrinos_mu_FFFF_1.pdf, id=978, 546.82559pt x 414.90776pt>
+<Fig/xdxd_FFFF_WZ/1_neutrinos_mu_FFFF_1.pdf, id=984, 546.82559pt x 414.90776pt>
 
 File: Fig/xdxd_FFFF_WZ/1_neutrinos_mu_FFFF_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/1_neutrinos_mu_FFFF_1.pdf>
@@ -1218,7 +1221,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/1_neutrinos_tau_FFFF_1.pdf, id=979, 546.82559pt x 414.90776pt
+<Fig/xdxd_FFFF_WZ/1_neutrinos_tau_FFFF_1.pdf, id=985, 546.82559pt x 414.90776pt
 >
 File: Fig/xdxd_FFFF_WZ/1_neutrinos_tau_FFFF_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/1_neutrinos_tau_FFFF_1.pdf>
@@ -1279,7 +1282,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/10_antiprotons_FFFF_10.pdf, id=1155, 546.82559pt x 414.90776p
+<Fig/xdxd_FFFF_WZ/10_antiprotons_FFFF_10.pdf, id=1160, 546.82559pt x 414.90776p
 t>
 File: Fig/xdxd_FFFF_WZ/10_antiprotons_FFFF_10.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/10_antiprotons_FFFF_10.pdf>
@@ -1295,7 +1298,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/10_positrons_FFFF_10.pdf, id=1156, 546.82559pt x 414.90776pt>
+<Fig/xdxd_FFFF_WZ/10_positrons_FFFF_10.pdf, id=1161, 546.82559pt x 414.90776pt>
 
 File: Fig/xdxd_FFFF_WZ/10_positrons_FFFF_10.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/10_positrons_FFFF_10.pdf>
@@ -1311,7 +1314,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf, id=1157, 546.82559pt x 414.90776pt>
+<Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf, id=1162, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf>
 Package pdftex.def Info: Fig/xdxd_FFFF_WZ/10_gammas_FFFF_10.pdf  used on input 
@@ -1326,7 +1329,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/10_neutrinos_e_FFFF_10.pdf, id=1158, 546.82559pt x 414.90776p
+<Fig/xdxd_FFFF_WZ/10_neutrinos_e_FFFF_10.pdf, id=1163, 546.82559pt x 414.90776p
 t>
 File: Fig/xdxd_FFFF_WZ/10_neutrinos_e_FFFF_10.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/10_neutrinos_e_FFFF_10.pdf>
@@ -1342,7 +1345,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/10_neutrinos_mu_FFFF_10.pdf, id=1159, 546.82559pt x 414.90776
+<Fig/xdxd_FFFF_WZ/10_neutrinos_mu_FFFF_10.pdf, id=1164, 546.82559pt x 414.90776
 pt>
 File: Fig/xdxd_FFFF_WZ/10_neutrinos_mu_FFFF_10.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/10_neutrinos_mu_FFFF_10.pdf>
@@ -1358,7 +1361,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFFF_10.pdf, id=1160, 546.82559pt x 414.9077
+<Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFFF_10.pdf, id=1165, 546.82559pt x 414.9077
 6pt>
 File: Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFFF_10.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/10_neutrinos_tau_FFFF_10.pdf>
@@ -1421,7 +1424,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/100_antiprotons_FFFF_100.pdf, id=1336, 546.82559pt x 414.9077
+<Fig/xdxd_FFFF_WZ/100_antiprotons_FFFF_100.pdf, id=1341, 546.82559pt x 414.9077
 6pt>
 File: Fig/xdxd_FFFF_WZ/100_antiprotons_FFFF_100.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/100_antiprotons_FFFF_100.pdf>
@@ -1437,7 +1440,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/100_positrons_FFFF_100.pdf, id=1337, 546.82559pt x 414.90776p
+<Fig/xdxd_FFFF_WZ/100_positrons_FFFF_100.pdf, id=1342, 546.82559pt x 414.90776p
 t>
 File: Fig/xdxd_FFFF_WZ/100_positrons_FFFF_100.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/100_positrons_FFFF_100.pdf>
@@ -1453,7 +1456,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf, id=1338, 546.82559pt x 414.90776pt>
+<Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf, id=1343, 546.82559pt x 414.90776pt>
 File: Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf>
 Package pdftex.def Info: Fig/xdxd_FFFF_WZ/100_gammas_FFFF_100.pdf  used on inpu
@@ -1468,7 +1471,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF_100.pdf, id=1339, 546.82559pt x 414.9077
+<Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF_100.pdf, id=1344, 546.82559pt x 414.9077
 6pt>
 File: Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF_100.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/100_neutrinos_e_FFFF_100.pdf>
@@ -1484,7 +1487,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/100_neutrinos_mu_FFFF_100.pdf, id=1340, 546.82559pt x 414.907
+<Fig/xdxd_FFFF_WZ/100_neutrinos_mu_FFFF_100.pdf, id=1345, 546.82559pt x 414.907
 76pt>
 File: Fig/xdxd_FFFF_WZ/100_neutrinos_mu_FFFF_100.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/100_neutrinos_mu_FFFF_100.pdf>
@@ -1500,7 +1503,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_FFFF_WZ/100_neutrinos_tau_FFFF_100.pdf, id=1341, 546.82559pt x 414.90
+<Fig/xdxd_FFFF_WZ/100_neutrinos_tau_FFFF_100.pdf, id=1346, 546.82559pt x 414.90
 776pt>
 File: Fig/xdxd_FFFF_WZ/100_neutrinos_tau_FFFF_100.pdf Graphic file (type pdf)
 <use Fig/xdxd_FFFF_WZ/100_neutrinos_tau_FFFF_100.pdf>
@@ -1563,7 +1566,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 366.
 
-<Fig/xdxd_ee_eeZ_eveW/Fey.png, id=1519, 2184.16pt x 959.585pt>
+<Fig/xdxd_ee_eeZ_eveW/Fey.png, id=1524, 2184.16pt x 959.585pt>
 File: Fig/xdxd_ee_eeZ_eveW/Fey.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/Fey.png>
 Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/Fey.png  used on input line 380.
@@ -1591,7 +1594,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/e_pt.png, id=1528, 999.735pt x 473.77pt>
+<Fig/xdxd_ee_eeZ_eveW/e_pt.png, id=1533, 999.735pt x 473.77pt>
 File: Fig/xdxd_ee_eeZ_eveW/e_pt.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/e_pt.png>
 Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/e_pt.png  used on input line 401.
@@ -1606,7 +1609,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/W_pt.png, id=1529, 999.735pt x 473.77pt>
+<Fig/xdxd_ee_eeZ_eveW/W_pt.png, id=1534, 999.735pt x 473.77pt>
 File: Fig/xdxd_ee_eeZ_eveW/W_pt.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/W_pt.png>
 Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/W_pt.png  used on input line 403.
@@ -1621,7 +1624,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/Z_pt.png, id=1530, 999.735pt x 473.77pt>
+<Fig/xdxd_ee_eeZ_eveW/Z_pt.png, id=1535, 999.735pt x 473.77pt>
 File: Fig/xdxd_ee_eeZ_eveW/Z_pt.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/Z_pt.png>
 Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/Z_pt.png  used on input line 405.
@@ -1636,7 +1639,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/W_m.png, id=1531, 999.735pt x 473.77pt>
+<Fig/xdxd_ee_eeZ_eveW/W_m.png, id=1536, 999.735pt x 473.77pt>
 File: Fig/xdxd_ee_eeZ_eveW/W_m.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/W_m.png>
 Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/W_m.png  used on input line 407.
@@ -1650,7 +1653,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/Z_m.png, id=1532, 999.735pt x 473.77pt>
+<Fig/xdxd_ee_eeZ_eveW/Z_m.png, id=1537, 999.735pt x 473.77pt>
 File: Fig/xdxd_ee_eeZ_eveW/Z_m.png Graphic file (type png)
 <use Fig/xdxd_ee_eeZ_eveW/Z_m.png>
 Package pdftex.def Info: Fig/xdxd_ee_eeZ_eveW/Z_m.png  used on input line 409.
@@ -1681,7 +1684,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/1_antiprotons_ee_eeZ_eveW_1.pdf, id=1538, 465.74266pt x 3
+<Fig/xdxd_ee_eeZ_eveW/1_antiprotons_ee_eeZ_eveW_1.pdf, id=1543, 465.74266pt x 3
 53.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_antiprotons_ee_eeZ_eveW_1.pdf Graphic file (type p
 df)
@@ -1698,7 +1701,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/1_positrons_ee_eeZ_eveW_1.pdf, id=1539, 465.74266pt x 353
+<Fig/xdxd_ee_eeZ_eveW/1_positrons_ee_eeZ_eveW_1.pdf, id=1544, 465.74266pt x 353
 .69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_positrons_ee_eeZ_eveW_1.pdf Graphic file (type pdf
 )
@@ -1715,7 +1718,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/1_gammas_ee_eeZ_eveW_1.pdf, id=1540, 471.95103pt x 353.69
+<Fig/xdxd_ee_eeZ_eveW/1_gammas_ee_eeZ_eveW_1.pdf, id=1545, 471.95103pt x 353.69
 107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_gammas_ee_eeZ_eveW_1.pdf Graphic file (type pdf)
 <use Fig/xdxd_ee_eeZ_eveW/1_gammas_ee_eeZ_eveW_1.pdf>
@@ -1731,7 +1734,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/1_neutrinos_e_ee_eeZ_eveW_1.pdf, id=1541, 465.74266pt x 3
+<Fig/xdxd_ee_eeZ_eveW/1_neutrinos_e_ee_eeZ_eveW_1.pdf, id=1546, 465.74266pt x 3
 53.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_neutrinos_e_ee_eeZ_eveW_1.pdf Graphic file (type p
 df)
@@ -1748,7 +1751,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/1_neutrinos_mu_ee_eeZ_eveW_1.pdf, id=1542, 465.74266pt x 
+<Fig/xdxd_ee_eeZ_eveW/1_neutrinos_mu_ee_eeZ_eveW_1.pdf, id=1547, 465.74266pt x 
 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_neutrinos_mu_ee_eeZ_eveW_1.pdf Graphic file (type 
 pdf)
@@ -1765,7 +1768,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/1_neutrinos_tau_ee_eeZ_eveW_1.pdf, id=1543, 465.74266pt x
+<Fig/xdxd_ee_eeZ_eveW/1_neutrinos_tau_ee_eeZ_eveW_1.pdf, id=1548, 465.74266pt x
  353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/1_neutrinos_tau_ee_eeZ_eveW_1.pdf Graphic file (type
  pdf)
@@ -1823,7 +1826,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/10_antiprotons_ee_eeZ_eveW_10.pdf, id=1701, 465.74266pt x
+<Fig/xdxd_ee_eeZ_eveW/10_antiprotons_ee_eeZ_eveW_10.pdf, id=1706, 465.74266pt x
  353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_antiprotons_ee_eeZ_eveW_10.pdf Graphic file (type
  pdf)
@@ -1840,7 +1843,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/10_positrons_ee_eeZ_eveW_10.pdf, id=1702, 465.74266pt x 3
+<Fig/xdxd_ee_eeZ_eveW/10_positrons_ee_eeZ_eveW_10.pdf, id=1707, 465.74266pt x 3
 53.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_positrons_ee_eeZ_eveW_10.pdf Graphic file (type p
 df)
@@ -1857,7 +1860,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/10_gammas_ee_eeZ_eveW_10.pdf, id=1703, 465.74266pt x 353.
+<Fig/xdxd_ee_eeZ_eveW/10_gammas_ee_eeZ_eveW_10.pdf, id=1708, 465.74266pt x 353.
 69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_gammas_ee_eeZ_eveW_10.pdf Graphic file (type pdf)
 
@@ -1874,7 +1877,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/10_neutrinos_e_ee_eeZ_eveW_10.pdf, id=1704, 465.74266pt x
+<Fig/xdxd_ee_eeZ_eveW/10_neutrinos_e_ee_eeZ_eveW_10.pdf, id=1709, 465.74266pt x
  353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_neutrinos_e_ee_eeZ_eveW_10.pdf Graphic file (type
  pdf)
@@ -1891,7 +1894,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/10_neutrinos_mu_ee_eeZ_eveW_10.pdf, id=1705, 465.74266pt 
+<Fig/xdxd_ee_eeZ_eveW/10_neutrinos_mu_ee_eeZ_eveW_10.pdf, id=1710, 465.74266pt 
 x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_neutrinos_mu_ee_eeZ_eveW_10.pdf Graphic file (typ
 e pdf)
@@ -1908,7 +1911,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/10_neutrinos_tau_ee_eeZ_eveW_10.pdf, id=1706, 465.74266pt
+<Fig/xdxd_ee_eeZ_eveW/10_neutrinos_tau_ee_eeZ_eveW_10.pdf, id=1711, 465.74266pt
  x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/10_neutrinos_tau_ee_eeZ_eveW_10.pdf Graphic file (ty
 pe pdf)
@@ -1966,7 +1969,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/100_antiprotons_ee_eeZ_eveW_100.pdf, id=1866, 465.74266pt
+<Fig/xdxd_ee_eeZ_eveW/100_antiprotons_ee_eeZ_eveW_100.pdf, id=1871, 465.74266pt
  x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_antiprotons_ee_eeZ_eveW_100.pdf Graphic file (ty
 pe pdf)
@@ -1983,7 +1986,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/100_positrons_ee_eeZ_eveW_100.pdf, id=1867, 465.74266pt x
+<Fig/xdxd_ee_eeZ_eveW/100_positrons_ee_eeZ_eveW_100.pdf, id=1872, 465.74266pt x
  353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_positrons_ee_eeZ_eveW_100.pdf Graphic file (type
  pdf)
@@ -2000,7 +2003,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/100_gammas_ee_eeZ_eveW_100.pdf, id=1868, 465.74266pt x 35
+<Fig/xdxd_ee_eeZ_eveW/100_gammas_ee_eeZ_eveW_100.pdf, id=1873, 465.74266pt x 35
 3.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_gammas_ee_eeZ_eveW_100.pdf Graphic file (type pd
 f)
@@ -2017,7 +2020,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/100_neutrinos_e_ee_eeZ_eveW_100.pdf, id=1869, 465.74266pt
+<Fig/xdxd_ee_eeZ_eveW/100_neutrinos_e_ee_eeZ_eveW_100.pdf, id=1874, 465.74266pt
  x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_neutrinos_e_ee_eeZ_eveW_100.pdf Graphic file (ty
 pe pdf)
@@ -2034,7 +2037,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/100_neutrinos_mu_ee_eeZ_eveW_100.pdf, id=1870, 465.74266p
+<Fig/xdxd_ee_eeZ_eveW/100_neutrinos_mu_ee_eeZ_eveW_100.pdf, id=1875, 465.74266p
 t x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_neutrinos_mu_ee_eeZ_eveW_100.pdf Graphic file (t
 ype pdf)
@@ -2051,7 +2054,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/xdxd_ee_eeZ_eveW/100_neutrinos_tau_ee_eeZ_eveW_100.pdf, id=1871, 465.74266
+<Fig/xdxd_ee_eeZ_eveW/100_neutrinos_tau_ee_eeZ_eveW_100.pdf, id=1876, 465.74266
 pt x 353.69107pt>
 File: Fig/xdxd_ee_eeZ_eveW/100_neutrinos_tau_ee_eeZ_eveW_100.pdf Graphic file (
 type pdf)
@@ -2088,7 +2091,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Fig/xdxd_ee_eeZ_eveW/100_neutrinos_ta
 u_ee_eeZ_eveW_100.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
 >]
-<Fig/XSEC/processes_xsec_1_TeV.png, id=2032, 516.7305pt x 460.3599pt>
+<Fig/XSEC/processes_xsec_1_TeV.png, id=2037, 516.7305pt x 460.3599pt>
 File: Fig/XSEC/processes_xsec_1_TeV.png Graphic file (type png)
 <use Fig/XSEC/processes_xsec_1_TeV.png>
 Package pdftex.def Info: Fig/XSEC/processes_xsec_1_TeV.png  used on input line 
@@ -2104,7 +2107,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/XSEC/xsec_Ebeam_1_TeV.png, id=2034, 517.4532pt x 430.0065pt>
+<Fig/XSEC/xsec_Ebeam_1_TeV.png, id=2039, 517.4532pt x 430.0065pt>
 File: Fig/XSEC/xsec_Ebeam_1_TeV.png Graphic file (type png)
 <use Fig/XSEC/xsec_Ebeam_1_TeV.png>
 Package pdftex.def Info: Fig/XSEC/xsec_Ebeam_1_TeV.png  used on input line 498.
@@ -2119,7 +2122,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/XSEC/xsec_Ebeam_10_TeV.png, id=2035, 517.4532pt x 443.0151pt>
+<Fig/XSEC/xsec_Ebeam_10_TeV.png, id=2040, 517.4532pt x 443.0151pt>
 File: Fig/XSEC/xsec_Ebeam_10_TeV.png Graphic file (type png)
 <use Fig/XSEC/xsec_Ebeam_10_TeV.png>
 Package pdftex.def Info: Fig/XSEC/xsec_Ebeam_10_TeV.png  used on input line 500
@@ -2134,7 +2137,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/XSEC/xsec_Ebeam_100_TeV.png, id=2036, 517.4532pt x 448.074pt>
+<Fig/XSEC/xsec_Ebeam_100_TeV.png, id=2041, 517.4532pt x 448.074pt>
 File: Fig/XSEC/xsec_Ebeam_100_TeV.png Graphic file (type png)
 <use Fig/XSEC/xsec_Ebeam_100_TeV.png>
 Package pdftex.def Info: Fig/XSEC/xsec_Ebeam_100_TeV.png  used on input line 50
@@ -2152,7 +2155,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
  <./Fig/XSEC/processes_xsec_1_TeV.png> <./Fig/XSEC/xsec_Ebeam_1_TeV.png> <./Fig
 /XSEC/xsec_Ebeam_10_TeV.png> <./Fig/XSEC/xsec_Ebeam_100_TeV.png>]
-<Fig/Widths_check.pdf, id=2048, 424.18286pt x 333.24135pt>
+<Fig/Widths_check.pdf, id=2053, 424.18286pt x 333.24135pt>
 File: Fig/Widths_check.pdf Graphic file (type pdf)
 <use Fig/Widths_check.pdf>
 Package pdftex.def Info: Fig/Widths_check.pdf  used on input line 516.
@@ -2167,7 +2170,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/COUPLINGS/coupling_constant_ul_Mxd_1000.pdf, id=2102, 524.37593pt x 399.11
+<Fig/COUPLINGS/coupling_constant_ul_Mxd_1000.pdf, id=2107, 524.37593pt x 399.11
 609pt>
 File: Fig/COUPLINGS/coupling_constant_ul_Mxd_1000.pdf Graphic file (type pdf)
 <use Fig/COUPLINGS/coupling_constant_ul_Mxd_1000.pdf>
@@ -2183,7 +2186,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/COUPLINGS/coupling_constant_ul_Mxd_10000.pdf, id=2103, 524.37593pt x 399.1
+<Fig/COUPLINGS/coupling_constant_ul_Mxd_10000.pdf, id=2108, 524.37593pt x 399.1
 1609pt>
 File: Fig/COUPLINGS/coupling_constant_ul_Mxd_10000.pdf Graphic file (type pdf)
 <use Fig/COUPLINGS/coupling_constant_ul_Mxd_10000.pdf>
@@ -2199,7 +2202,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/COUPLINGS/coupling_constant_ul_Mxd_100000.pdf, id=2104, 532.04521pt x 399.
+<Fig/COUPLINGS/coupling_constant_ul_Mxd_100000.pdf, id=2109, 532.04521pt x 399.
 11609pt>
 File: Fig/COUPLINGS/coupling_constant_ul_Mxd_100000.pdf Graphic file (type pdf)
 
@@ -2268,7 +2271,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Ready/mumu_validation.png, id=2280, 438.6789pt x 327.3831pt>
+<Fig/Ready/mumu_validation.png, id=2285, 438.6789pt x 327.3831pt>
 File: Fig/Ready/mumu_validation.png Graphic file (type png)
 <use Fig/Ready/mumu_validation.png>
 Package pdftex.def Info: Fig/Ready/mumu_validation.png  used on input line 575.
@@ -2283,7 +2286,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Ready/mumu_validation_basic.png, id=2281, 433.62pt x 327.3831pt>
+<Fig/Ready/mumu_validation_basic.png, id=2286, 433.62pt x 327.3831pt>
 File: Fig/Ready/mumu_validation_basic.png Graphic file (type png)
 <use Fig/Ready/mumu_validation_basic.png>
 Package pdftex.def Info: Fig/Ready/mumu_validation_basic.png  used on input lin
@@ -2317,7 +2320,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 586.
 
-<Fig/Ready/kinematic_wwz.pdf, id=2282, 418.17313pt x 342.64043pt>
+<Fig/Ready/kinematic_wwz.pdf, id=2287, 418.17313pt x 342.64043pt>
 File: Fig/Ready/kinematic_wwz.pdf Graphic file (type pdf)
 <use Fig/Ready/kinematic_wwz.pdf>
 Package pdftex.def Info: Fig/Ready/kinematic_wwz.pdf  used on input line 591.
@@ -2367,7 +2370,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Ready/Gammas_Validation.pdf, id=2326, 419.0905pt x 335.03241pt>
+<Fig/Ready/Gammas_Validation.pdf, id=2331, 419.0905pt x 335.03241pt>
 File: Fig/Ready/Gammas_Validation.pdf Graphic file (type pdf)
 <use Fig/Ready/Gammas_Validation.pdf>
 Package pdftex.def Info: Fig/Ready/Gammas_Validation.pdf  used on input line 60
@@ -2382,7 +2385,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Ready/simple_Gammas.pdf, id=2327, 419.0905pt x 335.03241pt>
+<Fig/Ready/simple_Gammas.pdf, id=2332, 419.0905pt x 335.03241pt>
 File: Fig/Ready/simple_Gammas.pdf Graphic file (type pdf)
 <use Fig/Ready/simple_Gammas.pdf>
 Package pdftex.def Info: Fig/Ready/simple_Gammas.pdf  used on input line 605.
@@ -2396,7 +2399,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Ready/Gammas_Validation_nu.pdf, id=2328, 419.0905pt x 342.8709pt>
+<Fig/Ready/Gammas_Validation_nu.pdf, id=2333, 419.0905pt x 342.8709pt>
 File: Fig/Ready/Gammas_Validation_nu.pdf Graphic file (type pdf)
 <use Fig/Ready/Gammas_Validation_nu.pdf>
 Package pdftex.def Info: Fig/Ready/Gammas_Validation_nu.pdf  used on input line
@@ -2428,7 +2431,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/n1n1_wwz_3000.pdf, id=2432, 418.7294pt x 314.6774pt>
+<Fig/Validation_1009/n1n1_wwz_3000.pdf, id=2437, 418.7294pt x 314.6774pt>
 File: Fig/Validation_1009/n1n1_wwz_3000.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/n1n1_wwz_3000.pdf>
 Package pdftex.def Info: Fig/Validation_1009/n1n1_wwz_3000.pdf  used on input l
@@ -2443,7 +2446,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/n1n1_wwz_1000.pdf, id=2433, 418.7294pt x 314.6774pt>
+<Fig/Validation_1009/n1n1_wwz_1000.pdf, id=2438, 418.7294pt x 314.6774pt>
 File: Fig/Validation_1009/n1n1_wwz_1000.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/n1n1_wwz_1000.pdf>
 Package pdftex.def Info: Fig/Validation_1009/n1n1_wwz_1000.pdf  used on input l
@@ -2458,7 +2461,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/n1n1_wwz_10000.pdf, id=2434, 418.7294pt x 314.6774pt>
+<Fig/Validation_1009/n1n1_wwz_10000.pdf, id=2439, 418.7294pt x 314.6774pt>
 File: Fig/Validation_1009/n1n1_wwz_10000.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/n1n1_wwz_10000.pdf>
 Package pdftex.def Info: Fig/Validation_1009/n1n1_wwz_10000.pdf  used on input 
@@ -2467,7 +2470,7 @@ line 624.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Fig/Validation_1009/n1n1_wwa.pdf, id=2438, 419.0905pt x 315.54425pt>
+<Fig/Validation_1009/n1n1_wwa.pdf, id=2443, 419.0905pt x 315.54425pt>
 File: Fig/Validation_1009/n1n1_wwa.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/n1n1_wwa.pdf>
 Package pdftex.def Info: Fig/Validation_1009/n1n1_wwa.pdf  used on input line 6
@@ -2489,7 +2492,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/n1n1_wwz_10000.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
 >] [30 <./Fig/Validation_1009/n1n1_wwa.pdf>]
 ! Undefined control sequence.
-l.652 \subfigure
+l.651 \subfigure
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2497,16 +2500,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/1_antiprotons_n1ww_single_1.pdf, id=2548, 465.74266pt x 35
+<Fig/Validation_1009/1_antiprotons_n1ww_single_1.pdf, id=2553, 465.74266pt x 35
 3.69107pt>
 File: Fig/Validation_1009/1_antiprotons_n1ww_single_1.pdf Graphic file (type pd
 f)
 <use Fig/Validation_1009/1_antiprotons_n1ww_single_1.pdf>
 Package pdftex.def Info: Fig/Validation_1009/1_antiprotons_n1ww_single_1.pdf  u
-sed on input line 653.
+sed on input line 652.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.654 \subfigure
+l.653 \subfigure
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2514,16 +2517,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/1_positrons_n1ww_single_1.pdf, id=2549, 465.74266pt x 353.
+<Fig/Validation_1009/1_positrons_n1ww_single_1.pdf, id=2554, 465.74266pt x 353.
 69107pt>
 File: Fig/Validation_1009/1_positrons_n1ww_single_1.pdf Graphic file (type pdf)
 
 <use Fig/Validation_1009/1_positrons_n1ww_single_1.pdf>
 Package pdftex.def Info: Fig/Validation_1009/1_positrons_n1ww_single_1.pdf  use
-d on input line 655.
+d on input line 654.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.656 \subfigure
+l.655 \subfigure
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2531,15 +2534,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/1_gammas_n1ww_single_1.pdf, id=2550, 471.95103pt x 353.691
+<Fig/Validation_1009/1_gammas_n1ww_single_1.pdf, id=2555, 471.95103pt x 353.691
 07pt>
 File: Fig/Validation_1009/1_gammas_n1ww_single_1.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/1_gammas_n1ww_single_1.pdf>
 Package pdftex.def Info: Fig/Validation_1009/1_gammas_n1ww_single_1.pdf  used o
-n input line 657.
+n input line 656.
 (pdftex.def)             Requested size: 206.49722pt x 154.75565pt.
 ! Undefined control sequence.
-l.658 \subfigure
+l.657 \subfigure
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2547,16 +2550,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/1_neutrinos_e_n1ww_single_1.pdf, id=2551, 465.74266pt x 35
+<Fig/Validation_1009/1_neutrinos_e_n1ww_single_1.pdf, id=2556, 465.74266pt x 35
 3.69107pt>
 File: Fig/Validation_1009/1_neutrinos_e_n1ww_single_1.pdf Graphic file (type pd
 f)
 <use Fig/Validation_1009/1_neutrinos_e_n1ww_single_1.pdf>
 Package pdftex.def Info: Fig/Validation_1009/1_neutrinos_e_n1ww_single_1.pdf  u
-sed on input line 659.
+sed on input line 658.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.660 \subfigure
+l.659 \subfigure
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2564,16 +2567,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/1_neutrinos_mu_n1ww_single_1.pdf, id=2552, 465.74266pt x 3
+<Fig/Validation_1009/1_neutrinos_mu_n1ww_single_1.pdf, id=2557, 465.74266pt x 3
 53.69107pt>
 File: Fig/Validation_1009/1_neutrinos_mu_n1ww_single_1.pdf Graphic file (type p
 df)
 <use Fig/Validation_1009/1_neutrinos_mu_n1ww_single_1.pdf>
 Package pdftex.def Info: Fig/Validation_1009/1_neutrinos_mu_n1ww_single_1.pdf  
-used on input line 661.
+used on input line 660.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.662 \subfigure
+l.661 \subfigure
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2581,19 +2584,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf, id=2553, 465.74266pt x 
+<Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf, id=2558, 465.74266pt x 
 353.69107pt>
 File: Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf Graphic file (type 
 pdf)
 <use Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf>
 Package pdftex.def Info: Fig/Validation_1009/1_neutrinos_tau_n1ww_single_1.pdf 
- used on input line 663.
+ used on input line 662.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ! Undefined control sequence.
-l.673 	\subfigure
+l.672 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2601,16 +2604,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf, id=2556, 465.74266pt x 35
+<Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf, id=2561, 465.74266pt x 35
 3.69107pt>
 File: Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf Graphic file (type pd
 f)
 <use Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf>
 Package pdftex.def Info: Fig/Validation_1009/3_antiprotons_n1ww_single_3.pdf  u
-sed on input line 674.
+sed on input line 673.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.675 	\subfigure
+l.674 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2618,16 +2621,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/3_positrons_n1ww_single_3.pdf, id=2557, 465.74266pt x 353.
+<Fig/Validation_1009/3_positrons_n1ww_single_3.pdf, id=2562, 465.74266pt x 353.
 69107pt>
 File: Fig/Validation_1009/3_positrons_n1ww_single_3.pdf Graphic file (type pdf)
 
 <use Fig/Validation_1009/3_positrons_n1ww_single_3.pdf>
 Package pdftex.def Info: Fig/Validation_1009/3_positrons_n1ww_single_3.pdf  use
-d on input line 676.
+d on input line 675.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.677 	\subfigure
+l.676 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2635,15 +2638,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/3_gammas_n1ww_single_3.pdf, id=2558, 465.74266pt x 353.691
+<Fig/Validation_1009/3_gammas_n1ww_single_3.pdf, id=2563, 465.74266pt x 353.691
 07pt>
 File: Fig/Validation_1009/3_gammas_n1ww_single_3.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/3_gammas_n1ww_single_3.pdf>
 Package pdftex.def Info: Fig/Validation_1009/3_gammas_n1ww_single_3.pdf  used o
-n input line 678.
+n input line 677.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.679 	\subfigure
+l.678 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2651,16 +2654,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf, id=2559, 465.74266pt x 35
+<Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf, id=2564, 465.74266pt x 35
 3.69107pt>
 File: Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf Graphic file (type pd
 f)
 <use Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf>
 Package pdftex.def Info: Fig/Validation_1009/3_neutrinos_e_n1ww_single_3.pdf  u
-sed on input line 680.
+sed on input line 679.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.681 	\subfigure
+l.680 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2668,16 +2671,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf, id=2560, 465.74266pt x 3
+<Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf, id=2565, 465.74266pt x 3
 53.69107pt>
 File: Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf Graphic file (type p
 df)
 <use Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf>
 Package pdftex.def Info: Fig/Validation_1009/3_neutrinos_mu_n1ww_single_3.pdf  
-used on input line 682.
+used on input line 681.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.683 	\subfigure
+l.682 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2685,19 +2688,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf, id=2561, 465.74266pt x 
+<Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf, id=2566, 465.74266pt x 
 353.69107pt>
 File: Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf Graphic file (type 
 pdf)
 <use Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf>
 Package pdftex.def Info: Fig/Validation_1009/3_neutrinos_tau_n1ww_single_3.pdf 
- used on input line 684.
+ used on input line 683.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ! Undefined control sequence.
-l.693 	\subfigure
+l.692 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2705,16 +2708,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf, id=2563, 465.74266pt x 
+<Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf, id=2568, 465.74266pt x 
 353.69107pt>
 File: Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf Graphic file (type 
 pdf)
 <use Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf>
 Package pdftex.def Info: Fig/Validation_1009/10_antiprotons_n1ww_single_10.pdf 
- used on input line 694.
+ used on input line 693.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.695 	\subfigure
+l.694 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2722,16 +2725,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/10_positrons_n1ww_single_10.pdf, id=2564, 465.74266pt x 35
+<Fig/Validation_1009/10_positrons_n1ww_single_10.pdf, id=2569, 465.74266pt x 35
 3.69107pt>
 File: Fig/Validation_1009/10_positrons_n1ww_single_10.pdf Graphic file (type pd
 f)
 <use Fig/Validation_1009/10_positrons_n1ww_single_10.pdf>
 Package pdftex.def Info: Fig/Validation_1009/10_positrons_n1ww_single_10.pdf  u
-sed on input line 696.
+sed on input line 695.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.697 	\subfigure
+l.696 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2739,15 +2742,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/10_gammas_n1ww_single_10.pdf, id=2565, 465.74266pt x 353.6
+<Fig/Validation_1009/10_gammas_n1ww_single_10.pdf, id=2570, 465.74266pt x 353.6
 9107pt>
 File: Fig/Validation_1009/10_gammas_n1ww_single_10.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/10_gammas_n1ww_single_10.pdf>
 Package pdftex.def Info: Fig/Validation_1009/10_gammas_n1ww_single_10.pdf  used
- on input line 698.
+ on input line 697.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.699 	\subfigure
+l.698 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2755,16 +2758,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf, id=2566, 465.74266pt x 
+<Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf, id=2571, 465.74266pt x 
 353.69107pt>
 File: Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf Graphic file (type 
 pdf)
 <use Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf>
 Package pdftex.def Info: Fig/Validation_1009/10_neutrinos_e_n1ww_single_10.pdf 
- used on input line 700.
+ used on input line 699.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.701 	\subfigure
+l.700 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2772,16 +2775,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf, id=2567, 465.74266pt x
+<Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf, id=2572, 465.74266pt x
  353.69107pt>
 File: Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf Graphic file (type
  pdf)
 <use Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf>
 Package pdftex.def Info: Fig/Validation_1009/10_neutrinos_mu_n1ww_single_10.pdf
-  used on input line 702.
+  used on input line 701.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.703 	\subfigure
+l.702 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2789,24 +2792,24 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pdf, id=2568, 465.74266pt 
+<Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pdf, id=2573, 465.74266pt 
 x 353.69107pt>
 File: Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pdf Graphic file (typ
 e pdf)
 <use Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pdf>
 Package pdftex.def Info: Fig/Validation_1009/10_neutrinos_tau_n1ww_single_10.pd
-f  used on input line 704.
+f  used on input line 703.
 (pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Fig/Validation_1009/xsections_minimalDmwinolike.png, id=2570, 422.0568pt x 342
+<Fig/Validation_1009/xsections_minimalDmwinolike.png, id=2575, 422.0568pt x 342
 .5598pt>
 File: Fig/Validation_1009/xsections_minimalDmwinolike.png Graphic file (type pn
 g)
 <use Fig/Validation_1009/xsections_minimalDmwinolike.png>
 Package pdftex.def Info: Fig/Validation_1009/xsections_minimalDmwinolike.png  u
-sed on input line 714.
+sed on input line 713.
 (pdftex.def)             Requested size: 425.90668pt x 345.70038pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2897,7 +2900,7 @@ n1ww_single_10.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
 >] [35 <./Fig/Validation_1009/xsections_minimalDmwinolike.png>]
 ! Undefined control sequence.
-l.728 		\subfigure
+l.727 		\subfigure
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2905,14 +2908,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/lucaa.png, id=3163, 651.43375pt x 624.3325pt>
+<Fig/Validation_1009/lucaa.png, id=3168, 651.43375pt x 624.3325pt>
 File: Fig/Validation_1009/lucaa.png Graphic file (type png)
 <use Fig/Validation_1009/lucaa.png>
-Package pdftex.def Info: Fig/Validation_1009/lucaa.png  used on input line 729.
+Package pdftex.def Info: Fig/Validation_1009/lucaa.png  used on input line 728.
 
 (pdftex.def)             Requested size: 206.49722pt x 197.90422pt.
 ! Undefined control sequence.
-l.730 		\subfigure
+l.729 		\subfigure
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2920,14 +2923,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/Luca_a.pdf, id=3164, 411.72842pt x 335.41647pt>
+<Fig/Validation_1009/Luca_a.pdf, id=3169, 411.72842pt x 335.41647pt>
 File: Fig/Validation_1009/Luca_a.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/Luca_a.pdf>
-Package pdftex.def Info: Fig/Validation_1009/Luca_a.pdf  used on input line 731
+Package pdftex.def Info: Fig/Validation_1009/Luca_a.pdf  used on input line 730
 .
 (pdftex.def)             Requested size: 206.49722pt x 168.22473pt.
 ! Undefined control sequence.
-l.732 		\subfigure
+l.731 		\subfigure
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2935,14 +2938,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/lucaz.png, id=3165, 415.5525pt x 411.5375pt>
+<Fig/Validation_1009/lucaz.png, id=3170, 415.5525pt x 411.5375pt>
 File: Fig/Validation_1009/lucaz.png Graphic file (type png)
 <use Fig/Validation_1009/lucaz.png>
-Package pdftex.def Info: Fig/Validation_1009/lucaz.png  used on input line 733.
+Package pdftex.def Info: Fig/Validation_1009/lucaz.png  used on input line 732.
 
 (pdftex.def)             Requested size: 206.49722pt x 204.49977pt.
 ! Undefined control sequence.
-l.734 		\subfigure
+l.733 		\subfigure
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2950,12 +2953,556 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<Fig/Validation_1009/Luca_z.pdf, id=3166, 411.36734pt x 334.50027pt>
+<Fig/Validation_1009/Luca_z.pdf, id=3171, 411.36734pt x 334.50027pt>
 File: Fig/Validation_1009/Luca_z.pdf Graphic file (type pdf)
 <use Fig/Validation_1009/Luca_z.pdf>
-Package pdftex.def Info: Fig/Validation_1009/Luca_z.pdf  used on input line 735
+Package pdftex.def Info: Fig/Validation_1009/Luca_z.pdf  used on input line 734
 .
 (pdftex.def)             Requested size: 206.49722pt x 167.91324pt.
+
+LaTeX Warning: Reference `ew_comparison_3' on page 36 undefined on input line 7
+42.
+
+! Undefined control sequence.
+l.745 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_antiprotons_n1ww_comparison_1000.
+0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.746 ...0_antiprotons_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.747 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_positrons_n1ww_comparison_1000.0.
+pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.748 ...0.0_positrons_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.749 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_gammas_n1ww_comparison_1000.0.pdf
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.750 ...1000.0_gammas_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.751 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_e_n1ww_comparison_1000.
+0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752 ...0_neutrinos_e_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.753 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_mu_n1ww_comparison_1000
+.0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.754 ..._neutrinos_mu_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.755 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_tau_n1ww_comparison_100
+0.0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.756 ...neutrinos_tau_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+! Undefined control sequence.
+l.764 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_antiprotons_n1ww_comparison_1000.
+0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.765 ...0_antiprotons_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.766 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_positrons_n1ww_comparison_1000.0.
+pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.767 ...0.0_positrons_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.768 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_gammas_n1ww_comparison_1000.0.pdf
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.769 ...1000.0_gammas_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.770 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_e_n1ww_comparison_1000.
+0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.771 ...0_neutrinos_e_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.772 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_mu_n1ww_comparison_1000
+.0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.773 ..._neutrinos_mu_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.774 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_tau_n1ww_comparison_100
+0.0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.775 ...neutrinos_tau_n1ww_comparison_1000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+! Undefined control sequence.
+l.782 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_antiprotons_n1ww_comparison_3000.
+0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.783 ...0_antiprotons_n1ww_comparison_3000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.784 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_positrons_n1ww_comparison_3000.0.
+pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.785 ...0.0_positrons_n1ww_comparison_3000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.786 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_gammas_n1ww_comparison_3000.0.pdf
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.787 ...3000.0_gammas_n1ww_comparison_3000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.788 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_e_n1ww_comparison_3000.
+0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.789 ...0_neutrinos_e_n1ww_comparison_3000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.790 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_mu_n1ww_comparison_3000
+.0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791 ..._neutrinos_mu_n1ww_comparison_3000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.792 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_tau_n1ww_comparison_300
+0.0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.793 ...neutrinos_tau_n1ww_comparison_3000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+! Undefined control sequence.
+l.801 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_antiprotons_n1ww_comparison_10000
+.0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.802 ..._antiprotons_n1ww_comparison_10000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.803 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_positrons_n1ww_comparison_10000.0
+.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.804 ....0_positrons_n1ww_comparison_10000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.805 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_gammas_n1ww_comparison_10000.0.pd
+f.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.806 ...000.0_gammas_n1ww_comparison_10000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.807 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_e_n1ww_comparison_10000
+.0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.808 ..._neutrinos_e_n1ww_comparison_10000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.809 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_mu_n1ww_comparison_1000
+0.0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.810 ...neutrinos_mu_n1ww_comparison_10000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.811 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown graphics extension: .0_neutrinos_tau_n1ww_comparison_100
+00.0.pdf.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.812 ...eutrinos_tau_n1ww_comparison_10000.0.pdf}
+                                                   }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [36
 
  <./Fig/Validation_1009/lucaa.png> <./Fig/Validation_1009/Luca_a.pdf> <./Fig/Va
@@ -2963,17 +3510,17 @@ lidation_1009/lucaz.png> <./Fig/Validation_1009/Luca_z.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/Luca_z.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->] (./EW_MadDM.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 752.
- [37
+>] [37] (./EW_MadDM.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 829.
+ [38
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 752.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 829.
  (./EW_MadDM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 752.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 752.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 829.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 829.
 Package rerunfilecheck Info: File `EW_MadDM.out' has not changed.
-(rerunfilecheck)             Checksum: DD74B11A30F906CAB5DFE53B352160B9;2187.
+(rerunfilecheck)             Checksum: A4BA038B87024ED291E449F021C7A611;2263.
 
 
 LaTeX Warning: There were undefined references.
@@ -2981,13 +3528,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 752.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 829.
  ) 
 Here is how much of TeX's memory you used:
- 7507 strings out of 494847
- 124002 string characters out of 6179080
- 182471 words of memory out of 5000000
- 10498 multiletter control sequences out of 15000+600000
+ 7555 strings out of 494847
+ 125787 string characters out of 6179080
+ 184218 words of memory out of 5000000
+ 10521 multiletter control sequences out of 15000+600000
  25033 words of font info for 70 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  39i,13n,31p,1461b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3027,10 +3574,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvro8a.pfb>
-Output written on EW_MadDM.pdf (38 pages, 2345771 bytes).
+Output written on EW_MadDM.pdf (39 pages, 2348284 bytes).
 PDF statistics:
- 3821 PDF objects out of 4296 (max. 8388607)
- 2969 compressed objects within 30 object streams
- 105 named destinations out of 1000 (max. 500000)
- 766 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3838 PDF objects out of 4296 (max. 8388607)
+ 2984 compressed objects within 30 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 774 words of extra memory for PDF output out of 10000 (max. 10000000)
 

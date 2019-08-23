@@ -28,3 +28,4 @@
 \contentsline {section}{\numberline {10}Validation paper arXiv 1009.0224}{28}{section.10}
 \contentsline {subsection}{\numberline {10.1}Single emission of Z boson with the minimal DM model (Wino-like LSP)}{31}{subsection.10.1}
 \contentsline {section}{\numberline {11}Validation Luca's plot from MadDM 3.0 paper}{36}{section.11}
+\contentsline {section}{\numberline {12}Analysis of the ElectroWeak Corrections}{36}{section.12}
