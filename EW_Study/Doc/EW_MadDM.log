@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.10)  23 AUG 2019 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.10)  26 AUG 2019 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -308,9 +308,6 @@ LaTeX Warning: Label `singleemission_1tev' multiply defined.
 
 
 LaTeX Warning: Label `singleemission_1tev' multiply defined.
-
-
-LaTeX Warning: Label `ew_comparison_1' multiply defined.
 
 )
 \openout1 = `EW_MadDM.aux'.
@@ -2964,28 +2961,6 @@ LaTeX Warning: Reference `ew_comparison_3' on page 36 undefined on input line 7
 42.
 
 ! Undefined control sequence.
-l.745 	\subfigure
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Unknown graphics extension: .0_antiprotons_n1ww_comparison_1000.
-0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.746 ...0_antiprotons_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
 l.747 	\subfigure
                  
 The control sequence at the end of the top line
@@ -2994,19 +2969,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_positrons_n1ww_comparison_1000.0.
-pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.748 ...0.0_positrons_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/1000_antiprotons_n1ww_comparison.pdf, id=3173, 465.74266pt
+ x 353.69107pt>
+File: Fig/n1ww_comparison/1000_antiprotons_n1ww_comparison.pdf Graphic file (ty
+pe pdf)
+<use Fig/n1ww_comparison/1000_antiprotons_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/1000_antiprotons_n1ww_comparison.p
+df  used on input line 748.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
 l.749 	\subfigure
                  
@@ -3016,19 +2986,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_gammas_n1ww_comparison_1000.0.pdf
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.750 ...1000.0_gammas_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/1000_positrons_n1ww_comparison.pdf, id=3174, 465.74266pt x
+ 353.69107pt>
+File: Fig/n1ww_comparison/1000_positrons_n1ww_comparison.pdf Graphic file (type
+ pdf)
+<use Fig/n1ww_comparison/1000_positrons_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/1000_positrons_n1ww_comparison.pdf
+  used on input line 750.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
 l.751 	\subfigure
                  
@@ -3038,19 +3003,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_e_n1ww_comparison_1000.
-0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.752 ...0_neutrinos_e_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/1000_gammas_n1ww_comparison.pdf, id=3175, 465.74266pt x 35
+3.69107pt>
+File: Fig/n1ww_comparison/1000_gammas_n1ww_comparison.pdf Graphic file (type pd
+f)
+<use Fig/n1ww_comparison/1000_gammas_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/1000_gammas_n1ww_comparison.pdf  u
+sed on input line 752.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
 l.753 	\subfigure
                  
@@ -3060,19 +3020,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_mu_n1ww_comparison_1000
-.0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.754 ..._neutrinos_mu_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/1000_neutrinos_e_n1ww_comparison.pdf, id=3176, 465.74266pt
+ x 353.69107pt>
+File: Fig/n1ww_comparison/1000_neutrinos_e_n1ww_comparison.pdf Graphic file (ty
+pe pdf)
+<use Fig/n1ww_comparison/1000_neutrinos_e_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/1000_neutrinos_e_n1ww_comparison.p
+df  used on input line 754.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
 l.755 	\subfigure
                  
@@ -3082,24 +3037,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_tau_n1ww_comparison_100
-0.0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.756 ...neutrinos_tau_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+<Fig/n1ww_comparison/1000_neutrinos_mu_n1ww_comparison.pdf, id=3177, 465.74266p
+t x 353.69107pt>
+File: Fig/n1ww_comparison/1000_neutrinos_mu_n1ww_comparison.pdf Graphic file (t
+ype pdf)
+<use Fig/n1ww_comparison/1000_neutrinos_mu_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/1000_neutrinos_mu_n1ww_comparison.
+pdf  used on input line 756.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.764 	\subfigure
+l.757 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3107,18 +3054,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<Fig/n1ww_comparison/1000_neutrinos_tau_n1ww_comparison.pdf, id=3178, 465.74266
+pt x 353.69107pt>
+File: Fig/n1ww_comparison/1000_neutrinos_tau_n1ww_comparison.pdf Graphic file (
+type pdf)
+<use Fig/n1ww_comparison/1000_neutrinos_tau_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/1000_neutrinos_tau_n1ww_comparison
+.pdf  used on input line 758.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 
-! LaTeX Error: Unknown graphics extension: .0_antiprotons_n1ww_comparison_1000.
-0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.765 ...0_antiprotons_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ! Undefined control sequence.
 l.766 	\subfigure
@@ -3129,19 +3074,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_positrons_n1ww_comparison_1000.0.
-pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.767 ...0.0_positrons_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/3000_antiprotons_n1ww_comparison.pdf, id=3179, 465.74266pt
+ x 353.69107pt>
+File: Fig/n1ww_comparison/3000_antiprotons_n1ww_comparison.pdf Graphic file (ty
+pe pdf)
+<use Fig/n1ww_comparison/3000_antiprotons_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/3000_antiprotons_n1ww_comparison.p
+df  used on input line 767.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
 l.768 	\subfigure
                  
@@ -3151,19 +3091,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_gammas_n1ww_comparison_1000.0.pdf
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.769 ...1000.0_gammas_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/3000_positrons_n1ww_comparison.pdf, id=3180, 465.74266pt x
+ 353.69107pt>
+File: Fig/n1ww_comparison/3000_positrons_n1ww_comparison.pdf Graphic file (type
+ pdf)
+<use Fig/n1ww_comparison/3000_positrons_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/3000_positrons_n1ww_comparison.pdf
+  used on input line 769.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
 l.770 	\subfigure
                  
@@ -3173,19 +3108,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_e_n1ww_comparison_1000.
-0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.771 ...0_neutrinos_e_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/3000_gammas_n1ww_comparison.pdf, id=3181, 465.74266pt x 35
+3.69107pt>
+File: Fig/n1ww_comparison/3000_gammas_n1ww_comparison.pdf Graphic file (type pd
+f)
+<use Fig/n1ww_comparison/3000_gammas_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/3000_gammas_n1ww_comparison.pdf  u
+sed on input line 771.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
 l.772 	\subfigure
                  
@@ -3195,19 +3125,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_mu_n1ww_comparison_1000
-.0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.773 ..._neutrinos_mu_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/3000_neutrinos_e_n1ww_comparison.pdf, id=3182, 465.74266pt
+ x 353.69107pt>
+File: Fig/n1ww_comparison/3000_neutrinos_e_n1ww_comparison.pdf Graphic file (ty
+pe pdf)
+<use Fig/n1ww_comparison/3000_neutrinos_e_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/3000_neutrinos_e_n1ww_comparison.p
+df  used on input line 773.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
 l.774 	\subfigure
                  
@@ -3217,24 +3142,36 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<Fig/n1ww_comparison/3000_neutrinos_mu_n1ww_comparison.pdf, id=3183, 465.74266p
+t x 353.69107pt>
+File: Fig/n1ww_comparison/3000_neutrinos_mu_n1ww_comparison.pdf Graphic file (t
+ype pdf)
+<use Fig/n1ww_comparison/3000_neutrinos_mu_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/3000_neutrinos_mu_n1ww_comparison.
+pdf  used on input line 775.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
+! Undefined control sequence.
+l.776 	\subfigure
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_tau_n1ww_comparison_100
-0.0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.775 ...neutrinos_tau_n1ww_comparison_1000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/3000_neutrinos_tau_n1ww_comparison.pdf, id=3184, 465.74266
+pt x 353.69107pt>
+File: Fig/n1ww_comparison/3000_neutrinos_tau_n1ww_comparison.pdf Graphic file (
+type pdf)
+<use Fig/n1ww_comparison/3000_neutrinos_tau_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/3000_neutrinos_tau_n1ww_comparison
+.pdf  used on input line 777.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ! Undefined control sequence.
-l.782 	\subfigure
+l.785 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3242,21 +3179,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_antiprotons_n1ww_comparison_3000.
-0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.783 ...0_antiprotons_n1ww_comparison_3000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/10000_antiprotons_n1ww_comparison.pdf, id=3185, 465.74266p
+t x 353.69107pt>
+File: Fig/n1ww_comparison/10000_antiprotons_n1ww_comparison.pdf Graphic file (t
+ype pdf)
+<use Fig/n1ww_comparison/10000_antiprotons_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/10000_antiprotons_n1ww_comparison.
+pdf  used on input line 786.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.784 	\subfigure
+l.787 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3264,21 +3196,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_positrons_n1ww_comparison_3000.0.
-pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.785 ...0.0_positrons_n1ww_comparison_3000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/10000_positrons_n1ww_comparison.pdf, id=3186, 465.74266pt 
+x 353.69107pt>
+File: Fig/n1ww_comparison/10000_positrons_n1ww_comparison.pdf Graphic file (typ
+e pdf)
+<use Fig/n1ww_comparison/10000_positrons_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/10000_positrons_n1ww_comparison.pd
+f  used on input line 788.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.786 	\subfigure
+l.789 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3286,21 +3213,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_gammas_n1ww_comparison_3000.0.pdf
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.787 ...3000.0_gammas_n1ww_comparison_3000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/10000_gammas_n1ww_comparison.pdf, id=3187, 465.74266pt x 3
+53.69107pt>
+File: Fig/n1ww_comparison/10000_gammas_n1ww_comparison.pdf Graphic file (type p
+df)
+<use Fig/n1ww_comparison/10000_gammas_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/10000_gammas_n1ww_comparison.pdf  
+used on input line 790.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.788 	\subfigure
+l.791 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3308,21 +3230,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_e_n1ww_comparison_3000.
-0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...0_neutrinos_e_n1ww_comparison_3000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/10000_neutrinos_e_n1ww_comparison.pdf, id=3188, 465.74266p
+t x 353.69107pt>
+File: Fig/n1ww_comparison/10000_neutrinos_e_n1ww_comparison.pdf Graphic file (t
+ype pdf)
+<use Fig/n1ww_comparison/10000_neutrinos_e_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/10000_neutrinos_e_n1ww_comparison.
+pdf  used on input line 792.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.790 	\subfigure
+l.793 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3330,21 +3247,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_mu_n1ww_comparison_3000
-.0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.791 ..._neutrinos_mu_n1ww_comparison_3000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/10000_neutrinos_mu_n1ww_comparison.pdf, id=3189, 465.74266
+pt x 353.69107pt>
+File: Fig/n1ww_comparison/10000_neutrinos_mu_n1ww_comparison.pdf Graphic file (
+type pdf)
+<use Fig/n1ww_comparison/10000_neutrinos_mu_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/10000_neutrinos_mu_n1ww_comparison
+.pdf  used on input line 794.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 ! Undefined control sequence.
-l.792 	\subfigure
+l.795 	\subfigure
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3352,154 +3264,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_tau_n1ww_comparison_300
-0.0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.793 ...neutrinos_tau_n1ww_comparison_3000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-! Undefined control sequence.
-l.801 	\subfigure
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Unknown graphics extension: .0_antiprotons_n1ww_comparison_10000
-.0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.802 ..._antiprotons_n1ww_comparison_10000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.803 	\subfigure
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Unknown graphics extension: .0_positrons_n1ww_comparison_10000.0
-.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.804 ....0_positrons_n1ww_comparison_10000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.805 	\subfigure
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Unknown graphics extension: .0_gammas_n1ww_comparison_10000.0.pd
-f.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.806 ...000.0_gammas_n1ww_comparison_10000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.807 	\subfigure
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_e_n1ww_comparison_10000
-.0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.808 ..._neutrinos_e_n1ww_comparison_10000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.809 	\subfigure
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_mu_n1ww_comparison_1000
-0.0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.810 ...neutrinos_mu_n1ww_comparison_10000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.811 	\subfigure
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Unknown graphics extension: .0_neutrinos_tau_n1ww_comparison_100
-00.0.pdf.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.812 ...eutrinos_tau_n1ww_comparison_10000.0.pdf}
-                                                   }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Fig/n1ww_comparison/10000_neutrinos_tau_n1ww_comparison.pdf, id=3190, 465.7426
+6pt x 353.69107pt>
+File: Fig/n1ww_comparison/10000_neutrinos_tau_n1ww_comparison.pdf Graphic file 
+(type pdf)
+<use Fig/n1ww_comparison/10000_neutrinos_tau_n1ww_comparison.pdf>
+Package pdftex.def Info: Fig/n1ww_comparison/10000_neutrinos_tau_n1ww_compariso
+n.pdf  used on input line 796.
+(pdftex.def)             Requested size: 206.49722pt x 156.81726pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3510,15 +3282,93 @@ lidation_1009/lucaz.png> <./Fig/Validation_1009/Luca_z.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Fig/Validation_1009/Luca_z.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->] [37] (./EW_MadDM.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 829.
- [38
+>] [37 <./Fig/n1ww_comparison/1000_antiprotons_n1ww_comparison.pdf> <./Fig/n1ww
+_comparison/1000_positrons_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/1000_positrons_n1
+ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+> <./Fig/n1ww_comparison/1000_gammas_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/1000_gammas_n1ww_
+comparison.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+> <./Fig/n1ww_comparison/1000_neutrinos_e_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/1000_neutrinos_e_
+n1ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+> <./Fig/n1ww_comparison/1000_neutrinos_mu_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/1000_neutrinos_mu
+_n1ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+> <./Fig/n1ww_comparison/1000_neutrinos_tau_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/1000_neutrinos_ta
+u_n1ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>] [38 <./Fig/n1ww_comparison/3000_antiprotons_n1ww_comparison.pdf> <./Fig/n1ww
+_comparison/3000_positrons_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/3000_positrons_n1
+ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+> <./Fig/n1ww_comparison/3000_gammas_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/3000_gammas_n1ww_
+comparison.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+> <./Fig/n1ww_comparison/3000_neutrinos_e_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/3000_neutrinos_e_
+n1ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+> <./Fig/n1ww_comparison/3000_neutrinos_mu_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/3000_neutrinos_mu
+_n1ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+> <./Fig/n1ww_comparison/3000_neutrinos_tau_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/3000_neutrinos_ta
+u_n1ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>] [39 <./Fig/n1ww_comparison/10000_antiprotons_n1ww_comparison.pdf> <./Fig/n1w
+w_comparison/10000_positrons_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/10000_positrons_n
+1ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
+> <./Fig/n1ww_comparison/10000_gammas_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/10000_gammas_n1ww
+_comparison.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <./Fig/n1ww_comparison/10000_neutrinos_e_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/10000_neutrinos_e
+_n1ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+> <./Fig/n1ww_comparison/10000_neutrinos_mu_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/10000_neutrinos_m
+u_n1ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./Fig/n1ww_comparison/10000_neutrinos_tau_n1ww_comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Fig/n1ww_comparison/10000_neutrinos_t
+au_n1ww_comparison.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+>] (./EW_MadDM.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 813.
+ [40
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 829.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 813.
  (./EW_MadDM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 829.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 829.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 813.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 813.
 Package rerunfilecheck Info: File `EW_MadDM.out' has not changed.
 (rerunfilecheck)             Checksum: A4BA038B87024ED291E449F021C7A611;2263.
 
@@ -3528,13 +3378,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 829.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 813.
  ) 
 Here is how much of TeX's memory you used:
- 7555 strings out of 494847
- 125787 string characters out of 6179080
- 184218 words of memory out of 5000000
- 10521 multiletter control sequences out of 15000+600000
+ 7610 strings out of 494847
+ 129585 string characters out of 6179080
+ 184295 words of memory out of 5000000
+ 10575 multiletter control sequences out of 15000+600000
  25033 words of font info for 70 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  39i,13n,31p,1461b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3574,10 +3424,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvro8a.pfb>
-Output written on EW_MadDM.pdf (39 pages, 2348284 bytes).
+Output written on EW_MadDM.pdf (41 pages, 2550447 bytes).
 PDF statistics:
- 3838 PDF objects out of 4296 (max. 8388607)
- 2984 compressed objects within 30 object streams
- 111 named destinations out of 1000 (max. 500000)
- 774 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4430 PDF objects out of 5155 (max. 8388607)
+ 3550 compressed objects within 36 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 864 words of extra memory for PDF output out of 10000 (max. 10000000)
 

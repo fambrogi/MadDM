@@ -206,7 +206,7 @@ def Plot(DM, dic_EW = '', dic_noEW = '', CR = '', channel = '' , scaled = False)
     os.system('mkdir PLOTS')
     os.system('mkdir PLOTS/n1ww_comparison/')
 
-    plt.savefig('PLOTS/n1ww_comparison/' + DM + '_' + CR + '_n1ww_comparison_'+DM + '.pdf', bbox_inches='tight')
+    plt.savefig('PLOTS/n1ww_comparison/' + DM.replace('.0','') + '_' + CR + '_n1ww_comparison.pdf', bbox_inches='tight')
     plt.close()
 
 
