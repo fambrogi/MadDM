@@ -35,8 +35,8 @@ JH modification:
 nBin = 24
 j0 = 3.086e21 # convention spectra
 
-dSph_jfac_file = 'Jfactors.dat'
-dSph_ll_files_path = 'likelihoods/'
+dSph_jfac_file = 'Fermi-Data/Jfactors.dat'
+dSph_ll_files_path = 'Fermi-Data/likelihoods/'
 # list has to match the order of dwarfs in dSph_jfac_file!
 
 

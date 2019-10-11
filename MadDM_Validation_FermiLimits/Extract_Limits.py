@@ -1,3 +1,12 @@
+"""
+Module for extracting the Fermi-LAT limits using a set of spectra.
+The calculation is identical to what used in MadDM 3.0 .
+
+Author:: Ambrogi Federico, federico.ambrogi88@gmail.com
+
+"""
+
+
 import os,sys
 import matplotlib
 from matplotlib  import cm
@@ -5,17 +14,16 @@ from matplotlib import ticker
 import matplotlib.pyplot as plt
 import pickle
 import os.path
-from fermi_limits_JmodFeb8 import *
+from fermi_limits_JmodFeb8_Twosided import *
 
 
 
 Masses  = [5.0, 6.0, 8.0, 10.0, 15.0, 20.0, 25.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0, 110.0, 120.0, 130.0, 140.0, 150.0, 160.0, 180.0, 200.0, 220.0, 240.0, 260.0, 280.0, 300.0, 330.0, 360.0, 400.0, 450.0, 500.0, 550.0, 600.0, 650.0, 700.0, 750.0, 800.0, 900.0, 1000.0, 1100.0, 1200.0, 1300.0, 1500.0, 1700.0, 2000.0, 2500.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 10000.0, 12000.0, 15000.0, 20000.0, 30000.0, 50000.0, 100000.0]
 
 
-
 # Extracting the Fermi-LAT UL lines for the dwarf selected. See list below
 
-def Read_Fermi_File(input_file='',dwarf = ''):
+def Read_Fermi_File(input_file='' , dwarf=''):
     
     num = 0
     if   dwarf == 'bootes_I'          : num = 1
@@ -121,9 +129,8 @@ def Extract_Limits_Combined(Dwarves_List = '' , Masses = '' , Tables =  '' , Cha
   print 'Done saving the numpy dictionary ' , 'Combined_'+saveAs
 
 
-
 print 'Loading the PPPC Tables **** \n'
-Tables    = np.load('Numpys/PPPC_Tables_NoEW.npy').item()
+Tables    = np.load('Numpys/PPPC_Tables_noEW.npy', allow_pickle=True).item()
 
 Masses  = [5.0, 6.0, 8.0, 10.0, 15.0, 20.0, 25.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0, 110.0, 120.0, 130.0, 140.0, 150.0, 160.0, 180.0, 200.0, 220.0, 240.0, 260.0, 280.0, 300.0, 330.0, 360.0, 400.0, 450.0, 500.0, 550.0, 600.0, 650.0, 700.0, 750.0, 800.0, 900.0, 1000.0, 1100.0, 1200.0, 1300.0, 1500.0, 1700.0, 2000.0, 2500.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 10000.0, 12000.0, 15000.0, 20000.0, 30000.0, 50000.0, 100000.0]
 
@@ -131,11 +138,13 @@ Dwarves_List = ['draco', 'coma_berenices', 'segue_1', 'ursa_major_II', 'ursa_min
 
 Channels = ['ee', 'mumu', 'tautau', 'qq', 'cc','bb', 'tt', 'ZZ', 'WW', 'hh', 'gammagamma', 'gg']
 
+Extract_Limits_SingleDwarf(Dwarves_List = Dwarves_List , Masses = Masses , Tables =  Tables , saveAs = 'EW')
+Extract_Limits_Combined   (Dwarves_List = Dwarves_List , Masses = Masses , Tables =  Tables , saveAs = 'EW' , Channels = Channels)
 
-Extract_Limits_SingleDwarf(Dwarves_List = Dwarves_List , Masses = Masses , Tables =  Tables , saveAs = 'Limits')
-Extract_Limits_Combined   (Dwarves_List = Dwarves_List , Masses = Masses , Tables =  Tables , saveAs = 'Limits' , Channels = Channels)
 
-
+Tables    = np.load('Numpys/PPPC_Tables_EW.npy', allow_pickle=True).item()
+Extract_Limits_SingleDwarf(Dwarves_List = Dwarves_List , Masses = Masses , Tables =  Tables , saveAs = 'noEW')
+Extract_Limits_Combined   (Dwarves_List = Dwarves_List , Masses = Masses , Tables =  Tables , saveAs = 'noEW' , Channels = Channels)
 
 
 
